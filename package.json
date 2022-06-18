@@ -9,6 +9,8 @@
     "rollup": "dist/bin/rollup"
   },
   "scripts": {
+    "relation2-check": "relation2 check",
+    "relation2-create": "relation2 create --srcRev master --rev translate-zh-cn --srcPath README.md --path README.md",
     "build": "shx rm -rf dist && node scripts/update-git-commit.js && rollup --config rollup.config.ts --configPlugin typescript && shx cp src/rollup/types.d.ts dist/rollup.d.ts && shx chmod a+x dist/bin/rollup",
     "build:cjs": "shx rm -rf dist && rollup --config rollup.config.ts --configPlugin typescript --configTest && shx cp src/rollup/types.d.ts dist/rollup.d.ts && shx chmod a+x dist/bin/rollup",
     "build:bootstrap": "node dist/bin/rollup --config rollup.config.ts --configPlugin typescript && shx cp src/rollup/types.d.ts dist/rollup.d.ts && shx chmod a+x dist/bin/rollup",
@@ -99,6 +101,7 @@
     "prettier": "^2.6.2",
     "pretty-bytes": "^5.6.0",
     "pretty-ms": "^7.0.1",
+    "relation2": "../relation",
     "requirejs": "^2.3.6",
     "rollup": "^2.70.2",
     "rollup-plugin-license": "^2.7.0",
