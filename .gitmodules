@@ -1,0 +1,3 @@
+[submodule "rollup-original"]
+	path = rollup-original
+	url = https://github.com/rollup/rollup.git
