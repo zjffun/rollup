@@ -42,9 +42,9 @@ export default withMermaid(
 			},
 			logo: '/rollup-logo.svg',
 			nav: [
-				{ link: '/introduction/', text: 'guide' },
-				{ link: '/repl/', text: 'repl' },
-				{ link: 'https://is.gd/rollup_chat', text: 'chat' },
+				{ link: '/introduction/', text: '指南' },
+				{ link: '/repl/', text: '交互式执行环境' },
+				{ link: 'https://is.gd/rollup_chat', text: '讨论' },
 				{ link: 'https://opencollective.com/rollup', text: 'opencollective' }
 			],
 			outline: 'deep',

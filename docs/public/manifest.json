@@ -14,11 +14,11 @@
 	],
 	"shortcuts" : [
 		{
-			"name": "Guide",
+			"name": "指南",
 			"url": "/introduction/"
 		},
 		{
-			"name": "REPL",
+			"name": "交互式执行环境",
 			"url": "/repl/"
 		}
 	]

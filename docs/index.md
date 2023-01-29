@@ -3,46 +3,46 @@ layout: home
 
 hero:
   name: rollup.js
-  text: The JavaScript module bundler
-  tagline: Compile small pieces of code into something larger and more complex
+  text: JavaScript 模块打包工具
+  tagline: 将小块代码编译成更大更复杂的代码
   image: /rollup-logo.svg
   actions:
     - theme: brand
-      text: Get Started
+      text: 开始
       link: /introduction/
     - theme: alt
-      text: View on GitHub
+      text: GitHub
       link: https://github.com/rollup/rollup
 features:
   - icon: 🌍
-    title: The Web, Node …
-    details: 'Rollup supports many output formats: ES modules, CommonJS, UMD, SystemJS and more. Bundle not only for the web but for many other platforms as well.'
+    title: Web、Node ……
+    details: 'Rollup 支持多种输出格式：ES 模块、CommonJS、UMD、SystemJS 等。不仅适用于 Web，也适用于许多其他平台打包。'
     link: /configuration-options/#output-format
-    linkText: See all formats
+    linkText: 查看所有格式
   - icon: 🌳
-    title: Tree-shaking
-    details: Superior dead code elimination based on deep execution path analysis with the tool that brought tree-shaking to the JavaScript world.
+    title: 摇树优化
+    details: 基于深度执行路径分析的卓越的未使用代码去除，该工具将摇树优化引入 JavaScript 世界。
     link: /faqs/#what-is-tree-shaking
-    linkText: Learn about tree-shaking
+    linkText: 学习摇树优化
   - icon: 🗡️
-    title: Code-splitting without overhead
-    details: Split code based on different entry points and dynamic imports by just using the import mechanism of the output format instead of customer loader code.
+    title: 代码拆分没有额外开销
+    details: 根据不同的入口点和动态导入拆分代码，仅使用输出格式的导入机制而不是加载器。
     link: /tutorial/#code-splitting
-    linkText: How to use code-splitting
+    linkText: 如何使用代码拆分
   - icon: 🔌
-    title: Powerful plugins
-    details: An easy to learn plugin API that allows you to implement powerful code injections and transformations with little code. Adopted by Vite and WMR.
+    title: 强大的插件
+    details: 一个易于学习的插件 API 允许您使用很少的代码实现强大的代码注入和转换。被 Vite 和 WMR 采用。
     link: /plugin-development/#plugins-overview
-    linkText: Learn how to write plugins
+    linkText: 学习如何编写插件
   - icon: 🛠️
-    title: Handles your special needs
-    details: Rollup is not opinionated. Many configuration options and a rich plugin interface make it the ideal bundler for special build flows and higher level tooling.
+    title: 处理你的特殊需求
+    details: Rollup 不固执己见。许多配置选项和丰富的插件接口使其成为特殊构建流程和更高级别工具的理想打包工具。
     link: /configuration-options/
-    linkText: See all options
+    linkText: 查看所有选项
   - icon:
       src: /vitejs-logo.svg
-    title: The bundler behind Vite
-    details: Developing for the web? Vite pre-configures Rollup for you with sensible defaults and powerful plugins while giving you an insanely fast development server.
+    title: Vite 内部的打包工具
+    details: 进行 Web 开发？Vite 使用合理的默认值和强大的插件为您预配置 Rollup，同时为您提供一个非常快速的开发服务器。
     link: https://vitejs.dev/
-    linkText: Check out Vite
+    linkText: 查看 Vite
 ---
