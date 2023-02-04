@@ -25,14 +25,14 @@ title: 迁移到 Rollup 3
 
 如果你使用 ES 模块作为配置文件，即 `import` 和 `export` 语法，你需要确保 Node 将加载你的配置作为 ES 模块。
 
-确保这一点的最简单方法是将文件扩展名更改为 `.mjs`，另请参阅[配置文件](../command-line-interface/index.md#configuration-files)。
+确保这一点的最简单方法是将文件扩展名更改为 `.mjs`，另请参阅[配置文件](../command-line-interface/index.md#配置文件)。
 
 使用原生 Node ES 模块时还有一些额外的注意事项，最值得注意的是
 
 - 你不能简单地导入你的 `package.json` 文件
 - 你不能使用 `__dirname` 来获取当前目录
 
-[使用原生 Node ES 模块时的注意事项](../command-line-interface/index.md#caveats-when-using-native-node-es-modules)将为你提供一些处理这些事情的替代方案。
+[使用原生 Node ES 模块时的注意事项](../command-line-interface/index.md#使用原生-node-es-模块时的注意事项)将为你提供一些处理这些事情的替代方案。
 
 或者，你可以传递 [`--bundleConfigAsCjs`](../command-line-interface/#bundleconfigascjs) 选项以强制执行旧的加载行为。
 

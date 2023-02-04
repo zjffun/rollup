@@ -22,7 +22,7 @@ export default {
 };
 ```
 
-通常，这个配置文件位于项目的根目录，并且命名为 `rollup.config.js` 或 `rollup.config.mjs`。除非使用 [`--configPlugin`](#configplugin-plugin) 或 [`--bundleConfigAsCjs`](#bundleconfigascjs) 选项，否则 Rollup 会直接使用 Node 导入文件。注意，有一些[使用原生 Node ES 模块时的注意事项](../command-line-interface/index.md#caveats-when-using-native-node-es-modules)，因为 Rollup 将遵守 [Node ESM 语义](https://nodejs.org/docs/latest-v14.x/api/packages.html#packages_determining_module_system）。
+通常，这个配置文件位于项目的根目录，并且命名为 `rollup.config.js` 或 `rollup.config.mjs`。除非使用 [`--configPlugin`](#configplugin-plugin) 或 [`--bundleConfigAsCjs`](#bundleconfigascjs) 选项，否则 Rollup 会直接使用 Node 导入文件。注意，有一些[使用原生 Node ES 模块时的注意事项](#使用原生-node-es-模块时的注意事项)，因为 Rollup 将遵守 [Node ESM 语义](https://nodejs.org/docs/latest-v14.x/api/packages.html#packages_determining_module_system）。
 
 如果你想要使用 `require` 和 `module.exports` 将配置文件写成一个 CommonJS 模块，则应该将文件扩展名更改为 `.cjs`。
 
@@ -32,7 +32,7 @@ export default {
 rollup --config rollup.config.ts --configPlugin typescript
 ```
 
-使用 `--configPlugin` 选项将始终强制你的配置文件首先被转译为 CommonJS。请查看 [配置代码提示](#config-intellisense)，了解在配置文件中使用 TypeScript 类型的更多方法。
+使用 `--configPlugin` 选项将始终强制你的配置文件首先被转译为 CommonJS。请查看 [配置代码提示](#配置代码提示)，了解在配置文件中使用 TypeScript 类型的更多方法。
 
 配置文件支持的选项如下所示。关于选项的详情请查看 [配置项的完整列表](../configuration-options/index.md)：
 
@@ -514,7 +514,7 @@ _注意: 在监听模式下，环境变量 `ROLLUP_WATCH` 将会被 Rollup 的�
 
 ### `--silent`
 
-不在控制台打印警告。如果配置文件包含一个 `onwarn` 的处理方法，那么这个方法就会被调用。要手动阻止这种情况，你可以按照[配置文件](#configuration-files)末尾的说明访问配置文件中的命令行选项。
+不在控制台打印警告。如果配置文件包含一个 `onwarn` 的处理方法，那么这个方法就会被调用。要手动阻止这种情况，你可以按照[配置文件](#配置文件)末尾的说明访问配置文件中的命令行选项。
 
 ### `--failAfterWarnings`
 
@@ -552,11 +552,11 @@ npm run build -- --environment BUILD:development
 
 ### `--stdin=ext`
 
-从 stdin 读取内容时指定虚拟文件扩展名。默认情况下，Rollup 将使用不带扩展名的虚拟文件名 `-` 从 stdin 读取内容。然而，一些插件依赖于文件扩展名来确定它们是否应该处理文件。另请参阅 [从标准输入读取文件](#reading-a-file-from-stdin)。
+从 stdin 读取内容时指定虚拟文件扩展名。默认情况下，Rollup 将使用不带扩展名的虚拟文件名 `-` 从 stdin 读取内容。然而，一些插件依赖于文件扩展名来确定它们是否应该处理文件。另请参阅 [从标准输入中读取文件](#从标准输入中读取文件)。
 
 ### `--no-stdin`
 
-不从 `stdin` 读取文件。设置这个标志可以阻止传递内容到 Rollup，也保证了 Rollup 将 `-` 和 `-.[ext]` 解释为常规文件名，而不是将其解释为 `stdin`。另见[从标准输入读取文件](#reading-a-file-from-stdin)。
+不从 `stdin` 读取文件。设置这个标志可以阻止传递内容到 Rollup，也保证了 Rollup 将 `-` 和 `-.[ext]` 解释为常规文件名，而不是将其解释为 `stdin`。另见[从标准输入中读取文件](#从标准输入中读取文件)。
 
 ### `--watch.onStart <cmd>`, `--watch.onBundleStart <cmd>`, `--watch.onBundleEnd <cmd>`, `--watch.onEnd <cmd>`, `--watch.onError <cmd>`
 
