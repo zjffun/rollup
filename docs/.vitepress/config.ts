@@ -42,7 +42,7 @@ export default withMermaid(
 			},
 			logo: '/rollup-logo.svg',
 			nav: [
-				{ link: '/introduction/', text: '指南' },
+				{ link: '/introduction/', text: '入门指导' },
 				{ link: '/repl/', text: '交互式执行环境' },
 				{ link: 'https://is.gd/rollup_chat', text: '讨论' },
 				{ link: 'https://opencollective.com/rollup', text: 'opencollective' }
@@ -53,57 +53,57 @@ export default withMermaid(
 					items: [
 						{
 							link: '/introduction/',
-							text: 'Introduction'
+							text: '入门指导'
 						},
 						{
 							link: '/command-line-interface/',
-							text: 'Command Line Interface'
+							text: '命令行界面'
 						},
 						{
 							link: '/javascript-api/',
 							text: 'Javascript API'
 						}
 					],
-					text: 'Getting started'
+					text: '开始'
 				},
 				{
 					items: [
 						{
 							link: '/tutorial/',
-							text: 'Tutorial'
+							text: '教程'
 						},
 						{
 							link: '/es-module-syntax/',
-							text: 'ES Module Syntax'
+							text: 'ES 模块语法'
 						},
 						{
 							link: '/faqs/',
-							text: 'Frequently Asked Questions'
+							text: '常见问题'
 						},
 						{
 							link: '/troubleshooting/',
-							text: 'Troubleshooting'
+							text: '错误排查'
 						},
 						{
 							link: '/migration/',
-							text: 'Migrating to Rollup 3'
+							text: '迁移到 Rollup 3'
 						},
 						{
 							link: '/tools/',
-							text: 'Other Tools'
+							text: '其他工具'
 						}
 					],
-					text: 'More info'
+					text: '更多信息'
 				},
 				{
 					items: [
 						{
 							link: '/configuration-options/',
-							text: 'Configuration Options'
+							text: '配置选项'
 						},
 						{
 							link: '/plugin-development/',
-							text: 'Plugin Development'
+							text: '插件开发'
 						}
 					],
 					text: 'API'

@@ -1,62 +1,62 @@
 ---
-title: ES Module Syntax
+title: ES 模块语法
 ---
 
 # {{ $frontmatter.title }}
 
 [[toc]]
 
-The following is intended as a lightweight reference for the module behaviors defined in the [ES2015 specification](https://www.ecma-international.org/ecma-262/6.0/), since a proper understanding of the import and export statements are essential to the successful use of Rollup.
+以下内容旨在对 [ES2015 规范](https://www.ecma-international.org/ecma-262/6.0/)中定义的模块行为做一个轻量级的参考，因为对导入和导出语句的正确理解对于成功使用 Rollup 是至关重要的。
 
-## Importing
+## 导入
 
-Imported values cannot be reassigned, though imported objects and arrays _can_ be mutated (and the exporting module, and any other importers, will be affected by the mutation). In that way, they behave similarly to `const` declarations.
+导入的值不能重新分配，尽管导入的对象和数组可以被修改（导出模块，以及任何其他的导入，都将受到该修改的影响）。在这种情况下，它们的行为与 `const` 声明类似。
 
-### Named Imports
+### 命名导入
 
-Import a specific item from a source module, with its original name.
+从源模块导入其原始名称的特定项。
 
 ```js
 import { something } from './module.js';
 ```
 
-Import a specific item from a source module, with a custom name assigned upon import.
+从源模块导入特定项，并在导入时指定自定义名称。
 
 ```js
 import { something as somethingElse } from './module.js';
 ```
 
-### Namespace Imports
+### 命名空间导入
 
-Import everything from the source module as an object which exposes all the source module's named exports as properties and methods.
+将源模块中的所有内容作为一个对象导入，该对象将所有源模块的命名导出公开为属性和方法。
 
 ```js
 import * as module from './module.js';
 ```
 
-The `something` example from above would then be attached to the imported object as a property, e.g. `module.something`. If present, the default export can be accessed via `module.default`.
+上面的 `something` 示例将作为属性附加到导入的对象，例如 `module.something`。默认导出如果存在，则可以通过 `module.default` 访问。
 
-### Default Import
+### 默认导入
 
-Import the **default export** of the source module.
+导入源文件的**默认导出**。
 
 ```js
 import something from './module.js';
 ```
 
-### Empty Import
+### 空的导入
 
-Load the module code, but don't make any new objects available.
+加载模块代码，但不访问其中的对象。
 
 ```js
 import './module.js';
 ```
 
-This is useful for polyfills, or when the primary purpose of the imported code is to muck about with prototypes.
+这对于 polyfill 很有用，或者当导入代码的主要目的是处理原型时。
 
-### Dynamic Import
+### 动态导入
 
-Import modules using the [dynamic import API](https://github.com/tc39/proposal-dynamic-import#import).
+使用 [动态导入 API](https://github.com/tc39/proposal-dynamic-import#import) 导入模块。
 
 ```js
 import('./modules.js').then(({ default: DefaultExport, NamedExport }) => {
@@ -64,47 +64,47 @@ import('./modules.js').then(({ default: DefaultExport, NamedExport }) => {
 });
 ```
 
-This is useful for code-splitting applications and using modules on-the-fly.
+这对于应用程序代码拆分和动态使用模块很有用。
 
-## Exporting
+## 导出
 
-### Named exports
+### 命名导出
 
-Export a value that has been previously declared:
+导出已经声明的值：
 
 ```js
 const something = true;
 export { something };
 ```
 
-Rename on export:
+在导出时重命名：
 
 ```js
 export { something as somethingElse };
 ```
 
-Export a value immediately upon declaration:
+声明后立即导出：
 
 ```js
 // this works with `var`, `let`, `const`, `class`, and `function`
 export const something = true;
 ```
 
-### Default Export
+### 默认导出
 
-Export a single value as the source module's default export:
+导出一个值作为源模块的默认导出：
 
 ```js
 export default something;
 ```
 
-This practice is only recommended if your source module only has one export.
+仅当源模块只有一个导出时，才建议使用此做法。
 
-It is bad practice to mix default and named exports in the same module, though it is allowed by the specification.
+将默认和命名导出组合在同一模块中是不好的做法，尽管它是规范允许的。
 
-## How bindings work
+## 绑定是如何工作的
 
-ES modules export _live bindings_, not values, so values can be changed after they are initially imported as per [this demo](../repl/index.md?shareable=JTdCJTIyZXhhbXBsZSUyMiUzQW51bGwlMkMlMjJtb2R1bGVzJTIyJTNBJTVCJTdCJTIyY29kZSUyMiUzQSUyMmltcG9ydCUyMCU3QiUyMGNvdW50JTJDJTIwaW5jcmVtZW50JTIwJTdEJTIwZnJvbSUyMCcuJTJGaW5jcmVtZW50ZXIuanMnJTNCJTVDbiU1Q25jb25zb2xlLmxvZyhjb3VudCklM0IlMjAlMkYlMkYlMjAwJTVDbmluY3JlbWVudCgpJTNCJTVDbmNvbnNvbGUubG9nKGNvdW50KSUzQiUyMCUyRiUyRiUyMDElMjIlMkMlMjJpc0VudHJ5JTIyJTNBdHJ1ZSUyQyUyMm5hbWUlMjIlM0ElMjJtYWluLmpzJTIyJTdEJTJDJTdCJTIyY29kZSUyMiUzQSUyMmV4cG9ydCUyMGxldCUyMGNvdW50JTIwJTNEJTIwMCUzQiU1Q24lNUNuZXhwb3J0JTIwZnVuY3Rpb24lMjBpbmNyZW1lbnQoKSUyMCU3QiU1Q24lMjAlMjBjb3VudCUyMCUyQiUzRCUyMDElM0IlNUNuJTdEJTIyJTJDJTIyaXNFbnRyeSUyMiUzQWZhbHNlJTJDJTIybmFtZSUyMiUzQSUyMmluY3JlbWVudGVyLmpzJTIyJTdEJTVEJTJDJTIyb3B0aW9ucyUyMiUzQSU3QiUyMmFtZCUyMiUzQSU3QiUyMmlkJTIyJTNBJTIyJTIyJTdEJTJDJTIyZm9ybWF0JTIyJTNBJTIyZXMlMjIlMkMlMjJnbG9iYWxzJTIyJTNBJTdCJTdEJTJDJTIybmFtZSUyMiUzQSUyMm15QnVuZGxlJTIyJTdEJTdE):
+ES 模块导出是实时绑定的，所以值可以在导入后改变，正如[这个示例](../repl/index.md?shareable=JTdCJTIyZXhhbXBsZSUyMiUzQW51bGwlMkMlMjJtb2R1bGVzJTIyJTNBJTVCJTdCJTIyY29kZSUyMiUzQSUyMmltcG9ydCUyMCU3QiUyMGNvdW50JTJDJTIwaW5jcmVtZW50JTIwJTdEJTIwZnJvbSUyMCcuJTJGaW5jcmVtZW50ZXIuanMnJTNCJTVDbiU1Q25jb25zb2xlLmxvZyhjb3VudCklM0IlMjAlMkYlMkYlMjAwJTVDbmluY3JlbWVudCgpJTNCJTVDbmNvbnNvbGUubG9nKGNvdW50KSUzQiUyMCUyRiUyRiUyMDElMjIlMkMlMjJpc0VudHJ5JTIyJTNBdHJ1ZSUyQyUyMm5hbWUlMjIlM0ElMjJtYWluLmpzJTIyJTdEJTJDJTdCJTIyY29kZSUyMiUzQSUyMmV4cG9ydCUyMGxldCUyMGNvdW50JTIwJTNEJTIwMCUzQiU1Q24lNUNuZXhwb3J0JTIwZnVuY3Rpb24lMjBpbmNyZW1lbnQoKSUyMCU3QiU1Q24lMjAlMjBjb3VudCUyMCUyQiUzRCUyMDElM0IlNUNuJTdEJTIyJTJDJTIyaXNFbnRyeSUyMiUzQWZhbHNlJTJDJTIybmFtZSUyMiUzQSUyMmluY3JlbWVudGVyLmpzJTIyJTdEJTVEJTJDJTIyb3B0aW9ucyUyMiUzQSU3QiUyMmFtZCUyMiUzQSU3QiUyMmlkJTIyJTNBJTIyJTIyJTdEJTJDJTIyZm9ybWF0JTIyJTNBJTIyZXMlMjIlMkMlMjJnbG9iYWxzJTIyJTNBJTdCJTdEJTJDJTIybmFtZSUyMiUzQSUyMm15QnVuZGxlJTIyJTdEJTdE)：
 
 ```js
 // incrementer.js

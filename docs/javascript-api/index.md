@@ -6,26 +6,25 @@ title: JavaScript API
 
 [[toc]]
 
-Rollup provides a JavaScript API which is usable from Node.js. You will rarely need to use this, and should probably be using the command line API unless you are extending Rollup itself or using it for something esoteric, such as generating bundles programmatically.
+Rollup 提供可以通过 Node.js 来使用的 JavaScript API。除非你想扩展 Rollup 本身，或者用于一些高级的任务，例如用编程的方式把 bundle 生成出来，否则你将很少使用 JavaScript API，而且很可能使用命令行接口。
 
 ## rollup.rollup
 
-The `rollup.rollup` function receives an input options object as parameter and returns a Promise that resolves to a `bundle` object with various properties and methods as shown below. During this step, Rollup will build the module graph and perform tree-shaking, but will not generate any output.
+`rollup.rollup` 函数接收输入选项对象作为参数，并返回一个 Promise，该 Promise 解析为具有各种属性和方法的 `bundle` 对象，如下所示。在此步骤中，Rollup 将构建模块图并执行摇树优化，但不会生成任何输出。
 
-On a `bundle` object, you can call `bundle.generate` multiple times with different output options objects to generate different bundles in-memory. If you directly want to write them to disk, use `bundle.write` instead.
+在 `bundle` 对象上，你可以使用不同的输出选项对象多次调用 `bundle.generate`，以在内存中生成不同的 bundle。如果直接将它们写入磁盘，请改用 `bundle.write`。
 
-Once you're finished with the `bundle` object, you should call `bundle.close()`, which will let plugins clean up their external processes or services via the [`closeBundle`](../plugin-development/index.md#closebundle) hook.
+一旦你结束使用 `bundle` 对象，你应该调用 `bundle.close()`，这将让插件通过 [`closeBundle`](../plugin-development/index.md#closebundle) 钩子清理它们的外部进程或服务。
 
-If an error occurs at either stage, it will return a Promise rejected with an Error, which you can identify via their `code` property. Besides `code` and `message`, many errors have additional properties you can use for custom reporting, see [`utils/error.ts`](https://github.com/rollup/rollup/blob/master/src/utils/error.ts) for a complete list of errors and warnings together with their codes and properties.
+如果在任一阶段发生错误，它将返回一个被拒绝的 `Promise`，被拒绝的原因是错误对象，你可以通过错误对象的 `code` 属性来识别。除了 `code` 和 `message` 之外，许多错误还具有可用于自定义报告的其他属性，请参阅 [`utils/error.ts`](https://github.com/rollup/rollup/blob/master/src/utils/error.ts）以获得完整的错误和警告列表及其错误码和属性。
 
 ```javascript
 import { rollup } from 'rollup';
 
-// see below for details on these options
+// 有关这些选项的详细信息，请参见下文
 const inputOptions = {...};
 
-// you can create multiple outputs from the same input to generate e.g.
-// different formats like CommonJS and ESM
+// 你可以从同一输入生成多个输出，例如 CommonJS 和 ESM 不同的格式
 const outputOptionsList = [{...}, {...}];
 
 build();
@@ -34,20 +33,20 @@ async function build() {
   let bundle;
   let buildFailed = false;
   try {
-    // create a bundle
+    // 创建一个bundle
     bundle = await rollup(inputOptions);
 
-    // an array of file names this bundle depends on
+    // 该bundle所依赖的文件名数组
     console.log(bundle.watchFiles);
 
     await generateOutputs(bundle);
   } catch (error) {
     buildFailed = true;
-    // do some error reporting
+    // 做一些错误报告
     console.error(error);
   }
   if (bundle) {
-    // closes the bundle
+    // 关闭bundle
     await bundle.close();
   }
   process.exit(buildFailed ? 1 : 0);
@@ -104,9 +103,9 @@ async function generateOutputs(bundle) {
 }
 ```
 
-### inputOptions object
+### inputOptions 对象
 
-The `inputOptions` object can contain the following properties (see the [big list of options](../configuration-options/index.md) for full details on these):
+`inputOptions` 对象可以包含以下属性（有关这些的完整详细信息，请参阅[选项大列表](../configuration-options/index.md)）：
 
 ```js
 const inputOptions = {
@@ -136,9 +135,9 @@ const inputOptions = {
 };
 ```
 
-### outputOptions object
+### outputOptions 对象
 
-The `outputOptions` object can contain the following properties (see the [big list of options](../configuration-options/index.md) for full details on these):
+`outputOptions` 对象可以包含以下属性（有关这些的完整详细信息，请参阅[选项大列表](../configuration-options/index.md)）：
 
 ```js
 const outputOptions = {
@@ -192,7 +191,7 @@ const outputOptions = {
 
 ## rollup.watch
 
-Rollup also provides a `rollup.watch` function that rebuilds your bundle when it detects that the individual modules have changed on disk. It is used internally when you run Rollup from the command line with the `--watch` flag. Note that when using watch mode via the JavaScript API, it is your responsibility to call `event.result.close()` in response to the `BUNDLE_END` event to allow plugins to clean up resources in the [`closeBundle`](../plugin-development/index.md#closebundle) hook, see below.
+Rollup 还提供了一个 `rollup.watch` 函数，当它检测到磁盘上的各个模块发生变化时，它会重建你的 bundle。当你使用 `--watch` 标志从命令行运行 Rollup 时，它在内部使用。请注意，当通过 JavaScript API 使用监视模式时，你有责任调用 `event.result.close()` 以响应 `BUNDLE_END` 事件，以允许插件通过 [`closeBundle`](../plugin-development/index.md#closebundle) 钩子清理资源，见下文。
 
 ```js
 const rollup = require('rollup');
@@ -250,7 +249,7 @@ watcher.close();
 
 ### watchOptions
 
-The `watchOptions` argument is a config (or an array of configs) that you would export from a config file.
+`watchOptions` 参数是你将从配置文件导出的配置（或配置数组）。
 
 ```js
 const watchOptions = {
@@ -267,11 +266,11 @@ const watchOptions = {
 };
 ```
 
-See above for details on `inputOptions` and `outputOptions`, or consult the [big list of options](../configuration-options/index.md) for info on `chokidar`, `include` and `exclude`.
+有关 `inputOptions` 和 `outputOptions` 的详细信息，请参阅上文，或查阅[选项大列表](../configuration-options/index.md) 以获取有关 `chokidar`、`include` 和 `exclude` 的信息。
 
-### Programmatically loading a config file
+### 以编程方式加载配置文件
 
-In order to aid in generating such a config, rollup exposes the helper it uses to load config files in its command line interface via a separate entry-point. This helper receives a resolved `fileName` and optionally an object containing command line parameters:
+为了帮助生成这样的配置，rollup 公开了它用于通过单独的入口点在其命令行界面中加载配置文件的函数。这个函数接收一个解析后的 `fileName` 和一个可选的包含命令行参数的对象：
 
 ```js
 const { loadConfigFile } = require('rollup/loadConfigFile');
