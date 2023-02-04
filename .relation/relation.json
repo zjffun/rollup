@@ -1,0 +1,4328 @@
+[
+  {
+    "id": "ryu3qxw2w7",
+    "fromPath": "rollup-original/docs/public/manifest.json",
+    "toPath": "docs/public/manifest.json",
+    "fromRange": [
+      1,
+      26
+    ],
+    "toRange": [
+      1,
+      26
+    ],
+    "fromGitRev": "48553ca357228e26c6715ecbfde9c32bbc4d67b2",
+    "toGitRev": "860e77f7c0728d3ca07e330ead0bacc7d09b2340",
+    "fromGitWorkingDirectory": "rollup-original"
+  },
+  {
+    "id": "w54l7popj1",
+    "fromPath": "rollup-original/docs/.vitepress/config.ts",
+    "toPath": "docs/.vitepress/config.ts",
+    "fromRange": [
+      44,
+      49
+    ],
+    "toRange": [
+      44,
+      49
+    ],
+    "fromGitRev": "48553ca357228e26c6715ecbfde9c32bbc4d67b2",
+    "toGitRev": "860e77f7c0728d3ca07e330ead0bacc7d09b2340",
+    "fromGitWorkingDirectory": "rollup-original"
+  },
+  {
+    "id": "ivlsvhlv8t",
+    "fromPath": "rollup-original/docs/index.md",
+    "toPath": "docs/index.md",
+    "fromRange": [
+      1,
+      49
+    ],
+    "toRange": [
+      1,
+      49
+    ],
+    "fromGitRev": "48553ca357228e26c6715ecbfde9c32bbc4d67b2",
+    "toGitRev": "860e77f7c0728d3ca07e330ead0bacc7d09b2340",
+    "fromGitWorkingDirectory": "rollup-original"
+  },
+  {
+    "id": "kezit5hcei",
+    "fromPath": "rollup-original/docs/command-line-interface/index.md",
+    "toPath": "docs/command-line-interface/index.md",
+    "fromRange": [
+      1,
+      3
+    ],
+    "toRange": [
+      1,
+      3
+    ],
+    "fromGitRev": "48553ca357228e26c6715ecbfde9c32bbc4d67b2",
+    "toGitRev": "4379aa628441f098f34688b0f7437895be68eeb1",
+    "fromGitWorkingDirectory": "rollup-original"
+  },
+  {
+    "id": "nokazmn85d",
+    "fromPath": "rollup-original/docs/command-line-interface/index.md",
+    "toPath": "docs/command-line-interface/index.md",
+    "fromRange": [
+      5,
+      9
+    ],
+    "toRange": [
+      5,
+      9
+    ],
+    "fromGitRev": "48553ca357228e26c6715ecbfde9c32bbc4d67b2",
+    "toGitRev": "4379aa628441f098f34688b0f7437895be68eeb1",
+    "fromGitWorkingDirectory": "rollup-original"
+  },
+  {
+    "id": "ibw7kean7a",
+    "fromPath": "rollup-original/docs/command-line-interface/index.md",
+    "toPath": "docs/command-line-interface/index.md",
+    "fromRange": [
+      11,
+      217
+    ],
+    "toRange": [
+      11,
+      215
+    ],
+    "fromGitRev": "48553ca357228e26c6715ecbfde9c32bbc4d67b2",
+    "toGitRev": "4379aa628441f098f34688b0f7437895be68eeb1",
+    "fromGitWorkingDirectory": "rollup-original"
+  },
+  {
+    "id": "mbqhv555g4",
+    "fromPath": "rollup-original/docs/command-line-interface/index.md",
+    "toPath": "docs/command-line-interface/index.md",
+    "fromRange": [
+      219,
+      260
+    ],
+    "toRange": [
+      217,
+      258
+    ],
+    "fromGitRev": "48553ca357228e26c6715ecbfde9c32bbc4d67b2",
+    "toGitRev": "4379aa628441f098f34688b0f7437895be68eeb1",
+    "fromGitWorkingDirectory": "rollup-original"
+  },
+  {
+    "id": "wu9xm6cauk",
+    "fromPath": "rollup-original/docs/command-line-interface/index.md",
+    "toPath": "docs/command-line-interface/index.md",
+    "fromRange": [
+      262,
+      270
+    ],
+    "toRange": [
+      260,
+      268
+    ],
+    "fromGitRev": "48553ca357228e26c6715ecbfde9c32bbc4d67b2",
+    "toGitRev": "4379aa628441f098f34688b0f7437895be68eeb1",
+    "fromGitWorkingDirectory": "rollup-original"
+  },
+  {
+    "id": "tv3ivdqguy",
+    "fromPath": "rollup-original/docs/command-line-interface/index.md",
+    "toPath": "docs/command-line-interface/index.md",
+    "fromRange": [
+      272,
+      280
+    ],
+    "toRange": [
+      270,
+      278
+    ],
+    "fromGitRev": "48553ca357228e26c6715ecbfde9c32bbc4d67b2",
+    "toGitRev": "4379aa628441f098f34688b0f7437895be68eeb1",
+    "fromGitWorkingDirectory": "rollup-original"
+  },
+  {
+    "id": "cknxmcc8pv",
+    "fromPath": "rollup-original/docs/command-line-interface/index.md",
+    "toPath": "docs/command-line-interface/index.md",
+    "fromRange": [
+      282,
+      284
+    ],
+    "toRange": [
+      280,
+      282
+    ],
+    "fromGitRev": "48553ca357228e26c6715ecbfde9c32bbc4d67b2",
+    "toGitRev": "4379aa628441f098f34688b0f7437895be68eeb1",
+    "fromGitWorkingDirectory": "rollup-original"
+  },
+  {
+    "id": "1hg4wld5cb",
+    "fromPath": "rollup-original/docs/command-line-interface/index.md",
+    "toPath": "docs/command-line-interface/index.md",
+    "fromRange": [
+      286,
+      299
+    ],
+    "toRange": [
+      284,
+      297
+    ],
+    "fromGitRev": "48553ca357228e26c6715ecbfde9c32bbc4d67b2",
+    "toGitRev": "4379aa628441f098f34688b0f7437895be68eeb1",
+    "fromGitWorkingDirectory": "rollup-original"
+  },
+  {
+    "id": "ksjtcs6wnk",
+    "fromPath": "rollup-original/docs/command-line-interface/index.md",
+    "toPath": "docs/command-line-interface/index.md",
+    "fromRange": [
+      301,
+      341
+    ],
+    "toRange": [
+      299,
+      337
+    ],
+    "fromGitRev": "48553ca357228e26c6715ecbfde9c32bbc4d67b2",
+    "toGitRev": "4379aa628441f098f34688b0f7437895be68eeb1",
+    "fromGitWorkingDirectory": "rollup-original"
+  },
+  {
+    "id": "dunrgsh1go",
+    "fromPath": "rollup-original/docs/command-line-interface/index.md",
+    "toPath": "docs/command-line-interface/index.md",
+    "fromRange": [
+      343,
+      437
+    ],
+    "toRange": [
+      339,
+      433
+    ],
+    "fromGitRev": "48553ca357228e26c6715ecbfde9c32bbc4d67b2",
+    "toGitRev": "4379aa628441f098f34688b0f7437895be68eeb1",
+    "fromGitWorkingDirectory": "rollup-original"
+  },
+  {
+    "id": "jop8nxecp5",
+    "fromPath": "rollup-original/docs/command-line-interface/index.md",
+    "toPath": "docs/command-line-interface/index.md",
+    "fromRange": [
+      439,
+      441
+    ],
+    "toRange": [
+      435,
+      437
+    ],
+    "fromGitRev": "48553ca357228e26c6715ecbfde9c32bbc4d67b2",
+    "toGitRev": "4379aa628441f098f34688b0f7437895be68eeb1",
+    "fromGitWorkingDirectory": "rollup-original"
+  },
+  {
+    "id": "bayadndkhi",
+    "fromPath": "rollup-original/docs/command-line-interface/index.md",
+    "toPath": "docs/command-line-interface/index.md",
+    "fromRange": [
+      443,
+      483
+    ],
+    "toRange": [
+      439,
+      479
+    ],
+    "fromGitRev": "48553ca357228e26c6715ecbfde9c32bbc4d67b2",
+    "toGitRev": "4379aa628441f098f34688b0f7437895be68eeb1",
+    "fromGitWorkingDirectory": "rollup-original"
+  },
+  {
+    "id": "vial6dpoca",
+    "fromPath": "rollup-original/docs/command-line-interface/index.md",
+    "toPath": "docs/command-line-interface/index.md",
+    "fromRange": [
+      485,
+      501
+    ],
+    "toRange": [
+      481,
+      497
+    ],
+    "fromGitRev": "48553ca357228e26c6715ecbfde9c32bbc4d67b2",
+    "toGitRev": "4379aa628441f098f34688b0f7437895be68eeb1",
+    "fromGitWorkingDirectory": "rollup-original"
+  },
+  {
+    "id": "wf4wrc9y7p",
+    "fromPath": "rollup-original/docs/command-line-interface/index.md",
+    "toPath": "docs/command-line-interface/index.md",
+    "fromRange": [
+      503,
+      507
+    ],
+    "toRange": [
+      499,
+      503
+    ],
+    "fromGitRev": "48553ca357228e26c6715ecbfde9c32bbc4d67b2",
+    "toGitRev": "4379aa628441f098f34688b0f7437895be68eeb1",
+    "fromGitWorkingDirectory": "rollup-original"
+  },
+  {
+    "id": "gugp61xxn9",
+    "fromPath": "rollup-original/docs/command-line-interface/index.md",
+    "toPath": "docs/command-line-interface/index.md",
+    "fromRange": [
+      509,
+      511
+    ],
+    "toRange": [
+      505,
+      507
+    ],
+    "fromGitRev": "48553ca357228e26c6715ecbfde9c32bbc4d67b2",
+    "toGitRev": "4379aa628441f098f34688b0f7437895be68eeb1",
+    "fromGitWorkingDirectory": "rollup-original"
+  },
+  {
+    "id": "ec5ehabrub",
+    "fromPath": "rollup-original/docs/command-line-interface/index.md",
+    "toPath": "docs/command-line-interface/index.md",
+    "fromRange": [
+      513,
+      517
+    ],
+    "toRange": [
+      509,
+      513
+    ],
+    "fromGitRev": "48553ca357228e26c6715ecbfde9c32bbc4d67b2",
+    "toGitRev": "4379aa628441f098f34688b0f7437895be68eeb1",
+    "fromGitWorkingDirectory": "rollup-original"
+  },
+  {
+    "id": "905qpfcokg",
+    "fromPath": "rollup-original/docs/command-line-interface/index.md",
+    "toPath": "docs/command-line-interface/index.md",
+    "fromRange": [
+      519,
+      521
+    ],
+    "toRange": [
+      515,
+      517
+    ],
+    "fromGitRev": "48553ca357228e26c6715ecbfde9c32bbc4d67b2",
+    "toGitRev": "4379aa628441f098f34688b0f7437895be68eeb1",
+    "fromGitWorkingDirectory": "rollup-original"
+  },
+  {
+    "id": "o4twfcwsbu",
+    "fromPath": "rollup-original/docs/command-line-interface/index.md",
+    "toPath": "docs/command-line-interface/index.md",
+    "fromRange": [
+      523,
+      525
+    ],
+    "toRange": [
+      519,
+      521
+    ],
+    "fromGitRev": "48553ca357228e26c6715ecbfde9c32bbc4d67b2",
+    "toGitRev": "4379aa628441f098f34688b0f7437895be68eeb1",
+    "fromGitWorkingDirectory": "rollup-original"
+  },
+  {
+    "id": "o7qc24olli",
+    "fromPath": "rollup-original/docs/command-line-interface/index.md",
+    "toPath": "docs/command-line-interface/index.md",
+    "fromRange": [
+      527,
+      551
+    ],
+    "toRange": [
+      523,
+      547
+    ],
+    "fromGitRev": "48553ca357228e26c6715ecbfde9c32bbc4d67b2",
+    "toGitRev": "4379aa628441f098f34688b0f7437895be68eeb1",
+    "fromGitWorkingDirectory": "rollup-original"
+  },
+  {
+    "id": "ada57x7tzd",
+    "fromPath": "rollup-original/docs/command-line-interface/index.md",
+    "toPath": "docs/command-line-interface/index.md",
+    "fromRange": [
+      553,
+      555
+    ],
+    "toRange": [
+      549,
+      551
+    ],
+    "fromGitRev": "48553ca357228e26c6715ecbfde9c32bbc4d67b2",
+    "toGitRev": "4379aa628441f098f34688b0f7437895be68eeb1",
+    "fromGitWorkingDirectory": "rollup-original"
+  },
+  {
+    "id": "gy7tybjl71",
+    "fromPath": "rollup-original/docs/command-line-interface/index.md",
+    "toPath": "docs/command-line-interface/index.md",
+    "fromRange": [
+      557,
+      559
+    ],
+    "toRange": [
+      553,
+      555
+    ],
+    "fromGitRev": "48553ca357228e26c6715ecbfde9c32bbc4d67b2",
+    "toGitRev": "4379aa628441f098f34688b0f7437895be68eeb1",
+    "fromGitWorkingDirectory": "rollup-original"
+  },
+  {
+    "id": "mgyq5cp4j8",
+    "fromPath": "rollup-original/docs/command-line-interface/index.md",
+    "toPath": "docs/command-line-interface/index.md",
+    "fromRange": [
+      561,
+      563
+    ],
+    "toRange": [
+      557,
+      559
+    ],
+    "fromGitRev": "48553ca357228e26c6715ecbfde9c32bbc4d67b2",
+    "toGitRev": "4379aa628441f098f34688b0f7437895be68eeb1",
+    "fromGitWorkingDirectory": "rollup-original"
+  },
+  {
+    "id": "wehgbueutv",
+    "fromPath": "rollup-original/docs/command-line-interface/index.md",
+    "toPath": "docs/command-line-interface/index.md",
+    "fromRange": [
+      565,
+      571
+    ],
+    "toRange": [
+      561,
+      567
+    ],
+    "fromGitRev": "48553ca357228e26c6715ecbfde9c32bbc4d67b2",
+    "toGitRev": "4379aa628441f098f34688b0f7437895be68eeb1",
+    "fromGitWorkingDirectory": "rollup-original"
+  },
+  {
+    "id": "rkx02nmrgg",
+    "fromPath": "rollup-original/docs/command-line-interface/index.md",
+    "toPath": "docs/command-line-interface/index.md",
+    "fromRange": [
+      573,
+      595
+    ],
+    "toRange": [
+      569,
+      591
+    ],
+    "fromGitRev": "48553ca357228e26c6715ecbfde9c32bbc4d67b2",
+    "toGitRev": "4379aa628441f098f34688b0f7437895be68eeb1",
+    "fromGitWorkingDirectory": "rollup-original"
+  },
+  {
+    "id": "q7fz0cgd23",
+    "fromPath": "rollup-original/docs/configuration-options/index.md",
+    "toPath": "docs/configuration-options/index.md",
+    "fromRange": [
+      1,
+      3
+    ],
+    "toRange": [
+      1,
+      3
+    ],
+    "fromGitRev": "48553ca357228e26c6715ecbfde9c32bbc4d67b2",
+    "toGitRev": "4379aa628441f098f34688b0f7437895be68eeb1",
+    "fromGitWorkingDirectory": "rollup-original"
+  },
+  {
+    "id": "4d1gi8uy2k",
+    "fromPath": "rollup-original/docs/configuration-options/index.md",
+    "toPath": "docs/configuration-options/index.md",
+    "fromRange": [
+      5,
+      7
+    ],
+    "toRange": [
+      5,
+      7
+    ],
+    "fromGitRev": "48553ca357228e26c6715ecbfde9c32bbc4d67b2",
+    "toGitRev": "4379aa628441f098f34688b0f7437895be68eeb1",
+    "fromGitWorkingDirectory": "rollup-original"
+  },
+  {
+    "id": "mlc8mt5jst",
+    "fromPath": "rollup-original/docs/configuration-options/index.md",
+    "toPath": "docs/configuration-options/index.md",
+    "fromRange": [
+      9,
+      9
+    ],
+    "toRange": [
+      9,
+      9
+    ],
+    "fromGitRev": "48553ca357228e26c6715ecbfde9c32bbc4d67b2",
+    "toGitRev": "4379aa628441f098f34688b0f7437895be68eeb1",
+    "fromGitWorkingDirectory": "rollup-original"
+  },
+  {
+    "id": "o1weijet8k",
+    "fromPath": "rollup-original/docs/configuration-options/index.md",
+    "toPath": "docs/configuration-options/index.md",
+    "fromRange": [
+      11,
+      78
+    ],
+    "toRange": [
+      11,
+      78
+    ],
+    "fromGitRev": "48553ca357228e26c6715ecbfde9c32bbc4d67b2",
+    "toGitRev": "4379aa628441f098f34688b0f7437895be68eeb1",
+    "fromGitWorkingDirectory": "rollup-original"
+  },
+  {
+    "id": "0aou31qxe7",
+    "fromPath": "rollup-original/docs/configuration-options/index.md",
+    "toPath": "docs/configuration-options/index.md",
+    "fromRange": [
+      80,
+      151
+    ],
+    "toRange": [
+      80,
+      151
+    ],
+    "fromGitRev": "48553ca357228e26c6715ecbfde9c32bbc4d67b2",
+    "toGitRev": "4379aa628441f098f34688b0f7437895be68eeb1",
+    "fromGitWorkingDirectory": "rollup-original"
+  },
+  {
+    "id": "0r1x1exglj",
+    "fromPath": "rollup-original/docs/configuration-options/index.md",
+    "toPath": "docs/configuration-options/index.md",
+    "fromRange": [
+      153,
+      157
+    ],
+    "toRange": [
+      153,
+      157
+    ],
+    "fromGitRev": "48553ca357228e26c6715ecbfde9c32bbc4d67b2",
+    "toGitRev": "4379aa628441f098f34688b0f7437895be68eeb1",
+    "fromGitWorkingDirectory": "rollup-original"
+  },
+  {
+    "id": "evbrrcsqln",
+    "fromPath": "rollup-original/docs/configuration-options/index.md",
+    "toPath": "docs/configuration-options/index.md",
+    "fromRange": [
+      159,
+      163
+    ],
+    "toRange": [
+      159,
+      163
+    ],
+    "fromGitRev": "48553ca357228e26c6715ecbfde9c32bbc4d67b2",
+    "toGitRev": "4379aa628441f098f34688b0f7437895be68eeb1",
+    "fromGitWorkingDirectory": "rollup-original"
+  },
+  {
+    "id": "4pwem8el48",
+    "fromPath": "rollup-original/docs/configuration-options/index.md",
+    "toPath": "docs/configuration-options/index.md",
+    "fromRange": [
+      165,
+      176
+    ],
+    "toRange": [
+      165,
+      176
+    ],
+    "fromGitRev": "48553ca357228e26c6715ecbfde9c32bbc4d67b2",
+    "toGitRev": "4379aa628441f098f34688b0f7437895be68eeb1",
+    "fromGitWorkingDirectory": "rollup-original"
+  },
+  {
+    "id": "lzp5vxf0md",
+    "fromPath": "rollup-original/docs/configuration-options/index.md",
+    "toPath": "docs/configuration-options/index.md",
+    "fromRange": [
+      178,
+      242
+    ],
+    "toRange": [
+      178,
+      242
+    ],
+    "fromGitRev": "48553ca357228e26c6715ecbfde9c32bbc4d67b2",
+    "toGitRev": "4379aa628441f098f34688b0f7437895be68eeb1",
+    "fromGitWorkingDirectory": "rollup-original"
+  },
+  {
+    "id": "0e439pamty",
+    "fromPath": "rollup-original/docs/configuration-options/index.md",
+    "toPath": "docs/configuration-options/index.md",
+    "fromRange": [
+      244,
+      274
+    ],
+    "toRange": [
+      244,
+      274
+    ],
+    "fromGitRev": "48553ca357228e26c6715ecbfde9c32bbc4d67b2",
+    "toGitRev": "4379aa628441f098f34688b0f7437895be68eeb1",
+    "fromGitWorkingDirectory": "rollup-original"
+  },
+  {
+    "id": "21vov5nvn2",
+    "fromPath": "rollup-original/docs/configuration-options/index.md",
+    "toPath": "docs/configuration-options/index.md",
+    "fromRange": [
+      276,
+      304
+    ],
+    "toRange": [
+      276,
+      304
+    ],
+    "fromGitRev": "48553ca357228e26c6715ecbfde9c32bbc4d67b2",
+    "toGitRev": "4379aa628441f098f34688b0f7437895be68eeb1",
+    "fromGitWorkingDirectory": "rollup-original"
+  },
+  {
+    "id": "l8ue9re41w",
+    "fromPath": "rollup-original/docs/configuration-options/index.md",
+    "toPath": "docs/configuration-options/index.md",
+    "fromRange": [
+      306,
+      333
+    ],
+    "toRange": [
+      306,
+      333
+    ],
+    "fromGitRev": "48553ca357228e26c6715ecbfde9c32bbc4d67b2",
+    "toGitRev": "4379aa628441f098f34688b0f7437895be68eeb1",
+    "fromGitWorkingDirectory": "rollup-original"
+  },
+  {
+    "id": "3eo7l5nbkf",
+    "fromPath": "rollup-original/docs/configuration-options/index.md",
+    "toPath": "docs/configuration-options/index.md",
+    "fromRange": [
+      335,
+      335
+    ],
+    "toRange": [
+      335,
+      335
+    ],
+    "fromGitRev": "48553ca357228e26c6715ecbfde9c32bbc4d67b2",
+    "toGitRev": "4379aa628441f098f34688b0f7437895be68eeb1",
+    "fromGitWorkingDirectory": "rollup-original"
+  },
+  {
+    "id": "yajiphcgq5",
+    "fromPath": "rollup-original/docs/configuration-options/index.md",
+    "toPath": "docs/configuration-options/index.md",
+    "fromRange": [
+      337,
+      364
+    ],
+    "toRange": [
+      337,
+      364
+    ],
+    "fromGitRev": "48553ca357228e26c6715ecbfde9c32bbc4d67b2",
+    "toGitRev": "4379aa628441f098f34688b0f7437895be68eeb1",
+    "fromGitWorkingDirectory": "rollup-original"
+  },
+  {
+    "id": "ua0d13z58m",
+    "fromPath": "rollup-original/docs/configuration-options/index.md",
+    "toPath": "docs/configuration-options/index.md",
+    "fromRange": [
+      366,
+      380
+    ],
+    "toRange": [
+      366,
+      380
+    ],
+    "fromGitRev": "48553ca357228e26c6715ecbfde9c32bbc4d67b2",
+    "toGitRev": "4379aa628441f098f34688b0f7437895be68eeb1",
+    "fromGitWorkingDirectory": "rollup-original"
+  },
+  {
+    "id": "y4lm1j1p68",
+    "fromPath": "rollup-original/docs/configuration-options/index.md",
+    "toPath": "docs/configuration-options/index.md",
+    "fromRange": [
+      382,
+      386
+    ],
+    "toRange": [
+      382,
+      386
+    ],
+    "fromGitRev": "48553ca357228e26c6715ecbfde9c32bbc4d67b2",
+    "toGitRev": "4379aa628441f098f34688b0f7437895be68eeb1",
+    "fromGitWorkingDirectory": "rollup-original"
+  },
+  {
+    "id": "nh9k0y4tak",
+    "fromPath": "rollup-original/docs/configuration-options/index.md",
+    "toPath": "docs/configuration-options/index.md",
+    "fromRange": [
+      388,
+      432
+    ],
+    "toRange": [
+      388,
+      432
+    ],
+    "fromGitRev": "48553ca357228e26c6715ecbfde9c32bbc4d67b2",
+    "toGitRev": "4379aa628441f098f34688b0f7437895be68eeb1",
+    "fromGitWorkingDirectory": "rollup-original"
+  },
+  {
+    "id": "wswl8sehun",
+    "fromPath": "rollup-original/docs/configuration-options/index.md",
+    "toPath": "docs/configuration-options/index.md",
+    "fromRange": [
+      434,
+      445
+    ],
+    "toRange": [
+      434,
+      445
+    ],
+    "fromGitRev": "48553ca357228e26c6715ecbfde9c32bbc4d67b2",
+    "toGitRev": "4379aa628441f098f34688b0f7437895be68eeb1",
+    "fromGitWorkingDirectory": "rollup-original"
+  },
+  {
+    "id": "xh35zomolm",
+    "fromPath": "rollup-original/docs/configuration-options/index.md",
+    "toPath": "docs/configuration-options/index.md",
+    "fromRange": [
+      447,
+      472
+    ],
+    "toRange": [
+      447,
+      472
+    ],
+    "fromGitRev": "48553ca357228e26c6715ecbfde9c32bbc4d67b2",
+    "toGitRev": "4379aa628441f098f34688b0f7437895be68eeb1",
+    "fromGitWorkingDirectory": "rollup-original"
+  },
+  {
+    "id": "gpwyvr24xu",
+    "fromPath": "rollup-original/docs/configuration-options/index.md",
+    "toPath": "docs/configuration-options/index.md",
+    "fromRange": [
+      474,
+      484
+    ],
+    "toRange": [
+      474,
+      484
+    ],
+    "fromGitRev": "48553ca357228e26c6715ecbfde9c32bbc4d67b2",
+    "toGitRev": "4379aa628441f098f34688b0f7437895be68eeb1",
+    "fromGitWorkingDirectory": "rollup-original"
+  },
+  {
+    "id": "6xa8pl1qfy",
+    "fromPath": "rollup-original/docs/configuration-options/index.md",
+    "toPath": "docs/configuration-options/index.md",
+    "fromRange": [
+      486,
+      490
+    ],
+    "toRange": [
+      486,
+      490
+    ],
+    "fromGitRev": "48553ca357228e26c6715ecbfde9c32bbc4d67b2",
+    "toGitRev": "4379aa628441f098f34688b0f7437895be68eeb1",
+    "fromGitWorkingDirectory": "rollup-original"
+  },
+  {
+    "id": "6k13oulerw",
+    "fromPath": "rollup-original/docs/configuration-options/index.md",
+    "toPath": "docs/configuration-options/index.md",
+    "fromRange": [
+      492,
+      536
+    ],
+    "toRange": [
+      492,
+      536
+    ],
+    "fromGitRev": "48553ca357228e26c6715ecbfde9c32bbc4d67b2",
+    "toGitRev": "4379aa628441f098f34688b0f7437895be68eeb1",
+    "fromGitWorkingDirectory": "rollup-original"
+  },
+  {
+    "id": "m9nqf1cum9",
+    "fromPath": "rollup-original/docs/configuration-options/index.md",
+    "toPath": "docs/configuration-options/index.md",
+    "fromRange": [
+      538,
+      550
+    ],
+    "toRange": [
+      538,
+      550
+    ],
+    "fromGitRev": "48553ca357228e26c6715ecbfde9c32bbc4d67b2",
+    "toGitRev": "4379aa628441f098f34688b0f7437895be68eeb1",
+    "fromGitWorkingDirectory": "rollup-original"
+  },
+  {
+    "id": "p3j45cfc6v",
+    "fromPath": "rollup-original/docs/configuration-options/index.md",
+    "toPath": "docs/configuration-options/index.md",
+    "fromRange": [
+      552,
+      556
+    ],
+    "toRange": [
+      552,
+      556
+    ],
+    "fromGitRev": "48553ca357228e26c6715ecbfde9c32bbc4d67b2",
+    "toGitRev": "4379aa628441f098f34688b0f7437895be68eeb1",
+    "fromGitWorkingDirectory": "rollup-original"
+  },
+  {
+    "id": "ppmac72ygg",
+    "fromPath": "rollup-original/docs/configuration-options/index.md",
+    "toPath": "docs/configuration-options/index.md",
+    "fromRange": [
+      558,
+      562
+    ],
+    "toRange": [
+      558,
+      562
+    ],
+    "fromGitRev": "48553ca357228e26c6715ecbfde9c32bbc4d67b2",
+    "toGitRev": "4379aa628441f098f34688b0f7437895be68eeb1",
+    "fromGitWorkingDirectory": "rollup-original"
+  },
+  {
+    "id": "1w0uy7aoeo",
+    "fromPath": "rollup-original/docs/configuration-options/index.md",
+    "toPath": "docs/configuration-options/index.md",
+    "fromRange": [
+      564,
+      571
+    ],
+    "toRange": [
+      564,
+      571
+    ],
+    "fromGitRev": "48553ca357228e26c6715ecbfde9c32bbc4d67b2",
+    "toGitRev": "4379aa628441f098f34688b0f7437895be68eeb1",
+    "fromGitWorkingDirectory": "rollup-original"
+  },
+  {
+    "id": "4r6rg15aks",
+    "fromPath": "rollup-original/docs/configuration-options/index.md",
+    "toPath": "docs/configuration-options/index.md",
+    "fromRange": [
+      573,
+      577
+    ],
+    "toRange": [
+      573,
+      577
+    ],
+    "fromGitRev": "48553ca357228e26c6715ecbfde9c32bbc4d67b2",
+    "toGitRev": "4379aa628441f098f34688b0f7437895be68eeb1",
+    "fromGitWorkingDirectory": "rollup-original"
+  },
+  {
+    "id": "huzv4oztxx",
+    "fromPath": "rollup-original/docs/configuration-options/index.md",
+    "toPath": "docs/configuration-options/index.md",
+    "fromRange": [
+      579,
+      612
+    ],
+    "toRange": [
+      579,
+      612
+    ],
+    "fromGitRev": "48553ca357228e26c6715ecbfde9c32bbc4d67b2",
+    "toGitRev": "4379aa628441f098f34688b0f7437895be68eeb1",
+    "fromGitWorkingDirectory": "rollup-original"
+  },
+  {
+    "id": "xy038oack8",
+    "fromPath": "rollup-original/docs/configuration-options/index.md",
+    "toPath": "docs/configuration-options/index.md",
+    "fromRange": [
+      614,
+      646
+    ],
+    "toRange": [
+      614,
+      646
+    ],
+    "fromGitRev": "48553ca357228e26c6715ecbfde9c32bbc4d67b2",
+    "toGitRev": "4379aa628441f098f34688b0f7437895be68eeb1",
+    "fromGitWorkingDirectory": "rollup-original"
+  },
+  {
+    "id": "cvk6odqd4k",
+    "fromPath": "rollup-original/docs/configuration-options/index.md",
+    "toPath": "docs/configuration-options/index.md",
+    "fromRange": [
+      648,
+      665
+    ],
+    "toRange": [
+      648,
+      665
+    ],
+    "fromGitRev": "48553ca357228e26c6715ecbfde9c32bbc4d67b2",
+    "toGitRev": "4379aa628441f098f34688b0f7437895be68eeb1",
+    "fromGitWorkingDirectory": "rollup-original"
+  },
+  {
+    "id": "4g4t77ynev",
+    "fromPath": "rollup-original/docs/configuration-options/index.md",
+    "toPath": "docs/configuration-options/index.md",
+    "fromRange": [
+      667,
+      687
+    ],
+    "toRange": [
+      667,
+      687
+    ],
+    "fromGitRev": "48553ca357228e26c6715ecbfde9c32bbc4d67b2",
+    "toGitRev": "4379aa628441f098f34688b0f7437895be68eeb1",
+    "fromGitWorkingDirectory": "rollup-original"
+  },
+  {
+    "id": "gm3zkqqwr0",
+    "fromPath": "rollup-original/docs/configuration-options/index.md",
+    "toPath": "docs/configuration-options/index.md",
+    "fromRange": [
+      689,
+      710
+    ],
+    "toRange": [
+      689,
+      710
+    ],
+    "fromGitRev": "48553ca357228e26c6715ecbfde9c32bbc4d67b2",
+    "toGitRev": "4379aa628441f098f34688b0f7437895be68eeb1",
+    "fromGitWorkingDirectory": "rollup-original"
+  },
+  {
+    "id": "yvijnylf6w",
+    "fromPath": "rollup-original/docs/configuration-options/index.md",
+    "toPath": "docs/configuration-options/index.md",
+    "fromRange": [
+      712,
+      716
+    ],
+    "toRange": [
+      712,
+      716
+    ],
+    "fromGitRev": "48553ca357228e26c6715ecbfde9c32bbc4d67b2",
+    "toGitRev": "4379aa628441f098f34688b0f7437895be68eeb1",
+    "fromGitWorkingDirectory": "rollup-original"
+  },
+  {
+    "id": "1lxgdfifa9",
+    "fromPath": "rollup-original/docs/configuration-options/index.md",
+    "toPath": "docs/configuration-options/index.md",
+    "fromRange": [
+      718,
+      722
+    ],
+    "toRange": [
+      718,
+      722
+    ],
+    "fromGitRev": "48553ca357228e26c6715ecbfde9c32bbc4d67b2",
+    "toGitRev": "4379aa628441f098f34688b0f7437895be68eeb1",
+    "fromGitWorkingDirectory": "rollup-original"
+  },
+  {
+    "id": "g1z81xgz3w",
+    "fromPath": "rollup-original/docs/configuration-options/index.md",
+    "toPath": "docs/configuration-options/index.md",
+    "fromRange": [
+      724,
+      976
+    ],
+    "toRange": [
+      724,
+      976
+    ],
+    "fromGitRev": "48553ca357228e26c6715ecbfde9c32bbc4d67b2",
+    "toGitRev": "4379aa628441f098f34688b0f7437895be68eeb1",
+    "fromGitWorkingDirectory": "rollup-original"
+  },
+  {
+    "id": "wi7lx19h3u",
+    "fromPath": "rollup-original/docs/configuration-options/index.md",
+    "toPath": "docs/configuration-options/index.md",
+    "fromRange": [
+      978,
+      992
+    ],
+    "toRange": [
+      978,
+      992
+    ],
+    "fromGitRev": "48553ca357228e26c6715ecbfde9c32bbc4d67b2",
+    "toGitRev": "4379aa628441f098f34688b0f7437895be68eeb1",
+    "fromGitWorkingDirectory": "rollup-original"
+  },
+  {
+    "id": "oqjgl41xui",
+    "fromPath": "rollup-original/docs/configuration-options/index.md",
+    "toPath": "docs/configuration-options/index.md",
+    "fromRange": [
+      994,
+      1079
+    ],
+    "toRange": [
+      994,
+      1079
+    ],
+    "fromGitRev": "48553ca357228e26c6715ecbfde9c32bbc4d67b2",
+    "toGitRev": "4379aa628441f098f34688b0f7437895be68eeb1",
+    "fromGitWorkingDirectory": "rollup-original"
+  },
+  {
+    "id": "3yf02igddp",
+    "fromPath": "rollup-original/docs/configuration-options/index.md",
+    "toPath": "docs/configuration-options/index.md",
+    "fromRange": [
+      1081,
+      1138
+    ],
+    "toRange": [
+      1081,
+      1138
+    ],
+    "fromGitRev": "48553ca357228e26c6715ecbfde9c32bbc4d67b2",
+    "toGitRev": "4379aa628441f098f34688b0f7437895be68eeb1",
+    "fromGitWorkingDirectory": "rollup-original"
+  },
+  {
+    "id": "zzt0nqo4va",
+    "fromPath": "rollup-original/docs/configuration-options/index.md",
+    "toPath": "docs/configuration-options/index.md",
+    "fromRange": [
+      1140,
+      1170
+    ],
+    "toRange": [
+      1140,
+      1170
+    ],
+    "fromGitRev": "48553ca357228e26c6715ecbfde9c32bbc4d67b2",
+    "toGitRev": "4379aa628441f098f34688b0f7437895be68eeb1",
+    "fromGitWorkingDirectory": "rollup-original"
+  },
+  {
+    "id": "o9tq4j9jio",
+    "fromPath": "rollup-original/docs/configuration-options/index.md",
+    "toPath": "docs/configuration-options/index.md",
+    "fromRange": [
+      1172,
+      1219
+    ],
+    "toRange": [
+      1172,
+      1219
+    ],
+    "fromGitRev": "48553ca357228e26c6715ecbfde9c32bbc4d67b2",
+    "toGitRev": "4379aa628441f098f34688b0f7437895be68eeb1",
+    "fromGitWorkingDirectory": "rollup-original"
+  },
+  {
+    "id": "1exqvbnfqf",
+    "fromPath": "rollup-original/docs/configuration-options/index.md",
+    "toPath": "docs/configuration-options/index.md",
+    "fromRange": [
+      1221,
+      1245
+    ],
+    "toRange": [
+      1221,
+      1245
+    ],
+    "fromGitRev": "48553ca357228e26c6715ecbfde9c32bbc4d67b2",
+    "toGitRev": "4379aa628441f098f34688b0f7437895be68eeb1",
+    "fromGitWorkingDirectory": "rollup-original"
+  },
+  {
+    "id": "cs1d6e3uc1",
+    "fromPath": "rollup-original/docs/configuration-options/index.md",
+    "toPath": "docs/configuration-options/index.md",
+    "fromRange": [
+      1247,
+      1251
+    ],
+    "toRange": [
+      1247,
+      1251
+    ],
+    "fromGitRev": "48553ca357228e26c6715ecbfde9c32bbc4d67b2",
+    "toGitRev": "4379aa628441f098f34688b0f7437895be68eeb1",
+    "fromGitWorkingDirectory": "rollup-original"
+  },
+  {
+    "id": "spme6yoecm",
+    "fromPath": "rollup-original/docs/configuration-options/index.md",
+    "toPath": "docs/configuration-options/index.md",
+    "fromRange": [
+      1253,
+      1257
+    ],
+    "toRange": [
+      1253,
+      1257
+    ],
+    "fromGitRev": "48553ca357228e26c6715ecbfde9c32bbc4d67b2",
+    "toGitRev": "4379aa628441f098f34688b0f7437895be68eeb1",
+    "fromGitWorkingDirectory": "rollup-original"
+  },
+  {
+    "id": "meyf700djx",
+    "fromPath": "rollup-original/docs/configuration-options/index.md",
+    "toPath": "docs/configuration-options/index.md",
+    "fromRange": [
+      1259,
+      1263
+    ],
+    "toRange": [
+      1259,
+      1263
+    ],
+    "fromGitRev": "48553ca357228e26c6715ecbfde9c32bbc4d67b2",
+    "toGitRev": "4379aa628441f098f34688b0f7437895be68eeb1",
+    "fromGitWorkingDirectory": "rollup-original"
+  },
+  {
+    "id": "80pwi9z2nj",
+    "fromPath": "rollup-original/docs/configuration-options/index.md",
+    "toPath": "docs/configuration-options/index.md",
+    "fromRange": [
+      1265,
+      1271
+    ],
+    "toRange": [
+      1265,
+      1271
+    ],
+    "fromGitRev": "48553ca357228e26c6715ecbfde9c32bbc4d67b2",
+    "toGitRev": "4379aa628441f098f34688b0f7437895be68eeb1",
+    "fromGitWorkingDirectory": "rollup-original"
+  },
+  {
+    "id": "bg8a2s552m",
+    "fromPath": "rollup-original/docs/configuration-options/index.md",
+    "toPath": "docs/configuration-options/index.md",
+    "fromRange": [
+      1273,
+      1298
+    ],
+    "toRange": [
+      1273,
+      1298
+    ],
+    "fromGitRev": "48553ca357228e26c6715ecbfde9c32bbc4d67b2",
+    "toGitRev": "4379aa628441f098f34688b0f7437895be68eeb1",
+    "fromGitWorkingDirectory": "rollup-original"
+  },
+  {
+    "id": "oraaodeqmj",
+    "fromPath": "rollup-original/docs/configuration-options/index.md",
+    "toPath": "docs/configuration-options/index.md",
+    "fromRange": [
+      1300,
+      1306
+    ],
+    "toRange": [
+      1300,
+      1306
+    ],
+    "fromGitRev": "48553ca357228e26c6715ecbfde9c32bbc4d67b2",
+    "toGitRev": "4379aa628441f098f34688b0f7437895be68eeb1",
+    "fromGitWorkingDirectory": "rollup-original"
+  },
+  {
+    "id": "3mll40tedn",
+    "fromPath": "rollup-original/docs/configuration-options/index.md",
+    "toPath": "docs/configuration-options/index.md",
+    "fromRange": [
+      1308,
+      1384
+    ],
+    "toRange": [
+      1308,
+      1384
+    ],
+    "fromGitRev": "48553ca357228e26c6715ecbfde9c32bbc4d67b2",
+    "toGitRev": "4379aa628441f098f34688b0f7437895be68eeb1",
+    "fromGitWorkingDirectory": "rollup-original"
+  },
+  {
+    "id": "x9rxf04vv3",
+    "fromPath": "rollup-original/docs/configuration-options/index.md",
+    "toPath": "docs/configuration-options/index.md",
+    "fromRange": [
+      1386,
+      1392
+    ],
+    "toRange": [
+      1386,
+      1392
+    ],
+    "fromGitRev": "48553ca357228e26c6715ecbfde9c32bbc4d67b2",
+    "toGitRev": "4379aa628441f098f34688b0f7437895be68eeb1",
+    "fromGitWorkingDirectory": "rollup-original"
+  },
+  {
+    "id": "6cd06na87n",
+    "fromPath": "rollup-original/docs/configuration-options/index.md",
+    "toPath": "docs/configuration-options/index.md",
+    "fromRange": [
+      1394,
+      1396
+    ],
+    "toRange": [
+      1394,
+      1396
+    ],
+    "fromGitRev": "48553ca357228e26c6715ecbfde9c32bbc4d67b2",
+    "toGitRev": "4379aa628441f098f34688b0f7437895be68eeb1",
+    "fromGitWorkingDirectory": "rollup-original"
+  },
+  {
+    "id": "r5n630i8vr",
+    "fromPath": "rollup-original/docs/configuration-options/index.md",
+    "toPath": "docs/configuration-options/index.md",
+    "fromRange": [
+      1398,
+      1402
+    ],
+    "toRange": [
+      1398,
+      1402
+    ],
+    "fromGitRev": "48553ca357228e26c6715ecbfde9c32bbc4d67b2",
+    "toGitRev": "4379aa628441f098f34688b0f7437895be68eeb1",
+    "fromGitWorkingDirectory": "rollup-original"
+  },
+  {
+    "id": "vk4zkmatwk",
+    "fromPath": "rollup-original/docs/configuration-options/index.md",
+    "toPath": "docs/configuration-options/index.md",
+    "fromRange": [
+      1404,
+      1419
+    ],
+    "toRange": [
+      1404,
+      1419
+    ],
+    "fromGitRev": "48553ca357228e26c6715ecbfde9c32bbc4d67b2",
+    "toGitRev": "4379aa628441f098f34688b0f7437895be68eeb1",
+    "fromGitWorkingDirectory": "rollup-original"
+  },
+  {
+    "id": "7j79no9hqg",
+    "fromPath": "rollup-original/docs/configuration-options/index.md",
+    "toPath": "docs/configuration-options/index.md",
+    "fromRange": [
+      1421,
+      1425
+    ],
+    "toRange": [
+      1421,
+      1425
+    ],
+    "fromGitRev": "48553ca357228e26c6715ecbfde9c32bbc4d67b2",
+    "toGitRev": "4379aa628441f098f34688b0f7437895be68eeb1",
+    "fromGitWorkingDirectory": "rollup-original"
+  },
+  {
+    "id": "gxja70y6o0",
+    "fromPath": "rollup-original/docs/configuration-options/index.md",
+    "toPath": "docs/configuration-options/index.md",
+    "fromRange": [
+      1427,
+      1431
+    ],
+    "toRange": [
+      1427,
+      1431
+    ],
+    "fromGitRev": "48553ca357228e26c6715ecbfde9c32bbc4d67b2",
+    "toGitRev": "4379aa628441f098f34688b0f7437895be68eeb1",
+    "fromGitWorkingDirectory": "rollup-original"
+  },
+  {
+    "id": "aucfkn4une",
+    "fromPath": "rollup-original/docs/configuration-options/index.md",
+    "toPath": "docs/configuration-options/index.md",
+    "fromRange": [
+      1433,
+      1437
+    ],
+    "toRange": [
+      1433,
+      1437
+    ],
+    "fromGitRev": "48553ca357228e26c6715ecbfde9c32bbc4d67b2",
+    "toGitRev": "4379aa628441f098f34688b0f7437895be68eeb1",
+    "fromGitWorkingDirectory": "rollup-original"
+  },
+  {
+    "id": "mio1v3oe3t",
+    "fromPath": "rollup-original/docs/configuration-options/index.md",
+    "toPath": "docs/configuration-options/index.md",
+    "fromRange": [
+      1439,
+      1456
+    ],
+    "toRange": [
+      1439,
+      1456
+    ],
+    "fromGitRev": "48553ca357228e26c6715ecbfde9c32bbc4d67b2",
+    "toGitRev": "4379aa628441f098f34688b0f7437895be68eeb1",
+    "fromGitWorkingDirectory": "rollup-original"
+  },
+  {
+    "id": "so4i8lo9yr",
+    "fromPath": "rollup-original/docs/configuration-options/index.md",
+    "toPath": "docs/configuration-options/index.md",
+    "fromRange": [
+      1458,
+      1476
+    ],
+    "toRange": [
+      1458,
+      1476
+    ],
+    "fromGitRev": "48553ca357228e26c6715ecbfde9c32bbc4d67b2",
+    "toGitRev": "4379aa628441f098f34688b0f7437895be68eeb1",
+    "fromGitWorkingDirectory": "rollup-original"
+  },
+  {
+    "id": "bqyu9eqtwp",
+    "fromPath": "rollup-original/docs/configuration-options/index.md",
+    "toPath": "docs/configuration-options/index.md",
+    "fromRange": [
+      1478,
+      1499
+    ],
+    "toRange": [
+      1478,
+      1499
+    ],
+    "fromGitRev": "48553ca357228e26c6715ecbfde9c32bbc4d67b2",
+    "toGitRev": "4379aa628441f098f34688b0f7437895be68eeb1",
+    "fromGitWorkingDirectory": "rollup-original"
+  },
+  {
+    "id": "mgnl24jhj8",
+    "fromPath": "rollup-original/docs/configuration-options/index.md",
+    "toPath": "docs/configuration-options/index.md",
+    "fromRange": [
+      1501,
+      1518
+    ],
+    "toRange": [
+      1501,
+      1518
+    ],
+    "fromGitRev": "48553ca357228e26c6715ecbfde9c32bbc4d67b2",
+    "toGitRev": "4379aa628441f098f34688b0f7437895be68eeb1",
+    "fromGitWorkingDirectory": "rollup-original"
+  },
+  {
+    "id": "b97isdnxm8",
+    "fromPath": "rollup-original/docs/configuration-options/index.md",
+    "toPath": "docs/configuration-options/index.md",
+    "fromRange": [
+      1520,
+      1537
+    ],
+    "toRange": [
+      1520,
+      1537
+    ],
+    "fromGitRev": "48553ca357228e26c6715ecbfde9c32bbc4d67b2",
+    "toGitRev": "4379aa628441f098f34688b0f7437895be68eeb1",
+    "fromGitWorkingDirectory": "rollup-original"
+  },
+  {
+    "id": "2glmu2xmwz",
+    "fromPath": "rollup-original/docs/configuration-options/index.md",
+    "toPath": "docs/configuration-options/index.md",
+    "fromRange": [
+      1539,
+      1549
+    ],
+    "toRange": [
+      1539,
+      1549
+    ],
+    "fromGitRev": "48553ca357228e26c6715ecbfde9c32bbc4d67b2",
+    "toGitRev": "4379aa628441f098f34688b0f7437895be68eeb1",
+    "fromGitWorkingDirectory": "rollup-original"
+  },
+  {
+    "id": "bye0zw3r99",
+    "fromPath": "rollup-original/docs/configuration-options/index.md",
+    "toPath": "docs/configuration-options/index.md",
+    "fromRange": [
+      1551,
+      1604
+    ],
+    "toRange": [
+      1551,
+      1604
+    ],
+    "fromGitRev": "48553ca357228e26c6715ecbfde9c32bbc4d67b2",
+    "toGitRev": "4379aa628441f098f34688b0f7437895be68eeb1",
+    "fromGitWorkingDirectory": "rollup-original"
+  },
+  {
+    "id": "5oyz31estq",
+    "fromPath": "rollup-original/docs/configuration-options/index.md",
+    "toPath": "docs/configuration-options/index.md",
+    "fromRange": [
+      1606,
+      1634
+    ],
+    "toRange": [
+      1606,
+      1634
+    ],
+    "fromGitRev": "48553ca357228e26c6715ecbfde9c32bbc4d67b2",
+    "toGitRev": "4379aa628441f098f34688b0f7437895be68eeb1",
+    "fromGitWorkingDirectory": "rollup-original"
+  },
+  {
+    "id": "bm0p4oh707",
+    "fromPath": "rollup-original/docs/configuration-options/index.md",
+    "toPath": "docs/configuration-options/index.md",
+    "fromRange": [
+      1636,
+      1640
+    ],
+    "toRange": [
+      1636,
+      1640
+    ],
+    "fromGitRev": "48553ca357228e26c6715ecbfde9c32bbc4d67b2",
+    "toGitRev": "4379aa628441f098f34688b0f7437895be68eeb1",
+    "fromGitWorkingDirectory": "rollup-original"
+  },
+  {
+    "id": "88c78r1sly",
+    "fromPath": "rollup-original/docs/configuration-options/index.md",
+    "toPath": "docs/configuration-options/index.md",
+    "fromRange": [
+      1642,
+      1657
+    ],
+    "toRange": [
+      1642,
+      1657
+    ],
+    "fromGitRev": "48553ca357228e26c6715ecbfde9c32bbc4d67b2",
+    "toGitRev": "4379aa628441f098f34688b0f7437895be68eeb1",
+    "fromGitWorkingDirectory": "rollup-original"
+  },
+  {
+    "id": "o5abv5fihi",
+    "fromPath": "rollup-original/docs/configuration-options/index.md",
+    "toPath": "docs/configuration-options/index.md",
+    "fromRange": [
+      1659,
+      1663
+    ],
+    "toRange": [
+      1659,
+      1663
+    ],
+    "fromGitRev": "48553ca357228e26c6715ecbfde9c32bbc4d67b2",
+    "toGitRev": "4379aa628441f098f34688b0f7437895be68eeb1",
+    "fromGitWorkingDirectory": "rollup-original"
+  },
+  {
+    "id": "fxzqr3fucu",
+    "fromPath": "rollup-original/docs/configuration-options/index.md",
+    "toPath": "docs/configuration-options/index.md",
+    "fromRange": [
+      1665,
+      1671
+    ],
+    "toRange": [
+      1665,
+      1671
+    ],
+    "fromGitRev": "48553ca357228e26c6715ecbfde9c32bbc4d67b2",
+    "toGitRev": "4379aa628441f098f34688b0f7437895be68eeb1",
+    "fromGitWorkingDirectory": "rollup-original"
+  },
+  {
+    "id": "ouhespy4a8",
+    "fromPath": "rollup-original/docs/configuration-options/index.md",
+    "toPath": "docs/configuration-options/index.md",
+    "fromRange": [
+      1673,
+      1677
+    ],
+    "toRange": [
+      1673,
+      1677
+    ],
+    "fromGitRev": "48553ca357228e26c6715ecbfde9c32bbc4d67b2",
+    "toGitRev": "4379aa628441f098f34688b0f7437895be68eeb1",
+    "fromGitWorkingDirectory": "rollup-original"
+  },
+  {
+    "id": "686xa5ct9p",
+    "fromPath": "rollup-original/docs/configuration-options/index.md",
+    "toPath": "docs/configuration-options/index.md",
+    "fromRange": [
+      1679,
+      1683
+    ],
+    "toRange": [
+      1679,
+      1683
+    ],
+    "fromGitRev": "48553ca357228e26c6715ecbfde9c32bbc4d67b2",
+    "toGitRev": "4379aa628441f098f34688b0f7437895be68eeb1",
+    "fromGitWorkingDirectory": "rollup-original"
+  },
+  {
+    "id": "bof3yz0ajg",
+    "fromPath": "rollup-original/docs/configuration-options/index.md",
+    "toPath": "docs/configuration-options/index.md",
+    "fromRange": [
+      1685,
+      1709
+    ],
+    "toRange": [
+      1685,
+      1709
+    ],
+    "fromGitRev": "48553ca357228e26c6715ecbfde9c32bbc4d67b2",
+    "toGitRev": "4379aa628441f098f34688b0f7437895be68eeb1",
+    "fromGitWorkingDirectory": "rollup-original"
+  },
+  {
+    "id": "pb6momwhk2",
+    "fromPath": "rollup-original/docs/configuration-options/index.md",
+    "toPath": "docs/configuration-options/index.md",
+    "fromRange": [
+      1711,
+      1715
+    ],
+    "toRange": [
+      1711,
+      1715
+    ],
+    "fromGitRev": "48553ca357228e26c6715ecbfde9c32bbc4d67b2",
+    "toGitRev": "4379aa628441f098f34688b0f7437895be68eeb1",
+    "fromGitWorkingDirectory": "rollup-original"
+  },
+  {
+    "id": "t1a2cuckq0",
+    "fromPath": "rollup-original/docs/configuration-options/index.md",
+    "toPath": "docs/configuration-options/index.md",
+    "fromRange": [
+      1717,
+      1732
+    ],
+    "toRange": [
+      1717,
+      1732
+    ],
+    "fromGitRev": "48553ca357228e26c6715ecbfde9c32bbc4d67b2",
+    "toGitRev": "4379aa628441f098f34688b0f7437895be68eeb1",
+    "fromGitWorkingDirectory": "rollup-original"
+  },
+  {
+    "id": "c6zhtemj2z",
+    "fromPath": "rollup-original/docs/configuration-options/index.md",
+    "toPath": "docs/configuration-options/index.md",
+    "fromRange": [
+      1734,
+      1750
+    ],
+    "toRange": [
+      1734,
+      1750
+    ],
+    "fromGitRev": "48553ca357228e26c6715ecbfde9c32bbc4d67b2",
+    "toGitRev": "4379aa628441f098f34688b0f7437895be68eeb1",
+    "fromGitWorkingDirectory": "rollup-original"
+  },
+  {
+    "id": "4wtz05i58z",
+    "fromPath": "rollup-original/docs/configuration-options/index.md",
+    "toPath": "docs/configuration-options/index.md",
+    "fromRange": [
+      1752,
+      1779
+    ],
+    "toRange": [
+      1752,
+      1779
+    ],
+    "fromGitRev": "48553ca357228e26c6715ecbfde9c32bbc4d67b2",
+    "toGitRev": "4379aa628441f098f34688b0f7437895be68eeb1",
+    "fromGitWorkingDirectory": "rollup-original"
+  },
+  {
+    "id": "kkko6y6tz7",
+    "fromPath": "rollup-original/docs/configuration-options/index.md",
+    "toPath": "docs/configuration-options/index.md",
+    "fromRange": [
+      1781,
+      1812
+    ],
+    "toRange": [
+      1781,
+      1812
+    ],
+    "fromGitRev": "48553ca357228e26c6715ecbfde9c32bbc4d67b2",
+    "toGitRev": "4379aa628441f098f34688b0f7437895be68eeb1",
+    "fromGitWorkingDirectory": "rollup-original"
+  },
+  {
+    "id": "5anrmzh1yz",
+    "fromPath": "rollup-original/docs/configuration-options/index.md",
+    "toPath": "docs/configuration-options/index.md",
+    "fromRange": [
+      1814,
+      1898
+    ],
+    "toRange": [
+      1814,
+      1898
+    ],
+    "fromGitRev": "48553ca357228e26c6715ecbfde9c32bbc4d67b2",
+    "toGitRev": "4379aa628441f098f34688b0f7437895be68eeb1",
+    "fromGitWorkingDirectory": "rollup-original"
+  },
+  {
+    "id": "s4g3hgc5fk",
+    "fromPath": "rollup-original/docs/configuration-options/index.md",
+    "toPath": "docs/configuration-options/index.md",
+    "fromRange": [
+      1900,
+      1914
+    ],
+    "toRange": [
+      1900,
+      1914
+    ],
+    "fromGitRev": "48553ca357228e26c6715ecbfde9c32bbc4d67b2",
+    "toGitRev": "4379aa628441f098f34688b0f7437895be68eeb1",
+    "fromGitWorkingDirectory": "rollup-original"
+  },
+  {
+    "id": "majl49gnya",
+    "fromPath": "rollup-original/docs/configuration-options/index.md",
+    "toPath": "docs/configuration-options/index.md",
+    "fromRange": [
+      1916,
+      1936
+    ],
+    "toRange": [
+      1916,
+      1936
+    ],
+    "fromGitRev": "48553ca357228e26c6715ecbfde9c32bbc4d67b2",
+    "toGitRev": "4379aa628441f098f34688b0f7437895be68eeb1",
+    "fromGitWorkingDirectory": "rollup-original"
+  },
+  {
+    "id": "j1t19rkgjl",
+    "fromPath": "rollup-original/docs/configuration-options/index.md",
+    "toPath": "docs/configuration-options/index.md",
+    "fromRange": [
+      1938,
+      1974
+    ],
+    "toRange": [
+      1938,
+      1974
+    ],
+    "fromGitRev": "48553ca357228e26c6715ecbfde9c32bbc4d67b2",
+    "toGitRev": "4379aa628441f098f34688b0f7437895be68eeb1",
+    "fromGitWorkingDirectory": "rollup-original"
+  },
+  {
+    "id": "3op0wzcc4c",
+    "fromPath": "rollup-original/docs/configuration-options/index.md",
+    "toPath": "docs/configuration-options/index.md",
+    "fromRange": [
+      1976,
+      1996
+    ],
+    "toRange": [
+      1976,
+      1996
+    ],
+    "fromGitRev": "48553ca357228e26c6715ecbfde9c32bbc4d67b2",
+    "toGitRev": "4379aa628441f098f34688b0f7437895be68eeb1",
+    "fromGitWorkingDirectory": "rollup-original"
+  },
+  {
+    "id": "i5etsux7xr",
+    "fromPath": "rollup-original/docs/configuration-options/index.md",
+    "toPath": "docs/configuration-options/index.md",
+    "fromRange": [
+      1998,
+      2000
+    ],
+    "toRange": [
+      1998,
+      2000
+    ],
+    "fromGitRev": "48553ca357228e26c6715ecbfde9c32bbc4d67b2",
+    "toGitRev": "4379aa628441f098f34688b0f7437895be68eeb1",
+    "fromGitWorkingDirectory": "rollup-original"
+  },
+  {
+    "id": "shfsewvf05",
+    "fromPath": "rollup-original/docs/configuration-options/index.md",
+    "toPath": "docs/configuration-options/index.md",
+    "fromRange": [
+      2002,
+      2006
+    ],
+    "toRange": [
+      2002,
+      2006
+    ],
+    "fromGitRev": "48553ca357228e26c6715ecbfde9c32bbc4d67b2",
+    "toGitRev": "4379aa628441f098f34688b0f7437895be68eeb1",
+    "fromGitWorkingDirectory": "rollup-original"
+  },
+  {
+    "id": "2898iinlsz",
+    "fromPath": "rollup-original/docs/configuration-options/index.md",
+    "toPath": "docs/configuration-options/index.md",
+    "fromRange": [
+      2008,
+      2016
+    ],
+    "toRange": [
+      2008,
+      2016
+    ],
+    "fromGitRev": "48553ca357228e26c6715ecbfde9c32bbc4d67b2",
+    "toGitRev": "4379aa628441f098f34688b0f7437895be68eeb1",
+    "fromGitWorkingDirectory": "rollup-original"
+  },
+  {
+    "id": "qfutqgv8fa",
+    "fromPath": "rollup-original/docs/configuration-options/index.md",
+    "toPath": "docs/configuration-options/index.md",
+    "fromRange": [
+      2018,
+      2035
+    ],
+    "toRange": [
+      2018,
+      2035
+    ],
+    "fromGitRev": "48553ca357228e26c6715ecbfde9c32bbc4d67b2",
+    "toGitRev": "4379aa628441f098f34688b0f7437895be68eeb1",
+    "fromGitWorkingDirectory": "rollup-original"
+  },
+  {
+    "id": "cdxfjn7snm",
+    "fromPath": "rollup-original/docs/configuration-options/index.md",
+    "toPath": "docs/configuration-options/index.md",
+    "fromRange": [
+      2037,
+      2058
+    ],
+    "toRange": [
+      2037,
+      2058
+    ],
+    "fromGitRev": "48553ca357228e26c6715ecbfde9c32bbc4d67b2",
+    "toGitRev": "4379aa628441f098f34688b0f7437895be68eeb1",
+    "fromGitWorkingDirectory": "rollup-original"
+  },
+  {
+    "id": "6m4verje6i",
+    "fromPath": "rollup-original/docs/configuration-options/index.md",
+    "toPath": "docs/configuration-options/index.md",
+    "fromRange": [
+      2060,
+      2064
+    ],
+    "toRange": [
+      2060,
+      2064
+    ],
+    "fromGitRev": "48553ca357228e26c6715ecbfde9c32bbc4d67b2",
+    "toGitRev": "4379aa628441f098f34688b0f7437895be68eeb1",
+    "fromGitWorkingDirectory": "rollup-original"
+  },
+  {
+    "id": "ihiazcdd4h",
+    "fromPath": "rollup-original/docs/configuration-options/index.md",
+    "toPath": "docs/configuration-options/index.md",
+    "fromRange": [
+      2066,
+      2070
+    ],
+    "toRange": [
+      2066,
+      2070
+    ],
+    "fromGitRev": "48553ca357228e26c6715ecbfde9c32bbc4d67b2",
+    "toGitRev": "4379aa628441f098f34688b0f7437895be68eeb1",
+    "fromGitWorkingDirectory": "rollup-original"
+  },
+  {
+    "id": "c33v0jy9k9",
+    "fromPath": "rollup-original/docs/configuration-options/index.md",
+    "toPath": "docs/configuration-options/index.md",
+    "fromRange": [
+      2072,
+      2076
+    ],
+    "toRange": [
+      2072,
+      2076
+    ],
+    "fromGitRev": "48553ca357228e26c6715ecbfde9c32bbc4d67b2",
+    "toGitRev": "4379aa628441f098f34688b0f7437895be68eeb1",
+    "fromGitWorkingDirectory": "rollup-original"
+  },
+  {
+    "id": "xkil6gxwxh",
+    "fromPath": "rollup-original/docs/configuration-options/index.md",
+    "toPath": "docs/configuration-options/index.md",
+    "fromRange": [
+      2078,
+      2092
+    ],
+    "toRange": [
+      2078,
+      2092
+    ],
+    "fromGitRev": "48553ca357228e26c6715ecbfde9c32bbc4d67b2",
+    "toGitRev": "4379aa628441f098f34688b0f7437895be68eeb1",
+    "fromGitWorkingDirectory": "rollup-original"
+  },
+  {
+    "id": "qdpd95n5f5",
+    "fromPath": "rollup-original/docs/configuration-options/index.md",
+    "toPath": "docs/configuration-options/index.md",
+    "fromRange": [
+      2094,
+      2108
+    ],
+    "toRange": [
+      2094,
+      2108
+    ],
+    "fromGitRev": "48553ca357228e26c6715ecbfde9c32bbc4d67b2",
+    "toGitRev": "4379aa628441f098f34688b0f7437895be68eeb1",
+    "fromGitWorkingDirectory": "rollup-original"
+  },
+  {
+    "id": "bzyp5o48j4",
+    "fromPath": "rollup-original/docs/configuration-options/index.md",
+    "toPath": "docs/configuration-options/index.md",
+    "fromRange": [
+      2110,
+      2114
+    ],
+    "toRange": [
+      2110,
+      2114
+    ],
+    "fromGitRev": "48553ca357228e26c6715ecbfde9c32bbc4d67b2",
+    "toGitRev": "4379aa628441f098f34688b0f7437895be68eeb1",
+    "fromGitWorkingDirectory": "rollup-original"
+  },
+  {
+    "id": "gsbgcmyoej",
+    "fromPath": "rollup-original/docs/configuration-options/index.md",
+    "toPath": "docs/configuration-options/index.md",
+    "fromRange": [
+      2116,
+      2118
+    ],
+    "toRange": [
+      2116,
+      2118
+    ],
+    "fromGitRev": "48553ca357228e26c6715ecbfde9c32bbc4d67b2",
+    "toGitRev": "4379aa628441f098f34688b0f7437895be68eeb1",
+    "fromGitWorkingDirectory": "rollup-original"
+  },
+  {
+    "id": "1jtaa0xinx",
+    "fromPath": "rollup-original/docs/configuration-options/index.md",
+    "toPath": "docs/configuration-options/index.md",
+    "fromRange": [
+      2120,
+      2122
+    ],
+    "toRange": [
+      2120,
+      2122
+    ],
+    "fromGitRev": "48553ca357228e26c6715ecbfde9c32bbc4d67b2",
+    "toGitRev": "4379aa628441f098f34688b0f7437895be68eeb1",
+    "fromGitWorkingDirectory": "rollup-original"
+  },
+  {
+    "id": "qahs2go345",
+    "fromPath": "rollup-original/docs/configuration-options/index.md",
+    "toPath": "docs/configuration-options/index.md",
+    "fromRange": [
+      2124,
+      2126
+    ],
+    "toRange": [
+      2124,
+      2126
+    ],
+    "fromGitRev": "48553ca357228e26c6715ecbfde9c32bbc4d67b2",
+    "toGitRev": "4379aa628441f098f34688b0f7437895be68eeb1",
+    "fromGitWorkingDirectory": "rollup-original"
+  },
+  {
+    "id": "3lcmx51vqd",
+    "fromPath": "rollup-original/docs/configuration-options/index.md",
+    "toPath": "docs/configuration-options/index.md",
+    "fromRange": [
+      2128,
+      2132
+    ],
+    "toRange": [
+      2128,
+      2132
+    ],
+    "fromGitRev": "48553ca357228e26c6715ecbfde9c32bbc4d67b2",
+    "toGitRev": "4379aa628441f098f34688b0f7437895be68eeb1",
+    "fromGitWorkingDirectory": "rollup-original"
+  },
+  {
+    "id": "7p9jh6qzqq",
+    "fromPath": "rollup-original/docs/configuration-options/index.md",
+    "toPath": "docs/configuration-options/index.md",
+    "fromRange": [
+      2134,
+      2138
+    ],
+    "toRange": [
+      2134,
+      2138
+    ],
+    "fromGitRev": "48553ca357228e26c6715ecbfde9c32bbc4d67b2",
+    "toGitRev": "4379aa628441f098f34688b0f7437895be68eeb1",
+    "fromGitWorkingDirectory": "rollup-original"
+  },
+  {
+    "id": "fynlmvjjhn",
+    "fromPath": "rollup-original/docs/configuration-options/index.md",
+    "toPath": "docs/configuration-options/index.md",
+    "fromRange": [
+      2140,
+      2144
+    ],
+    "toRange": [
+      2140,
+      2144
+    ],
+    "fromGitRev": "48553ca357228e26c6715ecbfde9c32bbc4d67b2",
+    "toGitRev": "4379aa628441f098f34688b0f7437895be68eeb1",
+    "fromGitWorkingDirectory": "rollup-original"
+  },
+  {
+    "id": "09bimvzx79",
+    "fromPath": "rollup-original/docs/configuration-options/index.md",
+    "toPath": "docs/configuration-options/index.md",
+    "fromRange": [
+      2146,
+      2157
+    ],
+    "toRange": [
+      2146,
+      2157
+    ],
+    "fromGitRev": "48553ca357228e26c6715ecbfde9c32bbc4d67b2",
+    "toGitRev": "4379aa628441f098f34688b0f7437895be68eeb1",
+    "fromGitWorkingDirectory": "rollup-original"
+  },
+  {
+    "id": "fjqxt3u5j7",
+    "fromPath": "rollup-original/docs/configuration-options/index.md",
+    "toPath": "docs/configuration-options/index.md",
+    "fromRange": [
+      2159,
+      2161
+    ],
+    "toRange": [
+      2159,
+      2161
+    ],
+    "fromGitRev": "48553ca357228e26c6715ecbfde9c32bbc4d67b2",
+    "toGitRev": "4379aa628441f098f34688b0f7437895be68eeb1",
+    "fromGitWorkingDirectory": "rollup-original"
+  },
+  {
+    "id": "cejjjsa4l8",
+    "fromPath": "rollup-original/docs/es-module-syntax/index.md",
+    "toPath": "docs/es-module-syntax/index.md",
+    "fromRange": [
+      1,
+      3
+    ],
+    "toRange": [
+      1,
+      3
+    ],
+    "fromGitRev": "48553ca357228e26c6715ecbfde9c32bbc4d67b2",
+    "toGitRev": "4379aa628441f098f34688b0f7437895be68eeb1",
+    "fromGitWorkingDirectory": "rollup-original"
+  },
+  {
+    "id": "9yloxwnnaz",
+    "fromPath": "rollup-original/docs/es-module-syntax/index.md",
+    "toPath": "docs/es-module-syntax/index.md",
+    "fromRange": [
+      5,
+      9
+    ],
+    "toRange": [
+      5,
+      9
+    ],
+    "fromGitRev": "48553ca357228e26c6715ecbfde9c32bbc4d67b2",
+    "toGitRev": "4379aa628441f098f34688b0f7437895be68eeb1",
+    "fromGitWorkingDirectory": "rollup-original"
+  },
+  {
+    "id": "4y32j7uxh9",
+    "fromPath": "rollup-original/docs/es-module-syntax/index.md",
+    "toPath": "docs/es-module-syntax/index.md",
+    "fromRange": [
+      11,
+      13
+    ],
+    "toRange": [
+      11,
+      13
+    ],
+    "fromGitRev": "48553ca357228e26c6715ecbfde9c32bbc4d67b2",
+    "toGitRev": "4379aa628441f098f34688b0f7437895be68eeb1",
+    "fromGitWorkingDirectory": "rollup-original"
+  },
+  {
+    "id": "3o1j2ih33j",
+    "fromPath": "rollup-original/docs/es-module-syntax/index.md",
+    "toPath": "docs/es-module-syntax/index.md",
+    "fromRange": [
+      15,
+      27
+    ],
+    "toRange": [
+      15,
+      27
+    ],
+    "fromGitRev": "48553ca357228e26c6715ecbfde9c32bbc4d67b2",
+    "toGitRev": "4379aa628441f098f34688b0f7437895be68eeb1",
+    "fromGitWorkingDirectory": "rollup-original"
+  },
+  {
+    "id": "swx5ycdw82",
+    "fromPath": "rollup-original/docs/es-module-syntax/index.md",
+    "toPath": "docs/es-module-syntax/index.md",
+    "fromRange": [
+      29,
+      37
+    ],
+    "toRange": [
+      29,
+      37
+    ],
+    "fromGitRev": "48553ca357228e26c6715ecbfde9c32bbc4d67b2",
+    "toGitRev": "4379aa628441f098f34688b0f7437895be68eeb1",
+    "fromGitWorkingDirectory": "rollup-original"
+  },
+  {
+    "id": "x9ughdbhz5",
+    "fromPath": "rollup-original/docs/es-module-syntax/index.md",
+    "toPath": "docs/es-module-syntax/index.md",
+    "fromRange": [
+      39,
+      45
+    ],
+    "toRange": [
+      39,
+      45
+    ],
+    "fromGitRev": "48553ca357228e26c6715ecbfde9c32bbc4d67b2",
+    "toGitRev": "4379aa628441f098f34688b0f7437895be68eeb1",
+    "fromGitWorkingDirectory": "rollup-original"
+  },
+  {
+    "id": "ysz26hpwzh",
+    "fromPath": "rollup-original/docs/es-module-syntax/index.md",
+    "toPath": "docs/es-module-syntax/index.md",
+    "fromRange": [
+      47,
+      55
+    ],
+    "toRange": [
+      47,
+      55
+    ],
+    "fromGitRev": "48553ca357228e26c6715ecbfde9c32bbc4d67b2",
+    "toGitRev": "4379aa628441f098f34688b0f7437895be68eeb1",
+    "fromGitWorkingDirectory": "rollup-original"
+  },
+  {
+    "id": "jsxnm45u2e",
+    "fromPath": "rollup-original/docs/es-module-syntax/index.md",
+    "toPath": "docs/es-module-syntax/index.md",
+    "fromRange": [
+      57,
+      67
+    ],
+    "toRange": [
+      57,
+      67
+    ],
+    "fromGitRev": "48553ca357228e26c6715ecbfde9c32bbc4d67b2",
+    "toGitRev": "4379aa628441f098f34688b0f7437895be68eeb1",
+    "fromGitWorkingDirectory": "rollup-original"
+  },
+  {
+    "id": "762886azav",
+    "fromPath": "rollup-original/docs/es-module-syntax/index.md",
+    "toPath": "docs/es-module-syntax/index.md",
+    "fromRange": [
+      69,
+      69
+    ],
+    "toRange": [
+      69,
+      69
+    ],
+    "fromGitRev": "48553ca357228e26c6715ecbfde9c32bbc4d67b2",
+    "toGitRev": "4379aa628441f098f34688b0f7437895be68eeb1",
+    "fromGitWorkingDirectory": "rollup-original"
+  },
+  {
+    "id": "pkssiocfgt",
+    "fromPath": "rollup-original/docs/es-module-syntax/index.md",
+    "toPath": "docs/es-module-syntax/index.md",
+    "fromRange": [
+      71,
+      91
+    ],
+    "toRange": [
+      71,
+      91
+    ],
+    "fromGitRev": "48553ca357228e26c6715ecbfde9c32bbc4d67b2",
+    "toGitRev": "4379aa628441f098f34688b0f7437895be68eeb1",
+    "fromGitWorkingDirectory": "rollup-original"
+  },
+  {
+    "id": "k5pc179v6y",
+    "fromPath": "rollup-original/docs/es-module-syntax/index.md",
+    "toPath": "docs/es-module-syntax/index.md",
+    "fromRange": [
+      93,
+      103
+    ],
+    "toRange": [
+      93,
+      103
+    ],
+    "fromGitRev": "48553ca357228e26c6715ecbfde9c32bbc4d67b2",
+    "toGitRev": "4379aa628441f098f34688b0f7437895be68eeb1",
+    "fromGitWorkingDirectory": "rollup-original"
+  },
+  {
+    "id": "tiyrkq1dbd",
+    "fromPath": "rollup-original/docs/es-module-syntax/index.md",
+    "toPath": "docs/es-module-syntax/index.md",
+    "fromRange": [
+      105,
+      127
+    ],
+    "toRange": [
+      105,
+      127
+    ],
+    "fromGitRev": "48553ca357228e26c6715ecbfde9c32bbc4d67b2",
+    "toGitRev": "4379aa628441f098f34688b0f7437895be68eeb1",
+    "fromGitWorkingDirectory": "rollup-original"
+  },
+  {
+    "id": "48572bjviz",
+    "fromPath": "rollup-original/docs/faqs/index.md",
+    "toPath": "docs/faqs/index.md",
+    "fromRange": [
+      1,
+      3
+    ],
+    "toRange": [
+      1,
+      3
+    ],
+    "fromGitRev": "48553ca357228e26c6715ecbfde9c32bbc4d67b2",
+    "toGitRev": "4379aa628441f098f34688b0f7437895be68eeb1",
+    "fromGitWorkingDirectory": "rollup-original"
+  },
+  {
+    "id": "fqc5thlljg",
+    "fromPath": "rollup-original/docs/faqs/index.md",
+    "toPath": "docs/faqs/index.md",
+    "fromRange": [
+      5,
+      7
+    ],
+    "toRange": [
+      5,
+      7
+    ],
+    "fromGitRev": "48553ca357228e26c6715ecbfde9c32bbc4d67b2",
+    "toGitRev": "4379aa628441f098f34688b0f7437895be68eeb1",
+    "fromGitWorkingDirectory": "rollup-original"
+  },
+  {
+    "id": "z8o9ig7uh1",
+    "fromPath": "rollup-original/docs/faqs/index.md",
+    "toPath": "docs/faqs/index.md",
+    "fromRange": [
+      9,
+      11
+    ],
+    "toRange": [
+      9,
+      11
+    ],
+    "fromGitRev": "48553ca357228e26c6715ecbfde9c32bbc4d67b2",
+    "toGitRev": "4379aa628441f098f34688b0f7437895be68eeb1",
+    "fromGitWorkingDirectory": "rollup-original"
+  },
+  {
+    "id": "yvubc4cphm",
+    "fromPath": "rollup-original/docs/faqs/index.md",
+    "toPath": "docs/faqs/index.md",
+    "fromRange": [
+      13,
+      15
+    ],
+    "toRange": [
+      13,
+      15
+    ],
+    "fromGitRev": "48553ca357228e26c6715ecbfde9c32bbc4d67b2",
+    "toGitRev": "4379aa628441f098f34688b0f7437895be68eeb1",
+    "fromGitWorkingDirectory": "rollup-original"
+  },
+  {
+    "id": "994tgpsopq",
+    "fromPath": "rollup-original/docs/faqs/index.md",
+    "toPath": "docs/faqs/index.md",
+    "fromRange": [
+      17,
+      19
+    ],
+    "toRange": [
+      17,
+      19
+    ],
+    "fromGitRev": "48553ca357228e26c6715ecbfde9c32bbc4d67b2",
+    "toGitRev": "4379aa628441f098f34688b0f7437895be68eeb1",
+    "fromGitWorkingDirectory": "rollup-original"
+  },
+  {
+    "id": "o65v4xrpa2",
+    "fromPath": "rollup-original/docs/faqs/index.md",
+    "toPath": "docs/faqs/index.md",
+    "fromRange": [
+      21,
+      29
+    ],
+    "toRange": [
+      21,
+      29
+    ],
+    "fromGitRev": "48553ca357228e26c6715ecbfde9c32bbc4d67b2",
+    "toGitRev": "4379aa628441f098f34688b0f7437895be68eeb1",
+    "fromGitWorkingDirectory": "rollup-original"
+  },
+  {
+    "id": "04v6y404es",
+    "fromPath": "rollup-original/docs/faqs/index.md",
+    "toPath": "docs/faqs/index.md",
+    "fromRange": [
+      31,
+      70
+    ],
+    "toRange": [
+      31,
+      70
+    ],
+    "fromGitRev": "48553ca357228e26c6715ecbfde9c32bbc4d67b2",
+    "toGitRev": "4379aa628441f098f34688b0f7437895be68eeb1",
+    "fromGitWorkingDirectory": "rollup-original"
+  },
+  {
+    "id": "c8vimcupyz",
+    "fromPath": "rollup-original/docs/faqs/index.md",
+    "toPath": "docs/faqs/index.md",
+    "fromRange": [
+      72,
+      103
+    ],
+    "toRange": [
+      72,
+      103
+    ],
+    "fromGitRev": "48553ca357228e26c6715ecbfde9c32bbc4d67b2",
+    "toGitRev": "4379aa628441f098f34688b0f7437895be68eeb1",
+    "fromGitWorkingDirectory": "rollup-original"
+  },
+  {
+    "id": "f03pqfskxm",
+    "fromPath": "rollup-original/docs/faqs/index.md",
+    "toPath": "docs/faqs/index.md",
+    "fromRange": [
+      105,
+      107
+    ],
+    "toRange": [
+      105,
+      107
+    ],
+    "fromGitRev": "48553ca357228e26c6715ecbfde9c32bbc4d67b2",
+    "toGitRev": "4379aa628441f098f34688b0f7437895be68eeb1",
+    "fromGitWorkingDirectory": "rollup-original"
+  },
+  {
+    "id": "jad1hcxkyu",
+    "fromPath": "rollup-original/docs/faqs/index.md",
+    "toPath": "docs/faqs/index.md",
+    "fromRange": [
+      109,
+      197
+    ],
+    "toRange": [
+      109,
+      197
+    ],
+    "fromGitRev": "48553ca357228e26c6715ecbfde9c32bbc4d67b2",
+    "toGitRev": "4379aa628441f098f34688b0f7437895be68eeb1",
+    "fromGitWorkingDirectory": "rollup-original"
+  },
+  {
+    "id": "4bncuo2jth",
+    "fromPath": "rollup-original/docs/faqs/index.md",
+    "toPath": "docs/faqs/index.md",
+    "fromRange": [
+      199,
+      201
+    ],
+    "toRange": [
+      199,
+      201
+    ],
+    "fromGitRev": "48553ca357228e26c6715ecbfde9c32bbc4d67b2",
+    "toGitRev": "4379aa628441f098f34688b0f7437895be68eeb1",
+    "fromGitWorkingDirectory": "rollup-original"
+  },
+  {
+    "id": "o6o9e1rbbv",
+    "fromPath": "rollup-original/docs/introduction/index.md",
+    "toPath": "docs/introduction/index.md",
+    "fromRange": [
+      1,
+      3
+    ],
+    "toRange": [
+      1,
+      3
+    ],
+    "fromGitRev": "48553ca357228e26c6715ecbfde9c32bbc4d67b2",
+    "toGitRev": "4379aa628441f098f34688b0f7437895be68eeb1",
+    "fromGitWorkingDirectory": "rollup-original"
+  },
+  {
+    "id": "m512h762z6",
+    "fromPath": "rollup-original/docs/introduction/index.md",
+    "toPath": "docs/introduction/index.md",
+    "fromRange": [
+      5,
+      7
+    ],
+    "toRange": [
+      5,
+      7
+    ],
+    "fromGitRev": "48553ca357228e26c6715ecbfde9c32bbc4d67b2",
+    "toGitRev": "4379aa628441f098f34688b0f7437895be68eeb1",
+    "fromGitWorkingDirectory": "rollup-original"
+  },
+  {
+    "id": "ns487bsi7e",
+    "fromPath": "rollup-original/docs/introduction/index.md",
+    "toPath": "docs/introduction/index.md",
+    "fromRange": [
+      9,
+      11
+    ],
+    "toRange": [
+      9,
+      11
+    ],
+    "fromGitRev": "48553ca357228e26c6715ecbfde9c32bbc4d67b2",
+    "toGitRev": "4379aa628441f098f34688b0f7437895be68eeb1",
+    "fromGitWorkingDirectory": "rollup-original"
+  },
+  {
+    "id": "z01jbnkahj",
+    "fromPath": "rollup-original/docs/introduction/index.md",
+    "toPath": "docs/introduction/index.md",
+    "fromRange": [
+      13,
+      19
+    ],
+    "toRange": [
+      13,
+      19
+    ],
+    "fromGitRev": "48553ca357228e26c6715ecbfde9c32bbc4d67b2",
+    "toGitRev": "4379aa628441f098f34688b0f7437895be68eeb1",
+    "fromGitWorkingDirectory": "rollup-original"
+  },
+  {
+    "id": "e5qkj9d9p9",
+    "fromPath": "rollup-original/docs/introduction/index.md",
+    "toPath": "docs/introduction/index.md",
+    "fromRange": [
+      21,
+      48
+    ],
+    "toRange": [
+      21,
+      48
+    ],
+    "fromGitRev": "48553ca357228e26c6715ecbfde9c32bbc4d67b2",
+    "toGitRev": "4379aa628441f098f34688b0f7437895be68eeb1",
+    "fromGitWorkingDirectory": "rollup-original"
+  },
+  {
+    "id": "72ckz568pg",
+    "fromPath": "rollup-original/docs/introduction/index.md",
+    "toPath": "docs/introduction/index.md",
+    "fromRange": [
+      50,
+      54
+    ],
+    "toRange": [
+      50,
+      54
+    ],
+    "fromGitRev": "48553ca357228e26c6715ecbfde9c32bbc4d67b2",
+    "toGitRev": "4379aa628441f098f34688b0f7437895be68eeb1",
+    "fromGitWorkingDirectory": "rollup-original"
+  },
+  {
+    "id": "q9soqrzmyt",
+    "fromPath": "rollup-original/docs/introduction/index.md",
+    "toPath": "docs/introduction/index.md",
+    "fromRange": [
+      56,
+      80
+    ],
+    "toRange": [
+      56,
+      80
+    ],
+    "fromGitRev": "48553ca357228e26c6715ecbfde9c32bbc4d67b2",
+    "toGitRev": "4379aa628441f098f34688b0f7437895be68eeb1",
+    "fromGitWorkingDirectory": "rollup-original"
+  },
+  {
+    "id": "llr4vuomb9",
+    "fromPath": "rollup-original/docs/introduction/index.md",
+    "toPath": "docs/introduction/index.md",
+    "fromRange": [
+      82,
+      82
+    ],
+    "toRange": [
+      82,
+      82
+    ],
+    "fromGitRev": "48553ca357228e26c6715ecbfde9c32bbc4d67b2",
+    "toGitRev": "4379aa628441f098f34688b0f7437895be68eeb1",
+    "fromGitWorkingDirectory": "rollup-original"
+  },
+  {
+    "id": "nspml6ptuj",
+    "fromPath": "rollup-original/docs/introduction/index.md",
+    "toPath": "docs/introduction/index.md",
+    "fromRange": [
+      84,
+      86
+    ],
+    "toRange": [
+      84,
+      86
+    ],
+    "fromGitRev": "48553ca357228e26c6715ecbfde9c32bbc4d67b2",
+    "toGitRev": "4379aa628441f098f34688b0f7437895be68eeb1",
+    "fromGitWorkingDirectory": "rollup-original"
+  },
+  {
+    "id": "vah2trvq6y",
+    "fromPath": "rollup-original/docs/introduction/index.md",
+    "toPath": "docs/introduction/index.md",
+    "fromRange": [
+      88,
+      90
+    ],
+    "toRange": [
+      88,
+      90
+    ],
+    "fromGitRev": "48553ca357228e26c6715ecbfde9c32bbc4d67b2",
+    "toGitRev": "4379aa628441f098f34688b0f7437895be68eeb1",
+    "fromGitWorkingDirectory": "rollup-original"
+  },
+  {
+    "id": "m1il9i174k",
+    "fromPath": "rollup-original/docs/javascript-api/index.md",
+    "toPath": "docs/javascript-api/index.md",
+    "fromRange": [
+      1,
+      3
+    ],
+    "toRange": [
+      1,
+      3
+    ],
+    "fromGitRev": "48553ca357228e26c6715ecbfde9c32bbc4d67b2",
+    "toGitRev": "4379aa628441f098f34688b0f7437895be68eeb1",
+    "fromGitWorkingDirectory": "rollup-original"
+  },
+  {
+    "id": "eu3rxilgiq",
+    "fromPath": "rollup-original/docs/javascript-api/index.md",
+    "toPath": "docs/javascript-api/index.md",
+    "fromRange": [
+      5,
+      9
+    ],
+    "toRange": [
+      5,
+      9
+    ],
+    "fromGitRev": "48553ca357228e26c6715ecbfde9c32bbc4d67b2",
+    "toGitRev": "4379aa628441f098f34688b0f7437895be68eeb1",
+    "fromGitWorkingDirectory": "rollup-original"
+  },
+  {
+    "id": "pgsboav764",
+    "fromPath": "rollup-original/docs/javascript-api/index.md",
+    "toPath": "docs/javascript-api/index.md",
+    "fromRange": [
+      11,
+      105
+    ],
+    "toRange": [
+      11,
+      104
+    ],
+    "fromGitRev": "48553ca357228e26c6715ecbfde9c32bbc4d67b2",
+    "toGitRev": "4379aa628441f098f34688b0f7437895be68eeb1",
+    "fromGitWorkingDirectory": "rollup-original"
+  },
+  {
+    "id": "vdlpeoe3r4",
+    "fromPath": "rollup-original/docs/javascript-api/index.md",
+    "toPath": "docs/javascript-api/index.md",
+    "fromRange": [
+      107,
+      137
+    ],
+    "toRange": [
+      106,
+      136
+    ],
+    "fromGitRev": "48553ca357228e26c6715ecbfde9c32bbc4d67b2",
+    "toGitRev": "4379aa628441f098f34688b0f7437895be68eeb1",
+    "fromGitWorkingDirectory": "rollup-original"
+  },
+  {
+    "id": "ykphsyw21h",
+    "fromPath": "rollup-original/docs/javascript-api/index.md",
+    "toPath": "docs/javascript-api/index.md",
+    "fromRange": [
+      139,
+      191
+    ],
+    "toRange": [
+      138,
+      190
+    ],
+    "fromGitRev": "48553ca357228e26c6715ecbfde9c32bbc4d67b2",
+    "toGitRev": "4379aa628441f098f34688b0f7437895be68eeb1",
+    "fromGitWorkingDirectory": "rollup-original"
+  },
+  {
+    "id": "imyijxiqta",
+    "fromPath": "rollup-original/docs/javascript-api/index.md",
+    "toPath": "docs/javascript-api/index.md",
+    "fromRange": [
+      193,
+      249
+    ],
+    "toRange": [
+      192,
+      248
+    ],
+    "fromGitRev": "48553ca357228e26c6715ecbfde9c32bbc4d67b2",
+    "toGitRev": "4379aa628441f098f34688b0f7437895be68eeb1",
+    "fromGitWorkingDirectory": "rollup-original"
+  },
+  {
+    "id": "sgt9r8oylm",
+    "fromPath": "rollup-original/docs/javascript-api/index.md",
+    "toPath": "docs/javascript-api/index.md",
+    "fromRange": [
+      251,
+      270
+    ],
+    "toRange": [
+      250,
+      269
+    ],
+    "fromGitRev": "48553ca357228e26c6715ecbfde9c32bbc4d67b2",
+    "toGitRev": "4379aa628441f098f34688b0f7437895be68eeb1",
+    "fromGitWorkingDirectory": "rollup-original"
+  },
+  {
+    "id": "hnlefcutvt",
+    "fromPath": "rollup-original/docs/javascript-api/index.md",
+    "toPath": "docs/javascript-api/index.md",
+    "fromRange": [
+      272,
+      306
+    ],
+    "toRange": [
+      271,
+      305
+    ],
+    "fromGitRev": "48553ca357228e26c6715ecbfde9c32bbc4d67b2",
+    "toGitRev": "4379aa628441f098f34688b0f7437895be68eeb1",
+    "fromGitWorkingDirectory": "rollup-original"
+  },
+  {
+    "id": "w3kikhvect",
+    "fromPath": "rollup-original/docs/migration/index.md",
+    "toPath": "docs/migration/index.md",
+    "fromRange": [
+      1,
+      3
+    ],
+    "toRange": [
+      1,
+      3
+    ],
+    "fromGitRev": "48553ca357228e26c6715ecbfde9c32bbc4d67b2",
+    "toGitRev": "4379aa628441f098f34688b0f7437895be68eeb1",
+    "fromGitWorkingDirectory": "rollup-original"
+  },
+  {
+    "id": "367jjy7jmm",
+    "fromPath": "rollup-original/docs/migration/index.md",
+    "toPath": "docs/migration/index.md",
+    "fromRange": [
+      5,
+      16
+    ],
+    "toRange": [
+      5,
+      16
+    ],
+    "fromGitRev": "48553ca357228e26c6715ecbfde9c32bbc4d67b2",
+    "toGitRev": "4379aa628441f098f34688b0f7437895be68eeb1",
+    "fromGitWorkingDirectory": "rollup-original"
+  },
+  {
+    "id": "pmlo31yebs",
+    "fromPath": "rollup-original/docs/migration/index.md",
+    "toPath": "docs/migration/index.md",
+    "fromRange": [
+      18,
+      22
+    ],
+    "toRange": [
+      18,
+      22
+    ],
+    "fromGitRev": "48553ca357228e26c6715ecbfde9c32bbc4d67b2",
+    "toGitRev": "4379aa628441f098f34688b0f7437895be68eeb1",
+    "fromGitWorkingDirectory": "rollup-original"
+  },
+  {
+    "id": "sp6eepkc2k",
+    "fromPath": "rollup-original/docs/migration/index.md",
+    "toPath": "docs/migration/index.md",
+    "fromRange": [
+      24,
+      39
+    ],
+    "toRange": [
+      24,
+      39
+    ],
+    "fromGitRev": "48553ca357228e26c6715ecbfde9c32bbc4d67b2",
+    "toGitRev": "4379aa628441f098f34688b0f7437895be68eeb1",
+    "fromGitWorkingDirectory": "rollup-original"
+  },
+  {
+    "id": "0tb65hhawq",
+    "fromPath": "rollup-original/docs/migration/index.md",
+    "toPath": "docs/migration/index.md",
+    "fromRange": [
+      41,
+      60
+    ],
+    "toRange": [
+      41,
+      60
+    ],
+    "fromGitRev": "48553ca357228e26c6715ecbfde9c32bbc4d67b2",
+    "toGitRev": "4379aa628441f098f34688b0f7437895be68eeb1",
+    "fromGitWorkingDirectory": "rollup-original"
+  },
+  {
+    "id": "hycoghy0dm",
+    "fromPath": "rollup-original/docs/migration/index.md",
+    "toPath": "docs/migration/index.md",
+    "fromRange": [
+      62,
+      66
+    ],
+    "toRange": [
+      62,
+      66
+    ],
+    "fromGitRev": "48553ca357228e26c6715ecbfde9c32bbc4d67b2",
+    "toGitRev": "4379aa628441f098f34688b0f7437895be68eeb1",
+    "fromGitWorkingDirectory": "rollup-original"
+  },
+  {
+    "id": "3q7hg93or9",
+    "fromPath": "rollup-original/docs/migration/index.md",
+    "toPath": "docs/migration/index.md",
+    "fromRange": [
+      68,
+      70
+    ],
+    "toRange": [
+      68,
+      70
+    ],
+    "fromGitRev": "48553ca357228e26c6715ecbfde9c32bbc4d67b2",
+    "toGitRev": "4379aa628441f098f34688b0f7437895be68eeb1",
+    "fromGitWorkingDirectory": "rollup-original"
+  },
+  {
+    "id": "3vw2b15rz8",
+    "fromPath": "rollup-original/docs/migration/index.md",
+    "toPath": "docs/migration/index.md",
+    "fromRange": [
+      72,
+      78
+    ],
+    "toRange": [
+      72,
+      78
+    ],
+    "fromGitRev": "48553ca357228e26c6715ecbfde9c32bbc4d67b2",
+    "toGitRev": "4379aa628441f098f34688b0f7437895be68eeb1",
+    "fromGitWorkingDirectory": "rollup-original"
+  },
+  {
+    "id": "kj3wp4kqtp",
+    "fromPath": "rollup-original/docs/plugin-development/index.md",
+    "toPath": "docs/plugin-development/index.md",
+    "state":"to-be-translated",
+    "fromRange": [
+      1,
+      3
+    ],
+    "toRange": [
+      1,
+      3
+    ],
+    "fromGitRev": "48553ca357228e26c6715ecbfde9c32bbc4d67b2",
+    "toGitRev": "4379aa628441f098f34688b0f7437895be68eeb1",
+    "fromGitWorkingDirectory": "rollup-original"
+  },
+  {
+    "id": "hs8as168x8",
+    "fromPath": "rollup-original/docs/plugin-development/index.md",
+    "toPath": "docs/plugin-development/index.md",
+    "state":"to-be-translated",
+    "fromRange": [
+      5,
+      7
+    ],
+    "toRange": [
+      5,
+      7
+    ],
+    "fromGitRev": "48553ca357228e26c6715ecbfde9c32bbc4d67b2",
+    "toGitRev": "4379aa628441f098f34688b0f7437895be68eeb1",
+    "fromGitWorkingDirectory": "rollup-original"
+  },
+  {
+    "id": "t4f5a25io9",
+    "fromPath": "rollup-original/docs/plugin-development/index.md",
+    "toPath": "docs/plugin-development/index.md",
+    "state":"to-be-translated",
+    "fromRange": [
+      9,
+      15
+    ],
+    "toRange": [
+      9,
+      15
+    ],
+    "fromGitRev": "48553ca357228e26c6715ecbfde9c32bbc4d67b2",
+    "toGitRev": "4379aa628441f098f34688b0f7437895be68eeb1",
+    "fromGitWorkingDirectory": "rollup-original"
+  },
+  {
+    "id": "y1st238p7n",
+    "fromPath": "rollup-original/docs/plugin-development/index.md",
+    "toPath": "docs/plugin-development/index.md",
+    "state":"to-be-translated",
+    "fromRange": [
+      17,
+      54
+    ],
+    "toRange": [
+      17,
+      54
+    ],
+    "fromGitRev": "48553ca357228e26c6715ecbfde9c32bbc4d67b2",
+    "toGitRev": "4379aa628441f098f34688b0f7437895be68eeb1",
+    "fromGitWorkingDirectory": "rollup-original"
+  },
+  {
+    "id": "g7zuk6eflv",
+    "fromPath": "rollup-original/docs/plugin-development/index.md",
+    "toPath": "docs/plugin-development/index.md",
+    "state":"to-be-translated",
+    "fromRange": [
+      56,
+      64
+    ],
+    "toRange": [
+      56,
+      64
+    ],
+    "fromGitRev": "48553ca357228e26c6715ecbfde9c32bbc4d67b2",
+    "toGitRev": "4379aa628441f098f34688b0f7437895be68eeb1",
+    "fromGitWorkingDirectory": "rollup-original"
+  },
+  {
+    "id": "62qxz1c1gd",
+    "fromPath": "rollup-original/docs/plugin-development/index.md",
+    "toPath": "docs/plugin-development/index.md",
+    "state":"to-be-translated",
+    "fromRange": [
+      66,
+      66
+    ],
+    "toRange": [
+      66,
+      66
+    ],
+    "fromGitRev": "48553ca357228e26c6715ecbfde9c32bbc4d67b2",
+    "toGitRev": "4379aa628441f098f34688b0f7437895be68eeb1",
+    "fromGitWorkingDirectory": "rollup-original"
+  },
+  {
+    "id": "kuc7s3user",
+    "fromPath": "rollup-original/docs/plugin-development/index.md",
+    "toPath": "docs/plugin-development/index.md",
+    "state":"to-be-translated",
+    "fromRange": [
+      68,
+      72
+    ],
+    "toRange": [
+      68,
+      72
+    ],
+    "fromGitRev": "48553ca357228e26c6715ecbfde9c32bbc4d67b2",
+    "toGitRev": "4379aa628441f098f34688b0f7437895be68eeb1",
+    "fromGitWorkingDirectory": "rollup-original"
+  },
+  {
+    "id": "xqmtm296ti",
+    "fromPath": "rollup-original/docs/plugin-development/index.md",
+    "toPath": "docs/plugin-development/index.md",
+    "state":"to-be-translated",
+    "fromRange": [
+      74,
+      78
+    ],
+    "toRange": [
+      74,
+      78
+    ],
+    "fromGitRev": "48553ca357228e26c6715ecbfde9c32bbc4d67b2",
+    "toGitRev": "4379aa628441f098f34688b0f7437895be68eeb1",
+    "fromGitWorkingDirectory": "rollup-original"
+  },
+  {
+    "id": "30lg3w5inm",
+    "fromPath": "rollup-original/docs/plugin-development/index.md",
+    "toPath": "docs/plugin-development/index.md",
+    "state":"to-be-translated",
+    "fromRange": [
+      80,
+      253
+    ],
+    "toRange": [
+      80,
+      253
+    ],
+    "fromGitRev": "48553ca357228e26c6715ecbfde9c32bbc4d67b2",
+    "toGitRev": "4379aa628441f098f34688b0f7437895be68eeb1",
+    "fromGitWorkingDirectory": "rollup-original"
+  },
+  {
+    "id": "wexso0gtqu",
+    "fromPath": "rollup-original/docs/plugin-development/index.md",
+    "toPath": "docs/plugin-development/index.md",
+    "state":"to-be-translated",
+    "fromRange": [
+      255,
+      259
+    ],
+    "toRange": [
+      255,
+      259
+    ],
+    "fromGitRev": "48553ca357228e26c6715ecbfde9c32bbc4d67b2",
+    "toGitRev": "4379aa628441f098f34688b0f7437895be68eeb1",
+    "fromGitWorkingDirectory": "rollup-original"
+  },
+  {
+    "id": "bsq9htfhn0",
+    "fromPath": "rollup-original/docs/plugin-development/index.md",
+    "toPath": "docs/plugin-development/index.md",
+    "state":"to-be-translated",
+    "fromRange": [
+      261,
+      265
+    ],
+    "toRange": [
+      261,
+      265
+    ],
+    "fromGitRev": "48553ca357228e26c6715ecbfde9c32bbc4d67b2",
+    "toGitRev": "4379aa628441f098f34688b0f7437895be68eeb1",
+    "fromGitWorkingDirectory": "rollup-original"
+  },
+  {
+    "id": "g37b2xa37g",
+    "fromPath": "rollup-original/docs/plugin-development/index.md",
+    "toPath": "docs/plugin-development/index.md",
+    "state":"to-be-translated",
+    "fromRange": [
+      267,
+      271
+    ],
+    "toRange": [
+      267,
+      271
+    ],
+    "fromGitRev": "48553ca357228e26c6715ecbfde9c32bbc4d67b2",
+    "toGitRev": "4379aa628441f098f34688b0f7437895be68eeb1",
+    "fromGitWorkingDirectory": "rollup-original"
+  },
+  {
+    "id": "25j6bso8dg",
+    "fromPath": "rollup-original/docs/plugin-development/index.md",
+    "toPath": "docs/plugin-development/index.md",
+    "state":"to-be-translated",
+    "fromRange": [
+      273,
+      287
+    ],
+    "toRange": [
+      273,
+      287
+    ],
+    "fromGitRev": "48553ca357228e26c6715ecbfde9c32bbc4d67b2",
+    "toGitRev": "4379aa628441f098f34688b0f7437895be68eeb1",
+    "fromGitWorkingDirectory": "rollup-original"
+  },
+  {
+    "id": "8w3ml30l02",
+    "fromPath": "rollup-original/docs/plugin-development/index.md",
+    "toPath": "docs/plugin-development/index.md",
+    "state":"to-be-translated",
+    "fromRange": [
+      289,
+      297
+    ],
+    "toRange": [
+      289,
+      297
+    ],
+    "fromGitRev": "48553ca357228e26c6715ecbfde9c32bbc4d67b2",
+    "toGitRev": "4379aa628441f098f34688b0f7437895be68eeb1",
+    "fromGitWorkingDirectory": "rollup-original"
+  },
+  {
+    "id": "m1recfjdgr",
+    "fromPath": "rollup-original/docs/plugin-development/index.md",
+    "toPath": "docs/plugin-development/index.md",
+    "state":"to-be-translated",
+    "fromRange": [
+      299,
+      305
+    ],
+    "toRange": [
+      299,
+      305
+    ],
+    "fromGitRev": "48553ca357228e26c6715ecbfde9c32bbc4d67b2",
+    "toGitRev": "4379aa628441f098f34688b0f7437895be68eeb1",
+    "fromGitWorkingDirectory": "rollup-original"
+  },
+  {
+    "id": "8lqs07os0t",
+    "fromPath": "rollup-original/docs/plugin-development/index.md",
+    "toPath": "docs/plugin-development/index.md",
+    "state":"to-be-translated",
+    "fromRange": [
+      307,
+      323
+    ],
+    "toRange": [
+      307,
+      323
+    ],
+    "fromGitRev": "48553ca357228e26c6715ecbfde9c32bbc4d67b2",
+    "toGitRev": "4379aa628441f098f34688b0f7437895be68eeb1",
+    "fromGitWorkingDirectory": "rollup-original"
+  },
+  {
+    "id": "jyq52ks6cn",
+    "fromPath": "rollup-original/docs/plugin-development/index.md",
+    "toPath": "docs/plugin-development/index.md",
+    "state":"to-be-translated",
+    "fromRange": [
+      325,
+      453
+    ],
+    "toRange": [
+      325,
+      453
+    ],
+    "fromGitRev": "48553ca357228e26c6715ecbfde9c32bbc4d67b2",
+    "toGitRev": "4379aa628441f098f34688b0f7437895be68eeb1",
+    "fromGitWorkingDirectory": "rollup-original"
+  },
+  {
+    "id": "stj3y38h7t",
+    "fromPath": "rollup-original/docs/plugin-development/index.md",
+    "toPath": "docs/plugin-development/index.md",
+    "state":"to-be-translated",
+    "fromRange": [
+      455,
+      463
+    ],
+    "toRange": [
+      455,
+      463
+    ],
+    "fromGitRev": "48553ca357228e26c6715ecbfde9c32bbc4d67b2",
+    "toGitRev": "4379aa628441f098f34688b0f7437895be68eeb1",
+    "fromGitWorkingDirectory": "rollup-original"
+  },
+  {
+    "id": "6ymuhqui7i",
+    "fromPath": "rollup-original/docs/plugin-development/index.md",
+    "toPath": "docs/plugin-development/index.md",
+    "state":"to-be-translated",
+    "fromRange": [
+      465,
+      491
+    ],
+    "toRange": [
+      465,
+      491
+    ],
+    "fromGitRev": "48553ca357228e26c6715ecbfde9c32bbc4d67b2",
+    "toGitRev": "4379aa628441f098f34688b0f7437895be68eeb1",
+    "fromGitWorkingDirectory": "rollup-original"
+  },
+  {
+    "id": "igrtkd8gbl",
+    "fromPath": "rollup-original/docs/plugin-development/index.md",
+    "toPath": "docs/plugin-development/index.md",
+    "state":"to-be-translated",
+    "fromRange": [
+      493,
+      497
+    ],
+    "toRange": [
+      493,
+      497
+    ],
+    "fromGitRev": "48553ca357228e26c6715ecbfde9c32bbc4d67b2",
+    "toGitRev": "4379aa628441f098f34688b0f7437895be68eeb1",
+    "fromGitWorkingDirectory": "rollup-original"
+  },
+  {
+    "id": "cjdkwgmn3r",
+    "fromPath": "rollup-original/docs/plugin-development/index.md",
+    "toPath": "docs/plugin-development/index.md",
+    "state":"to-be-translated",
+    "fromRange": [
+      499,
+      626
+    ],
+    "toRange": [
+      499,
+      626
+    ],
+    "fromGitRev": "48553ca357228e26c6715ecbfde9c32bbc4d67b2",
+    "toGitRev": "4379aa628441f098f34688b0f7437895be68eeb1",
+    "fromGitWorkingDirectory": "rollup-original"
+  },
+  {
+    "id": "i2m82p7ajl",
+    "fromPath": "rollup-original/docs/plugin-development/index.md",
+    "toPath": "docs/plugin-development/index.md",
+    "state":"to-be-translated",
+    "fromRange": [
+      628,
+      647
+    ],
+    "toRange": [
+      628,
+      647
+    ],
+    "fromGitRev": "48553ca357228e26c6715ecbfde9c32bbc4d67b2",
+    "toGitRev": "4379aa628441f098f34688b0f7437895be68eeb1",
+    "fromGitWorkingDirectory": "rollup-original"
+  },
+  {
+    "id": "0jlcvd3an9",
+    "fromPath": "rollup-original/docs/plugin-development/index.md",
+    "toPath": "docs/plugin-development/index.md",
+    "state":"to-be-translated",
+    "fromRange": [
+      649,
+      653
+    ],
+    "toRange": [
+      649,
+      653
+    ],
+    "fromGitRev": "48553ca357228e26c6715ecbfde9c32bbc4d67b2",
+    "toGitRev": "4379aa628441f098f34688b0f7437895be68eeb1",
+    "fromGitWorkingDirectory": "rollup-original"
+  },
+  {
+    "id": "9fwdrnck01",
+    "fromPath": "rollup-original/docs/plugin-development/index.md",
+    "toPath": "docs/plugin-development/index.md",
+    "state":"to-be-translated",
+    "fromRange": [
+      655,
+      661
+    ],
+    "toRange": [
+      655,
+      661
+    ],
+    "fromGitRev": "48553ca357228e26c6715ecbfde9c32bbc4d67b2",
+    "toGitRev": "4379aa628441f098f34688b0f7437895be68eeb1",
+    "fromGitWorkingDirectory": "rollup-original"
+  },
+  {
+    "id": "qptu1s69bx",
+    "fromPath": "rollup-original/docs/plugin-development/index.md",
+    "toPath": "docs/plugin-development/index.md",
+    "state":"to-be-translated",
+    "fromRange": [
+      663,
+      667
+    ],
+    "toRange": [
+      663,
+      667
+    ],
+    "fromGitRev": "48553ca357228e26c6715ecbfde9c32bbc4d67b2",
+    "toGitRev": "4379aa628441f098f34688b0f7437895be68eeb1",
+    "fromGitWorkingDirectory": "rollup-original"
+  },
+  {
+    "id": "f3susmvvt2",
+    "fromPath": "rollup-original/docs/plugin-development/index.md",
+    "toPath": "docs/plugin-development/index.md",
+    "state":"to-be-translated",
+    "fromRange": [
+      669,
+      713
+    ],
+    "toRange": [
+      669,
+      713
+    ],
+    "fromGitRev": "48553ca357228e26c6715ecbfde9c32bbc4d67b2",
+    "toGitRev": "4379aa628441f098f34688b0f7437895be68eeb1",
+    "fromGitWorkingDirectory": "rollup-original"
+  },
+  {
+    "id": "kh6hlr9crh",
+    "fromPath": "rollup-original/docs/plugin-development/index.md",
+    "toPath": "docs/plugin-development/index.md",
+    "state":"to-be-translated",
+    "fromRange": [
+      715,
+      719
+    ],
+    "toRange": [
+      715,
+      719
+    ],
+    "fromGitRev": "48553ca357228e26c6715ecbfde9c32bbc4d67b2",
+    "toGitRev": "4379aa628441f098f34688b0f7437895be68eeb1",
+    "fromGitWorkingDirectory": "rollup-original"
+  },
+  {
+    "id": "loir2sxdlz",
+    "fromPath": "rollup-original/docs/plugin-development/index.md",
+    "toPath": "docs/plugin-development/index.md",
+    "state":"to-be-translated",
+    "fromRange": [
+      721,
+      725
+    ],
+    "toRange": [
+      721,
+      725
+    ],
+    "fromGitRev": "48553ca357228e26c6715ecbfde9c32bbc4d67b2",
+    "toGitRev": "4379aa628441f098f34688b0f7437895be68eeb1",
+    "fromGitWorkingDirectory": "rollup-original"
+  },
+  {
+    "id": "wlj28d5eni",
+    "fromPath": "rollup-original/docs/plugin-development/index.md",
+    "toPath": "docs/plugin-development/index.md",
+    "state":"to-be-translated",
+    "fromRange": [
+      727,
+      731
+    ],
+    "toRange": [
+      727,
+      731
+    ],
+    "fromGitRev": "48553ca357228e26c6715ecbfde9c32bbc4d67b2",
+    "toGitRev": "4379aa628441f098f34688b0f7437895be68eeb1",
+    "fromGitWorkingDirectory": "rollup-original"
+  },
+  {
+    "id": "0ueghyq2ee",
+    "fromPath": "rollup-original/docs/plugin-development/index.md",
+    "toPath": "docs/plugin-development/index.md",
+    "state":"to-be-translated",
+    "fromRange": [
+      733,
+      746
+    ],
+    "toRange": [
+      733,
+      746
+    ],
+    "fromGitRev": "48553ca357228e26c6715ecbfde9c32bbc4d67b2",
+    "toGitRev": "4379aa628441f098f34688b0f7437895be68eeb1",
+    "fromGitWorkingDirectory": "rollup-original"
+  },
+  {
+    "id": "i9jbfd6jlo",
+    "fromPath": "rollup-original/docs/plugin-development/index.md",
+    "toPath": "docs/plugin-development/index.md",
+    "state":"to-be-translated",
+    "fromRange": [
+      748,
+      800
+    ],
+    "toRange": [
+      748,
+      800
+    ],
+    "fromGitRev": "48553ca357228e26c6715ecbfde9c32bbc4d67b2",
+    "toGitRev": "4379aa628441f098f34688b0f7437895be68eeb1",
+    "fromGitWorkingDirectory": "rollup-original"
+  },
+  {
+    "id": "zf9wuro3t6",
+    "fromPath": "rollup-original/docs/plugin-development/index.md",
+    "toPath": "docs/plugin-development/index.md",
+    "state":"to-be-translated",
+    "fromRange": [
+      802,
+      806
+    ],
+    "toRange": [
+      802,
+      806
+    ],
+    "fromGitRev": "48553ca357228e26c6715ecbfde9c32bbc4d67b2",
+    "toGitRev": "4379aa628441f098f34688b0f7437895be68eeb1",
+    "fromGitWorkingDirectory": "rollup-original"
+  },
+  {
+    "id": "zmvbhl8qhf",
+    "fromPath": "rollup-original/docs/plugin-development/index.md",
+    "toPath": "docs/plugin-development/index.md",
+    "state":"to-be-translated",
+    "fromRange": [
+      808,
+      812
+    ],
+    "toRange": [
+      808,
+      812
+    ],
+    "fromGitRev": "48553ca357228e26c6715ecbfde9c32bbc4d67b2",
+    "toGitRev": "4379aa628441f098f34688b0f7437895be68eeb1",
+    "fromGitWorkingDirectory": "rollup-original"
+  },
+  {
+    "id": "2td2r0wdi8",
+    "fromPath": "rollup-original/docs/plugin-development/index.md",
+    "toPath": "docs/plugin-development/index.md",
+    "state":"to-be-translated",
+    "fromRange": [
+      814,
+      840
+    ],
+    "toRange": [
+      814,
+      840
+    ],
+    "fromGitRev": "48553ca357228e26c6715ecbfde9c32bbc4d67b2",
+    "toGitRev": "4379aa628441f098f34688b0f7437895be68eeb1",
+    "fromGitWorkingDirectory": "rollup-original"
+  },
+  {
+    "id": "lvsd3ozqev",
+    "fromPath": "rollup-original/docs/plugin-development/index.md",
+    "toPath": "docs/plugin-development/index.md",
+    "state":"to-be-translated",
+    "fromRange": [
+      842,
+      869
+    ],
+    "toRange": [
+      842,
+      869
+    ],
+    "fromGitRev": "48553ca357228e26c6715ecbfde9c32bbc4d67b2",
+    "toGitRev": "4379aa628441f098f34688b0f7437895be68eeb1",
+    "fromGitWorkingDirectory": "rollup-original"
+  },
+  {
+    "id": "utrx3ne49k",
+    "fromPath": "rollup-original/docs/plugin-development/index.md",
+    "toPath": "docs/plugin-development/index.md",
+    "state":"to-be-translated",
+    "fromRange": [
+      871,
+      875
+    ],
+    "toRange": [
+      871,
+      875
+    ],
+    "fromGitRev": "48553ca357228e26c6715ecbfde9c32bbc4d67b2",
+    "toGitRev": "4379aa628441f098f34688b0f7437895be68eeb1",
+    "fromGitWorkingDirectory": "rollup-original"
+  },
+  {
+    "id": "aez13ghzo1",
+    "fromPath": "rollup-original/docs/plugin-development/index.md",
+    "toPath": "docs/plugin-development/index.md",
+    "state":"to-be-translated",
+    "fromRange": [
+      877,
+      879
+    ],
+    "toRange": [
+      877,
+      879
+    ],
+    "fromGitRev": "48553ca357228e26c6715ecbfde9c32bbc4d67b2",
+    "toGitRev": "4379aa628441f098f34688b0f7437895be68eeb1",
+    "fromGitWorkingDirectory": "rollup-original"
+  },
+  {
+    "id": "lo9talbrlk",
+    "fromPath": "rollup-original/docs/plugin-development/index.md",
+    "toPath": "docs/plugin-development/index.md",
+    "state":"to-be-translated",
+    "fromRange": [
+      881,
+      889
+    ],
+    "toRange": [
+      881,
+      889
+    ],
+    "fromGitRev": "48553ca357228e26c6715ecbfde9c32bbc4d67b2",
+    "toGitRev": "4379aa628441f098f34688b0f7437895be68eeb1",
+    "fromGitWorkingDirectory": "rollup-original"
+  },
+  {
+    "id": "u39xna03z3",
+    "fromPath": "rollup-original/docs/plugin-development/index.md",
+    "toPath": "docs/plugin-development/index.md",
+    "state":"to-be-translated",
+    "fromRange": [
+      891,
+      992
+    ],
+    "toRange": [
+      891,
+      992
+    ],
+    "fromGitRev": "48553ca357228e26c6715ecbfde9c32bbc4d67b2",
+    "toGitRev": "4379aa628441f098f34688b0f7437895be68eeb1",
+    "fromGitWorkingDirectory": "rollup-original"
+  },
+  {
+    "id": "77bhievwic",
+    "fromPath": "rollup-original/docs/plugin-development/index.md",
+    "toPath": "docs/plugin-development/index.md",
+    "state":"to-be-translated",
+    "fromRange": [
+      994,
+      998
+    ],
+    "toRange": [
+      994,
+      998
+    ],
+    "fromGitRev": "48553ca357228e26c6715ecbfde9c32bbc4d67b2",
+    "toGitRev": "4379aa628441f098f34688b0f7437895be68eeb1",
+    "fromGitWorkingDirectory": "rollup-original"
+  },
+  {
+    "id": "z89oe9ar0x",
+    "fromPath": "rollup-original/docs/plugin-development/index.md",
+    "toPath": "docs/plugin-development/index.md",
+    "state":"to-be-translated",
+    "fromRange": [
+      1000,
+      1004
+    ],
+    "toRange": [
+      1000,
+      1004
+    ],
+    "fromGitRev": "48553ca357228e26c6715ecbfde9c32bbc4d67b2",
+    "toGitRev": "4379aa628441f098f34688b0f7437895be68eeb1",
+    "fromGitWorkingDirectory": "rollup-original"
+  },
+  {
+    "id": "sqkswkpc30",
+    "fromPath": "rollup-original/docs/plugin-development/index.md",
+    "toPath": "docs/plugin-development/index.md",
+    "state":"to-be-translated",
+    "fromRange": [
+      1006,
+      1010
+    ],
+    "toRange": [
+      1006,
+      1010
+    ],
+    "fromGitRev": "48553ca357228e26c6715ecbfde9c32bbc4d67b2",
+    "toGitRev": "4379aa628441f098f34688b0f7437895be68eeb1",
+    "fromGitWorkingDirectory": "rollup-original"
+  },
+  {
+    "id": "od4szbgtak",
+    "fromPath": "rollup-original/docs/plugin-development/index.md",
+    "toPath": "docs/plugin-development/index.md",
+    "state":"to-be-translated",
+    "fromRange": [
+      1012,
+      1024
+    ],
+    "toRange": [
+      1012,
+      1024
+    ],
+    "fromGitRev": "48553ca357228e26c6715ecbfde9c32bbc4d67b2",
+    "toGitRev": "4379aa628441f098f34688b0f7437895be68eeb1",
+    "fromGitWorkingDirectory": "rollup-original"
+  },
+  {
+    "id": "eq2wnwmtqc",
+    "fromPath": "rollup-original/docs/plugin-development/index.md",
+    "toPath": "docs/plugin-development/index.md",
+    "state":"to-be-translated",
+    "fromRange": [
+      1026,
+      1079
+    ],
+    "toRange": [
+      1026,
+      1079
+    ],
+    "fromGitRev": "48553ca357228e26c6715ecbfde9c32bbc4d67b2",
+    "toGitRev": "4379aa628441f098f34688b0f7437895be68eeb1",
+    "fromGitWorkingDirectory": "rollup-original"
+  },
+  {
+    "id": "4e3rvguctl",
+    "fromPath": "rollup-original/docs/plugin-development/index.md",
+    "toPath": "docs/plugin-development/index.md",
+    "state":"to-be-translated",
+    "fromRange": [
+      1081,
+      1085
+    ],
+    "toRange": [
+      1081,
+      1085
+    ],
+    "fromGitRev": "48553ca357228e26c6715ecbfde9c32bbc4d67b2",
+    "toGitRev": "4379aa628441f098f34688b0f7437895be68eeb1",
+    "fromGitWorkingDirectory": "rollup-original"
+  },
+  {
+    "id": "3e7b1s03ot",
+    "fromPath": "rollup-original/docs/plugin-development/index.md",
+    "toPath": "docs/plugin-development/index.md",
+    "state":"to-be-translated",
+    "fromRange": [
+      1087,
+      1222
+    ],
+    "toRange": [
+      1087,
+      1222
+    ],
+    "fromGitRev": "48553ca357228e26c6715ecbfde9c32bbc4d67b2",
+    "toGitRev": "4379aa628441f098f34688b0f7437895be68eeb1",
+    "fromGitWorkingDirectory": "rollup-original"
+  },
+  {
+    "id": "0l2qr2h30o",
+    "fromPath": "rollup-original/docs/plugin-development/index.md",
+    "toPath": "docs/plugin-development/index.md",
+    "state":"to-be-translated",
+    "fromRange": [
+      1224,
+      1233
+    ],
+    "toRange": [
+      1224,
+      1233
+    ],
+    "fromGitRev": "48553ca357228e26c6715ecbfde9c32bbc4d67b2",
+    "toGitRev": "4379aa628441f098f34688b0f7437895be68eeb1",
+    "fromGitWorkingDirectory": "rollup-original"
+  },
+  {
+    "id": "58vnl00vsk",
+    "fromPath": "rollup-original/docs/plugin-development/index.md",
+    "toPath": "docs/plugin-development/index.md",
+    "state":"to-be-translated",
+    "fromRange": [
+      1235,
+      1239
+    ],
+    "toRange": [
+      1235,
+      1239
+    ],
+    "fromGitRev": "48553ca357228e26c6715ecbfde9c32bbc4d67b2",
+    "toGitRev": "4379aa628441f098f34688b0f7437895be68eeb1",
+    "fromGitWorkingDirectory": "rollup-original"
+  },
+  {
+    "id": "fxayguge52",
+    "fromPath": "rollup-original/docs/plugin-development/index.md",
+    "toPath": "docs/plugin-development/index.md",
+    "state":"to-be-translated",
+    "fromRange": [
+      1241,
+      1257
+    ],
+    "toRange": [
+      1241,
+      1257
+    ],
+    "fromGitRev": "48553ca357228e26c6715ecbfde9c32bbc4d67b2",
+    "toGitRev": "4379aa628441f098f34688b0f7437895be68eeb1",
+    "fromGitWorkingDirectory": "rollup-original"
+  },
+  {
+    "id": "jzbnfncttk",
+    "fromPath": "rollup-original/docs/plugin-development/index.md",
+    "toPath": "docs/plugin-development/index.md",
+    "state":"to-be-translated",
+    "fromRange": [
+      1259,
+      1263
+    ],
+    "toRange": [
+      1259,
+      1263
+    ],
+    "fromGitRev": "48553ca357228e26c6715ecbfde9c32bbc4d67b2",
+    "toGitRev": "4379aa628441f098f34688b0f7437895be68eeb1",
+    "fromGitWorkingDirectory": "rollup-original"
+  },
+  {
+    "id": "akr6shjfxv",
+    "fromPath": "rollup-original/docs/plugin-development/index.md",
+    "toPath": "docs/plugin-development/index.md",
+    "state":"to-be-translated",
+    "fromRange": [
+      1265,
+      1281
+    ],
+    "toRange": [
+      1265,
+      1281
+    ],
+    "fromGitRev": "48553ca357228e26c6715ecbfde9c32bbc4d67b2",
+    "toGitRev": "4379aa628441f098f34688b0f7437895be68eeb1",
+    "fromGitWorkingDirectory": "rollup-original"
+  },
+  {
+    "id": "rdhiwhq8n6",
+    "fromPath": "rollup-original/docs/plugin-development/index.md",
+    "toPath": "docs/plugin-development/index.md",
+    "state":"to-be-translated",
+    "fromRange": [
+      1283,
+      1295
+    ],
+    "toRange": [
+      1283,
+      1295
+    ],
+    "fromGitRev": "48553ca357228e26c6715ecbfde9c32bbc4d67b2",
+    "toGitRev": "4379aa628441f098f34688b0f7437895be68eeb1",
+    "fromGitWorkingDirectory": "rollup-original"
+  },
+  {
+    "id": "6sx93qrxbu",
+    "fromPath": "rollup-original/docs/plugin-development/index.md",
+    "toPath": "docs/plugin-development/index.md",
+    "state":"to-be-translated",
+    "fromRange": [
+      1297,
+      1434
+    ],
+    "toRange": [
+      1297,
+      1434
+    ],
+    "fromGitRev": "48553ca357228e26c6715ecbfde9c32bbc4d67b2",
+    "toGitRev": "4379aa628441f098f34688b0f7437895be68eeb1",
+    "fromGitWorkingDirectory": "rollup-original"
+  },
+  {
+    "id": "ky8oexzt1n",
+    "fromPath": "rollup-original/docs/plugin-development/index.md",
+    "toPath": "docs/plugin-development/index.md",
+    "state":"to-be-translated",
+    "fromRange": [
+      1436,
+      1440
+    ],
+    "toRange": [
+      1436,
+      1440
+    ],
+    "fromGitRev": "48553ca357228e26c6715ecbfde9c32bbc4d67b2",
+    "toGitRev": "4379aa628441f098f34688b0f7437895be68eeb1",
+    "fromGitWorkingDirectory": "rollup-original"
+  },
+  {
+    "id": "2scomwor6x",
+    "fromPath": "rollup-original/docs/plugin-development/index.md",
+    "toPath": "docs/plugin-development/index.md",
+    "state":"to-be-translated",
+    "fromRange": [
+      1442,
+      1465
+    ],
+    "toRange": [
+      1442,
+      1465
+    ],
+    "fromGitRev": "48553ca357228e26c6715ecbfde9c32bbc4d67b2",
+    "toGitRev": "4379aa628441f098f34688b0f7437895be68eeb1",
+    "fromGitWorkingDirectory": "rollup-original"
+  },
+  {
+    "id": "s16xudckav",
+    "fromPath": "rollup-original/docs/plugin-development/index.md",
+    "toPath": "docs/plugin-development/index.md",
+    "state":"to-be-translated",
+    "fromRange": [
+      1467,
+      1489
+    ],
+    "toRange": [
+      1467,
+      1489
+    ],
+    "fromGitRev": "48553ca357228e26c6715ecbfde9c32bbc4d67b2",
+    "toGitRev": "4379aa628441f098f34688b0f7437895be68eeb1",
+    "fromGitWorkingDirectory": "rollup-original"
+  },
+  {
+    "id": "mkevfntesw",
+    "fromPath": "rollup-original/docs/plugin-development/index.md",
+    "toPath": "docs/plugin-development/index.md",
+    "state":"to-be-translated",
+    "fromRange": [
+      1491,
+      1523
+    ],
+    "toRange": [
+      1491,
+      1523
+    ],
+    "fromGitRev": "48553ca357228e26c6715ecbfde9c32bbc4d67b2",
+    "toGitRev": "4379aa628441f098f34688b0f7437895be68eeb1",
+    "fromGitWorkingDirectory": "rollup-original"
+  },
+  {
+    "id": "t76escqiqf",
+    "fromPath": "rollup-original/docs/plugin-development/index.md",
+    "toPath": "docs/plugin-development/index.md",
+    "state":"to-be-translated",
+    "fromRange": [
+      1525,
+      1527
+    ],
+    "toRange": [
+      1525,
+      1527
+    ],
+    "fromGitRev": "48553ca357228e26c6715ecbfde9c32bbc4d67b2",
+    "toGitRev": "4379aa628441f098f34688b0f7437895be68eeb1",
+    "fromGitWorkingDirectory": "rollup-original"
+  },
+  {
+    "id": "knawyx5mj9",
+    "fromPath": "rollup-original/docs/plugin-development/index.md",
+    "toPath": "docs/plugin-development/index.md",
+    "state":"to-be-translated",
+    "fromRange": [
+      1529,
+      1563
+    ],
+    "toRange": [
+      1529,
+      1563
+    ],
+    "fromGitRev": "48553ca357228e26c6715ecbfde9c32bbc4d67b2",
+    "toGitRev": "4379aa628441f098f34688b0f7437895be68eeb1",
+    "fromGitWorkingDirectory": "rollup-original"
+  },
+  {
+    "id": "o72q0gzqss",
+    "fromPath": "rollup-original/docs/plugin-development/index.md",
+    "toPath": "docs/plugin-development/index.md",
+    "state":"to-be-translated",
+    "fromRange": [
+      1565,
+      1618
+    ],
+    "toRange": [
+      1565,
+      1618
+    ],
+    "fromGitRev": "48553ca357228e26c6715ecbfde9c32bbc4d67b2",
+    "toGitRev": "4379aa628441f098f34688b0f7437895be68eeb1",
+    "fromGitWorkingDirectory": "rollup-original"
+  },
+  {
+    "id": "rwguj8flxt",
+    "fromPath": "rollup-original/docs/plugin-development/index.md",
+    "toPath": "docs/plugin-development/index.md",
+    "state":"to-be-translated",
+    "fromRange": [
+      1620,
+      1663
+    ],
+    "toRange": [
+      1620,
+      1663
+    ],
+    "fromGitRev": "48553ca357228e26c6715ecbfde9c32bbc4d67b2",
+    "toGitRev": "4379aa628441f098f34688b0f7437895be68eeb1",
+    "fromGitWorkingDirectory": "rollup-original"
+  },
+  {
+    "id": "5vvs1fodqn",
+    "fromPath": "rollup-original/docs/tools/index.md",
+    "toPath": "docs/tools/index.md",
+    "state":"to-be-translated",
+    "fromRange": [
+      1,
+      3
+    ],
+    "toRange": [
+      1,
+      3
+    ],
+    "fromGitRev": "48553ca357228e26c6715ecbfde9c32bbc4d67b2",
+    "toGitRev": "4379aa628441f098f34688b0f7437895be68eeb1",
+    "fromGitWorkingDirectory": "rollup-original"
+  },
+  {
+    "id": "5kzsintk7r",
+    "fromPath": "rollup-original/docs/tools/index.md",
+    "toPath": "docs/tools/index.md",
+    "state":"to-be-translated",
+    "fromRange": [
+      5,
+      7
+    ],
+    "toRange": [
+      5,
+      7
+    ],
+    "fromGitRev": "48553ca357228e26c6715ecbfde9c32bbc4d67b2",
+    "toGitRev": "4379aa628441f098f34688b0f7437895be68eeb1",
+    "fromGitWorkingDirectory": "rollup-original"
+  },
+  {
+    "id": "ffmr3azvd5",
+    "fromPath": "rollup-original/docs/tools/index.md",
+    "toPath": "docs/tools/index.md",
+    "state":"to-be-translated",
+    "fromRange": [
+      9,
+      45
+    ],
+    "toRange": [
+      9,
+      45
+    ],
+    "fromGitRev": "48553ca357228e26c6715ecbfde9c32bbc4d67b2",
+    "toGitRev": "4379aa628441f098f34688b0f7437895be68eeb1",
+    "fromGitWorkingDirectory": "rollup-original"
+  },
+  {
+    "id": "zsc4pfus4m",
+    "fromPath": "rollup-original/docs/tools/index.md",
+    "toPath": "docs/tools/index.md",
+    "state":"to-be-translated",
+    "fromRange": [
+      47,
+      71
+    ],
+    "toRange": [
+      47,
+      71
+    ],
+    "fromGitRev": "48553ca357228e26c6715ecbfde9c32bbc4d67b2",
+    "toGitRev": "4379aa628441f098f34688b0f7437895be68eeb1",
+    "fromGitWorkingDirectory": "rollup-original"
+  },
+  {
+    "id": "qijvbu3r9d",
+    "fromPath": "rollup-original/docs/tools/index.md",
+    "toPath": "docs/tools/index.md",
+    "state":"to-be-translated",
+    "fromRange": [
+      73,
+      79
+    ],
+    "toRange": [
+      73,
+      79
+    ],
+    "fromGitRev": "48553ca357228e26c6715ecbfde9c32bbc4d67b2",
+    "toGitRev": "4379aa628441f098f34688b0f7437895be68eeb1",
+    "fromGitWorkingDirectory": "rollup-original"
+  },
+  {
+    "id": "kgf4mk8zco",
+    "fromPath": "rollup-original/docs/tools/index.md",
+    "toPath": "docs/tools/index.md",
+    "state":"to-be-translated",
+    "fromRange": [
+      81,
+      132
+    ],
+    "toRange": [
+      81,
+      132
+    ],
+    "fromGitRev": "48553ca357228e26c6715ecbfde9c32bbc4d67b2",
+    "toGitRev": "4379aa628441f098f34688b0f7437895be68eeb1",
+    "fromGitWorkingDirectory": "rollup-original"
+  },
+  {
+    "id": "lf42da354c",
+    "fromPath": "rollup-original/docs/tools/index.md",
+    "toPath": "docs/tools/index.md",
+    "state":"to-be-translated",
+    "fromRange": [
+      134,
+      200
+    ],
+    "toRange": [
+      134,
+      200
+    ],
+    "fromGitRev": "48553ca357228e26c6715ecbfde9c32bbc4d67b2",
+    "toGitRev": "4379aa628441f098f34688b0f7437895be68eeb1",
+    "fromGitWorkingDirectory": "rollup-original"
+  },
+  {
+    "id": "pibgnxzbvd",
+    "fromPath": "rollup-original/docs/tools/index.md",
+    "toPath": "docs/tools/index.md",
+    "state":"to-be-translated",
+    "fromRange": [
+      202,
+      250
+    ],
+    "toRange": [
+      202,
+      250
+    ],
+    "fromGitRev": "48553ca357228e26c6715ecbfde9c32bbc4d67b2",
+    "toGitRev": "4379aa628441f098f34688b0f7437895be68eeb1",
+    "fromGitWorkingDirectory": "rollup-original"
+  },
+  {
+    "id": "2yu01b21x5",
+    "fromPath": "rollup-original/docs/tools/index.md",
+    "toPath": "docs/tools/index.md",
+    "state":"to-be-translated",
+    "fromRange": [
+      252,
+      272
+    ],
+    "toRange": [
+      252,
+      272
+    ],
+    "fromGitRev": "48553ca357228e26c6715ecbfde9c32bbc4d67b2",
+    "toGitRev": "4379aa628441f098f34688b0f7437895be68eeb1",
+    "fromGitWorkingDirectory": "rollup-original"
+  },
+  {
+    "id": "ieopyew96w",
+    "fromPath": "rollup-original/docs/troubleshooting/index.md",
+    "toPath": "docs/troubleshooting/index.md",
+    "fromRange": [
+      1,
+      3
+    ],
+    "toRange": [
+      1,
+      3
+    ],
+    "fromGitRev": "48553ca357228e26c6715ecbfde9c32bbc4d67b2",
+    "toGitRev": "4379aa628441f098f34688b0f7437895be68eeb1",
+    "fromGitWorkingDirectory": "rollup-original"
+  },
+  {
+    "id": "j60e8deouf",
+    "fromPath": "rollup-original/docs/troubleshooting/index.md",
+    "toPath": "docs/troubleshooting/index.md",
+    "fromRange": [
+      5,
+      9
+    ],
+    "toRange": [
+      5,
+      9
+    ],
+    "fromGitRev": "48553ca357228e26c6715ecbfde9c32bbc4d67b2",
+    "toGitRev": "4379aa628441f098f34688b0f7437895be68eeb1",
+    "fromGitWorkingDirectory": "rollup-original"
+  },
+  {
+    "id": "476t5t082n",
+    "fromPath": "rollup-original/docs/troubleshooting/index.md",
+    "toPath": "docs/troubleshooting/index.md",
+    "fromRange": [
+      11,
+      19
+    ],
+    "toRange": [
+      11,
+      19
+    ],
+    "fromGitRev": "48553ca357228e26c6715ecbfde9c32bbc4d67b2",
+    "toGitRev": "4379aa628441f098f34688b0f7437895be68eeb1",
+    "fromGitWorkingDirectory": "rollup-original"
+  },
+  {
+    "id": "zsoi5admnr",
+    "fromPath": "rollup-original/docs/troubleshooting/index.md",
+    "toPath": "docs/troubleshooting/index.md",
+    "fromRange": [
+      21,
+      33
+    ],
+    "toRange": [
+      21,
+      33
+    ],
+    "fromGitRev": "48553ca357228e26c6715ecbfde9c32bbc4d67b2",
+    "toGitRev": "4379aa628441f098f34688b0f7437895be68eeb1",
+    "fromGitWorkingDirectory": "rollup-original"
+  },
+  {
+    "id": "sfokllhbwz",
+    "fromPath": "rollup-original/docs/troubleshooting/index.md",
+    "toPath": "docs/troubleshooting/index.md",
+    "fromRange": [
+      35,
+      37
+    ],
+    "toRange": [
+      35,
+      37
+    ],
+    "fromGitRev": "48553ca357228e26c6715ecbfde9c32bbc4d67b2",
+    "toGitRev": "4379aa628441f098f34688b0f7437895be68eeb1",
+    "fromGitWorkingDirectory": "rollup-original"
+  },
+  {
+    "id": "0bmdrossif",
+    "fromPath": "rollup-original/docs/troubleshooting/index.md",
+    "toPath": "docs/troubleshooting/index.md",
+    "fromRange": [
+      39,
+      47
+    ],
+    "toRange": [
+      39,
+      47
+    ],
+    "fromGitRev": "48553ca357228e26c6715ecbfde9c32bbc4d67b2",
+    "toGitRev": "4379aa628441f098f34688b0f7437895be68eeb1",
+    "fromGitWorkingDirectory": "rollup-original"
+  },
+  {
+    "id": "xxopfiv5eh",
+    "fromPath": "rollup-original/docs/troubleshooting/index.md",
+    "toPath": "docs/troubleshooting/index.md",
+    "fromRange": [
+      49,
+      57
+    ],
+    "toRange": [
+      49,
+      57
+    ],
+    "fromGitRev": "48553ca357228e26c6715ecbfde9c32bbc4d67b2",
+    "toGitRev": "4379aa628441f098f34688b0f7437895be68eeb1",
+    "fromGitWorkingDirectory": "rollup-original"
+  },
+  {
+    "id": "arozu8w5v6",
+    "fromPath": "rollup-original/docs/troubleshooting/index.md",
+    "toPath": "docs/troubleshooting/index.md",
+    "fromRange": [
+      59,
+      63
+    ],
+    "toRange": [
+      59,
+      63
+    ],
+    "fromGitRev": "48553ca357228e26c6715ecbfde9c32bbc4d67b2",
+    "toGitRev": "4379aa628441f098f34688b0f7437895be68eeb1",
+    "fromGitWorkingDirectory": "rollup-original"
+  },
+  {
+    "id": "z4ivl4kpqi",
+    "fromPath": "rollup-original/docs/troubleshooting/index.md",
+    "toPath": "docs/troubleshooting/index.md",
+    "fromRange": [
+      65,
+      69
+    ],
+    "toRange": [
+      65,
+      69
+    ],
+    "fromGitRev": "48553ca357228e26c6715ecbfde9c32bbc4d67b2",
+    "toGitRev": "4379aa628441f098f34688b0f7437895be68eeb1",
+    "fromGitWorkingDirectory": "rollup-original"
+  },
+  {
+    "id": "lhajv76exa",
+    "fromPath": "rollup-original/docs/troubleshooting/index.md",
+    "toPath": "docs/troubleshooting/index.md",
+    "fromRange": [
+      71,
+      93
+    ],
+    "toRange": [
+      71,
+      93
+    ],
+    "fromGitRev": "48553ca357228e26c6715ecbfde9c32bbc4d67b2",
+    "toGitRev": "4379aa628441f098f34688b0f7437895be68eeb1",
+    "fromGitWorkingDirectory": "rollup-original"
+  },
+  {
+    "id": "pygm9o5mx5",
+    "fromPath": "rollup-original/docs/troubleshooting/index.md",
+    "toPath": "docs/troubleshooting/index.md",
+    "fromRange": [
+      95,
+      109
+    ],
+    "toRange": [
+      95,
+      109
+    ],
+    "fromGitRev": "48553ca357228e26c6715ecbfde9c32bbc4d67b2",
+    "toGitRev": "4379aa628441f098f34688b0f7437895be68eeb1",
+    "fromGitWorkingDirectory": "rollup-original"
+  },
+  {
+    "id": "q48mbv67m4",
+    "fromPath": "rollup-original/docs/troubleshooting/index.md",
+    "toPath": "docs/troubleshooting/index.md",
+    "fromRange": [
+      111,
+      121
+    ],
+    "toRange": [
+      111,
+      121
+    ],
+    "fromGitRev": "48553ca357228e26c6715ecbfde9c32bbc4d67b2",
+    "toGitRev": "4379aa628441f098f34688b0f7437895be68eeb1",
+    "fromGitWorkingDirectory": "rollup-original"
+  },
+  {
+    "id": "fez761wmn1",
+    "fromPath": "rollup-original/docs/troubleshooting/index.md",
+    "toPath": "docs/troubleshooting/index.md",
+    "fromRange": [
+      123,
+      125
+    ],
+    "toRange": [
+      123,
+      125
+    ],
+    "fromGitRev": "48553ca357228e26c6715ecbfde9c32bbc4d67b2",
+    "toGitRev": "4379aa628441f098f34688b0f7437895be68eeb1",
+    "fromGitWorkingDirectory": "rollup-original"
+  },
+  {
+    "id": "6hdlzzvi79",
+    "fromPath": "rollup-original/docs/tutorial/index.md",
+    "toPath": "docs/tutorial/index.md",
+    "fromRange": [
+      1,
+      3
+    ],
+    "toRange": [
+      1,
+      3
+    ],
+    "fromGitRev": "48553ca357228e26c6715ecbfde9c32bbc4d67b2",
+    "toGitRev": "4379aa628441f098f34688b0f7437895be68eeb1",
+    "fromGitWorkingDirectory": "rollup-original"
+  },
+  {
+    "id": "hd537anedr",
+    "fromPath": "rollup-original/docs/tutorial/index.md",
+    "toPath": "docs/tutorial/index.md",
+    "fromRange": [
+      5,
+      7
+    ],
+    "toRange": [
+      5,
+      7
+    ],
+    "fromGitRev": "48553ca357228e26c6715ecbfde9c32bbc4d67b2",
+    "toGitRev": "4379aa628441f098f34688b0f7437895be68eeb1",
+    "fromGitWorkingDirectory": "rollup-original"
+  },
+  {
+    "id": "j87musdyfp",
+    "fromPath": "rollup-original/docs/tutorial/index.md",
+    "toPath": "docs/tutorial/index.md",
+    "fromRange": [
+      9,
+      89
+    ],
+    "toRange": [
+      9,
+      89
+    ],
+    "fromGitRev": "48553ca357228e26c6715ecbfde9c32bbc4d67b2",
+    "toGitRev": "4379aa628441f098f34688b0f7437895be68eeb1",
+    "fromGitWorkingDirectory": "rollup-original"
+  },
+  {
+    "id": "vjc9208x0a",
+    "fromPath": "rollup-original/docs/tutorial/index.md",
+    "toPath": "docs/tutorial/index.md",
+    "fromRange": [
+      91,
+      132
+    ],
+    "toRange": [
+      91,
+      132
+    ],
+    "fromGitRev": "48553ca357228e26c6715ecbfde9c32bbc4d67b2",
+    "toGitRev": "4379aa628441f098f34688b0f7437895be68eeb1",
+    "fromGitWorkingDirectory": "rollup-original"
+  },
+  {
+    "id": "z5cjjvp6ro",
+    "fromPath": "rollup-original/docs/tutorial/index.md",
+    "toPath": "docs/tutorial/index.md",
+    "fromRange": [
+      134,
+      172
+    ],
+    "toRange": [
+      134,
+      172
+    ],
+    "fromGitRev": "48553ca357228e26c6715ecbfde9c32bbc4d67b2",
+    "toGitRev": "4379aa628441f098f34688b0f7437895be68eeb1",
+    "fromGitWorkingDirectory": "rollup-original"
+  },
+  {
+    "id": "ybjnyr6byr",
+    "fromPath": "rollup-original/docs/tutorial/index.md",
+    "toPath": "docs/tutorial/index.md",
+    "fromRange": [
+      174,
+      243
+    ],
+    "toRange": [
+      174,
+      243
+    ],
+    "fromGitRev": "48553ca357228e26c6715ecbfde9c32bbc4d67b2",
+    "toGitRev": "4379aa628441f098f34688b0f7437895be68eeb1",
+    "fromGitWorkingDirectory": "rollup-original"
+  },
+  {
+    "id": "wnjwteho5o",
+    "fromPath": "rollup-original/docs/tutorial/index.md",
+    "toPath": "docs/tutorial/index.md",
+    "fromRange": [
+      245,
+      290
+    ],
+    "toRange": [
+      245,
+      290
+    ],
+    "fromGitRev": "48553ca357228e26c6715ecbfde9c32bbc4d67b2",
+    "toGitRev": "4379aa628441f098f34688b0f7437895be68eeb1",
+    "fromGitWorkingDirectory": "rollup-original"
+  },
+  {
+    "id": "evkro5955s",
+    "fromPath": "rollup-original/docs/tutorial/index.md",
+    "toPath": "docs/tutorial/index.md",
+    "fromRange": [
+      292,
+      432
+    ],
+    "toRange": [
+      292,
+      432
+    ],
+    "fromGitRev": "48553ca357228e26c6715ecbfde9c32bbc4d67b2",
+    "toGitRev": "4379aa628441f098f34688b0f7437895be68eeb1",
+    "fromGitWorkingDirectory": "rollup-original"
+  }
+]
