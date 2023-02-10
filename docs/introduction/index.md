@@ -16,11 +16,11 @@ Rollup 是一个 JavaScript 模块打包器，可以将小块代码编译成大�
 npm install --global rollup
 ```
 
-这样安装可以让 Rollup 全局可用，你也可以将其安装于局部，详见[局部安装 Rollup](../tutorial/index.md#installing-rollup-locally).
+这样安装可以让 Rollup 全局可用，你也可以将其安装于局部，详见[局部安装 Rollup](../tutorial/index.md#安装本地的-rollup).
 
 ## 快速入门
 
-Rollup 可以通过[命令行](https://github.com/rollup/rollup/wiki/Command-Line-Interface)配合可选配置文件来调用，或者可以通过 [JavaScript API](https://github.com/rollup/rollup/wiki/JavaScript-API) 来调用。运行 `rollup --help` 可以查看可用的选项和参数。
+Rollup 可以通过[命令行](../command-line-interface/index.md)配合可选配置文件来调用，或者可以通过 [JavaScript API](../javascript-api/index.md) 来调用。运行 `rollup --help` 可以查看可用的选项和参数。
 
 > 查看 [rollup-starter-lib](https://github.com/rollup/rollup-starter-lib) 和 [rollup-starter-app](https://github.com/rollup/rollup-starter-app) 中那些使用 Rollup 的示例类库与应用项目。
 

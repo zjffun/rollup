@@ -277,7 +277,7 @@ this.a.b.c = ...
 
 Type: `MaybeArray<MaybePromise<OutputPlugin | void>>`
 
-Adds a plugin just to this output. See [Using output plugins](../tutorial/index.md#using-output-plugins) for more information on how to use output-specific plugins and [Plugins](../plugin-development/index.md) on how to write your own. For plugins imported from packages, remember to call the imported plugin function (i.e. `commonjs()`, not just `commonjs`). Falsy plugins will be ignored, which can be used to easily activate or deactivate plugins. Nested plugins will be flattened. Async plugin will be awaited and resolved.
+Adds a plugin just to this output. See [Using output plugins](../tutorial/index.md#使用输出插件) for more information on how to use output-specific plugins and [Plugins](../plugin-development/index.md) on how to write your own. For plugins imported from packages, remember to call the imported plugin function (i.e. `commonjs()`, not just `commonjs`). Falsy plugins will be ignored, which can be used to easily activate or deactivate plugins. Nested plugins will be flattened. Async plugin will be awaited and resolved.
 
 Not every plugin can be used here. `output.plugins` is limited to plugins that only use hooks that run during `bundle.generate()` or `bundle.write()`, i.e. after Rollup's main analysis is complete. If you are a plugin author, see [output generation hooks](../plugin-development/index.md#output-generation-hooks) to find out which hooks can be used.
 
@@ -307,7 +307,7 @@ export default {
 
 Type: `MaybeArray<MaybePromise<Plugin | void>>`
 
-See [Using plugins](../tutorial/index.md#using-plugins) for more information on how to use plugins and [Plugins](../plugin-development/index.md) on how to write your own (try it out, it's not as difficult as it may sound and very much extends what you can do with Rollup). For plugins imported from packages, remember to call the imported plugin function (i.e. `commonjs()`, not just `commonjs`). Falsy plugins will be ignored, which can be used to easily activate or deactivate plugins. Nested plugins will be flatten. Async plugins will be awaited and resolved.
+See [Using plugins](../tutorial/index.md#使用插件) for more information on how to use plugins and [Plugins](../plugin-development/index.md) on how to write your own (try it out, it's not as difficult as it may sound and very much extends what you can do with Rollup). For plugins imported from packages, remember to call the imported plugin function (i.e. `commonjs()`, not just `commonjs`). Falsy plugins will be ignored, which can be used to easily activate or deactivate plugins. Nested plugins will be flatten. Async plugins will be awaited and resolved.
 
 ```js
 // rollup.config.js

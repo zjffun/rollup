@@ -10,7 +10,7 @@ title: Plugin Development
 
 A Rollup plugin is an object with one or more of the [properties](#properties), [build hooks](#build-hooks), and [output generation hooks](#output-generation-hooks) described below, and which follows our [conventions](#conventions). A plugin should be distributed as a package which exports a function that can be called with plugin specific options and returns such an object.
 
-Plugins allow you to customise Rollup's behaviour by, for example, transpiling code before bundling, or finding third-party modules in your `node_modules` folder. For an example on how to use them, see [Using plugins](../tutorial/index.md#using-plugins).
+Plugins allow you to customise Rollup's behaviour by, for example, transpiling code before bundling, or finding third-party modules in your `node_modules` folder. For an example on how to use them, see [Using plugins](../tutorial/index.md#使用插件).
 
 A List of Plugins may be found at [github.com/rollup/awesome](https://github.com/rollup/awesome). If you would like to make a suggestion for a plugin, please submit a Pull Request.
 
