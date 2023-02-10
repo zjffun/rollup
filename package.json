@@ -123,6 +123,7 @@
     "prettier": "^2.8.2",
     "pretty-bytes": "^6.0.0",
     "pretty-ms": "^8.0.0",
+    "relation2-core": "^0.0.24",
     "requirejs": "^2.3.6",
     "rollup": "^3.9.1",
     "rollup-plugin-license": "^3.0.1",
