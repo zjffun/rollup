@@ -13,15 +13,11 @@ const slugsByPage = new Map<string, Set<string>>();
 const slugsAndPageByLegacySlug: Record<string, [page: string, slug: string]> = {};
 
 export function buildEnd() {
-	try {
-		updateLegacySlugsFile();
-		for (const [page, slugs] of slugsByPage) {
-			verifyAnchorsOnPage(page, slugs);
-		}
-		verifyLinksInRollup();
-	} catch (error) {
-		console.error(error);
+	updateLegacySlugsFile();
+	for (const [page, slugs] of slugsByPage) {
+		verifyAnchorsOnPage(page, slugs);
 	}
+	verifyLinksInRollup();
 }
 
 function updateLegacySlugsFile() {
