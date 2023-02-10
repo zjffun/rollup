@@ -35,7 +35,10 @@ async function main() {
 		});
 	}
 
-	const files = glob.sync('./docs/**/*.md', { ignore: ['node_modules/**', 'dist/**'] });
+	const files = [
+		'./src/utils/urls.ts',
+		...glob.sync('./docs/**/*.md', { ignore: ['node_modules/**', 'dist/**'] })
+	];
 	for (const file of files) {
 		replaceAnchor(file);
 	}

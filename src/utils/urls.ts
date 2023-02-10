@@ -1,5 +1,5 @@
 // troubleshooting
-export const URL_AVOIDING_EVAL = 'troubleshooting/#avoiding-eval';
+export const URL_AVOIDING_EVAL = 'troubleshooting/#避免使用-eval';
 export const URL_NAME_IS_NOT_EXPORTED = 'troubleshooting/#error-name-is-not-exported-by-module';
 export const URL_THIS_IS_UNDEFINED = 'troubleshooting/#error-this-is-undefined';
 export const URL_TREATING_MODULE_AS_EXTERNAL_DEPENDENCY =
@@ -37,7 +37,7 @@ export const URL_WATCH = 'configuration-options/#watch';
 
 // command-line-interface
 export const URL_BUNDLE_CONFIG_AS_CJS = 'command-line-interface/#bundleconfigascjs';
-export const URL_CONFIGURATION_FILES = 'command-line-interface/#configuration-files';
+export const URL_CONFIGURATION_FILES = 'command-line-interface/#配置文件';
 
 // plugin-development
 export const URL_A_SIMPLE_EXAMPLE = 'plugin-development/#a-simple-example';

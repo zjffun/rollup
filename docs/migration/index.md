@@ -34,9 +34,9 @@ title: 迁移到 Rollup 3
 
 [使用原生 Node ES 模块时的注意事项](../command-line-interface/index.md#使用原生-node-es-模块时的注意事项)将为你提供一些处理这些事情的替代方案。
 
-或者，你可以传递 [`--bundleConfigAsCjs`](../command-line-interface/#bundleconfigascjs) 选项以强制执行旧的加载行为。
+或者，你可以传递 [`--bundleConfigAsCjs`](../command-line-interface/index.md#bundleconfigascjs) 选项以强制执行旧的加载行为。
 
-如果你使用 [`--configPlugin`](../command-line-interface/#configplugin-plugin) 选项，Rollup 现在会在运行之前将你的配置打包为 ES 模块而不是 CommonJS。这允许你轻松地从你的配置中导入 ES 模块，但与使用原生 ES 模块有相同的注意事项，例如 `__dirname` 将无法使用。同样，你可以传递 [`--bundleConfigAsCjs`](../command-line-interface/#bundleconfigascjs) 选项以强制执行旧的加载行为。
+如果你使用 [`--configPlugin`](../command-line-interface/index.md#configplugin-plugin) 选项，Rollup 现在会在运行之前将你的配置打包为 ES 模块而不是 CommonJS。这允许你轻松地从你的配置中导入 ES 模块，但与使用原生 ES 模块有相同的注意事项，例如 `__dirname` 将无法使用。同样，你可以传递 [`--bundleConfigAsCjs`](../command-line-interface/index.md#bundleconfigascjs) 选项以强制执行旧的加载行为。
 
 ## 更改默认值
 
@@ -61,18 +61,18 @@ title: 迁移到 Rollup 3
 
 ## 更多更改选项
 
-- [`output.banner/footer`](../configuration-options/#output-banner-output-footer)[`/intro/outro`](../configuration-options/#output-intro-output-outro) 现在每个块都会调用，因此不应执行任何性能繁重的操作。
-- [`entryFileNames`](../configuration-options/#output-entryfilenames) 和 [`chunkFileNames`](../configuration-options/#output-chunkfilenames) 函数不再可以通过 `modules` 访问呈现的模块信息，而只能访问包含的 `moduleIds` 列表。
+- [`output.banner/footer`](../configuration-options/index.md#output-banner-output-footer)[`/intro/outro`](../configuration-options/index.md#output-intro-output-outro) 现在每个块都会调用，因此不应执行任何性能繁重的操作。
+- [`entryFileNames`](../configuration-options/index.md#output-entryfilenames) 和 [`chunkFileNames`](../configuration-options/index.md#output-chunkfilenames) 函数不再可以通过 `modules` 访问呈现的模块信息，而只能访问包含的 `moduleIds` 列表。
 - 使用 [`output.preserveModules`](../configuration-options/index.md#output-preservemodules) 和 `entryFileNames` 时，你不能再使用 `[ext]`、`[extName]` 和 `[assetExtName]` 文件名占位符。此外，模块的路径不再自动添加到文件名前，而是包含在 `[name]` 占位符中。
 
 ## CommonJS 输出的动态导入
 
-默认情况下，在生成 `cjs` 输出时，Rollup 现在将保留任何外部的（即非打包的）动态导入作为 `import(…)` 输出中的表达式。这在从 Node 14 开始的所有 Node 版本中都受支持，并允许从生成的 CommonJS 输出加载 CommonJS 和 ES 模块。如果你需要支持旧的 Node 版本，你可以设置[`output.dynamicImportInCjs: false`](../configuration-options/#output-dynamicimportincjs)。
+默认情况下，在生成 `cjs` 输出时，Rollup 现在将保留任何外部的（即非打包的）动态导入作为 `import(…)` 输出中的表达式。这在从 Node 14 开始的所有 Node 版本中都受支持，并允许从生成的 CommonJS 输出加载 CommonJS 和 ES 模块。如果你需要支持旧的 Node 版本，你可以设置[`output.dynamicImportInCjs: false`](../configuration-options/index.md#output-dynamicimportincjs)。
 
 ## 插件 API 的更改
 
-我们对一般输出生成流程进行了重新设计，请参阅[输出生成勾子](../plugin-development/#output-generation-hooks) 图以了解新的插件勾子顺序。可能最明显的变化是[`banner`](../plugin-development/#banner)、[`footer`](../plugin-development/#footer)、[`intro`](../plugin-development/#intro) 和 [`outro`](../plugin-development/#outro)不再在开始时调用一次，而是每个块调用一次。另一方面，[`augmentChunkHash`](../plugin-development/#augmentchunkhash) 现在在 [`renderChunk`](../plugin-development/#renderchunk) 后创建哈希。
+我们对一般输出生成流程进行了重新设计，请参阅[输出生成勾子](../plugin-development/index.md#output-generation-hooks) 图以了解新的插件勾子顺序。可能最明显的变化是[`banner`](../plugin-development/index.md#banner)、[`footer`](../plugin-development/index.md#footer)、[`intro`](../plugin-development/index.md#intro) 和 [`outro`](../plugin-development/index.md#outro)不再在开始时调用一次，而是每个块调用一次。另一方面，[`augmentChunkHash`](../plugin-development/index.md#augmentchunkhash) 现在在 [`renderChunk`](../plugin-development/index.md#renderchunk) 后创建哈希。
 
-由于文件哈希现在基于 `renderChunk` 之后文件的实际内容，因此在生成哈希之前我们不再知道确切的文件名。 相反，逻辑现在依赖于 `!~{001}~` 形式的哈希占位符。这意味着 `renderChunk` 勾子可用的所有文件名都可能包含占位符，并且可能与最终文件名不对应。如果你计划在块中使用这些文件名，这不是问题，因为 Rollup 将在 [`generateBundle`](../plugin-development/#generatebundle) 运行之前替换所有占位符。
+由于文件哈希现在基于 `renderChunk` 之后文件的实际内容，因此在生成哈希之前我们不再知道确切的文件名。 相反，逻辑现在依赖于 `!~{001}~` 形式的哈希占位符。这意味着 `renderChunk` 勾子可用的所有文件名都可能包含占位符，并且可能与最终文件名不对应。如果你计划在块中使用这些文件名，这不是问题，因为 Rollup 将在 [`generateBundle`](../plugin-development/index.md#generatebundle) 运行之前替换所有占位符。
 
-不一定是无法向下兼容的更改，但添加或删除导入的插件 [`renderChunk`](../plugin-development/#renderchunk) 应确保它们也更新 `chunk` 传递给此勾子的相应信息。这将使其他插件能够依赖准确的块信息，而无需自己处理块。有关详细信息，请参阅勾子的[文档](../plugin-development/#renderchunk)。
+不一定是无法向下兼容的更改，但添加或删除导入的插件 [`renderChunk`](../plugin-development/index.md#renderchunk) 应确保它们也更新 `chunk` 传递给此勾子的相应信息。这将使其他插件能够依赖准确的块信息，而无需自己处理块。有关详细信息，请参阅勾子的[文档](../plugin-development/index.md#renderchunk)。
