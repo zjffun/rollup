@@ -63,6 +63,7 @@ export default {
 
 	// 实验性
 	experimentalCacheExpiry,
+	experimentalLogSideEffects,
 	perf,
 
 	// 必要项 (可以是一个数组，用于多输出的情况)
@@ -70,7 +71,7 @@ export default {
 		// 核心的输出选项
 		dir,
 		file,
-		format, // 必要项
+		format,
 		globals,
 		name,
 		plugins,
@@ -95,6 +96,7 @@ export default {
 		sourcemap,
 		sourcemapExcludeSources,
 		sourcemapFile,
+		sourcemapIgnoreList,
 		sourcemapPathTransform,
 		validate,
 
@@ -109,7 +111,10 @@ export default {
 		noConflict,
 		preferConst,
 		strict,
-		systemNullSetters
+		systemNullSetters,
+		
+		// experimental
+		experimentalMinChunkSize
 	},
 
 	watch: {
