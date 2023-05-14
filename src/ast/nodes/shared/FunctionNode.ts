@@ -5,6 +5,7 @@ import FunctionScope from '../../scopes/FunctionScope';
 import type { ObjectPath, PathTracker } from '../../utils/PathTracker';
 import type BlockStatement from '../BlockStatement';
 import Identifier, { type IdentifierWithVariable } from '../Identifier';
+import type { ExpressionEntity } from './Expression';
 import { UNKNOWN_EXPRESSION } from './Expression';
 import FunctionBase from './FunctionBase';
 import { type IncludeChildren } from './Node';
@@ -36,8 +37,9 @@ export default class FunctionNode extends FunctionBase {
 		recursionTracker: PathTracker
 	): void {
 		super.deoptimizeArgumentsOnInteractionAtPath(interaction, path, recursionTracker);
-		if (interaction.type === INTERACTION_CALLED && path.length === 0 && interaction.thisArg) {
-			this.scope.thisVariable.addEntityToBeDeoptimized(interaction.thisArg);
+		if (interaction.type === INTERACTION_CALLED && path.length === 0 && interaction.args[0]) {
+			// args[0] is the "this" argument
+			this.scope.thisVariable.addEntityToBeDeoptimized(interaction.args[0]);
 		}
 	}
 
@@ -92,6 +94,10 @@ export default class FunctionNode extends FunctionBase {
 	initialise(): void {
 		super.initialise();
 		this.id?.declare('function', this);
+	}
+
+	protected addArgumentToBeDeoptimized(argument: ExpressionEntity) {
+		this.scope.argumentsVariable.addArgumentToBeDeoptimized(argument);
 	}
 
 	protected getObjectEntity(): ObjectEntity {

@@ -4,7 +4,7 @@ import process from 'node:process';
 import chokidar from 'chokidar';
 import dateTime from 'date-time';
 import ms from 'pretty-ms';
-import onExit from 'signal-exit';
+import { onExit } from 'signal-exit';
 import * as rollup from '../../src/node-entry';
 import type { MergedRollupOptions, RollupWatcher } from '../../src/rollup/types';
 import { bold, cyan, green, underline } from '../../src/utils/colors';
@@ -29,7 +29,7 @@ export async function watch(command: Record<string, any>): Promise<void> {
 	const runWatchHook = createWatchHooks(command);
 
 	onExit(close);
-	process.on('uncaughtException', close);
+	process.on('uncaughtException', closeWithError);
 	if (!process.stdin.isTTY) {
 		process.stdin.on('end', close);
 		process.stdin.resume();
@@ -146,17 +146,22 @@ export async function watch(command: Record<string, any>): Promise<void> {
 		});
 	}
 
-	async function close(code: number | null): Promise<void> {
-		process.removeListener('uncaughtException', close);
+	async function close(code: number | null | undefined): Promise<void> {
+		process.removeListener('uncaughtException', closeWithError);
 		// removing a non-existent listener is a no-op
 		process.stdin.removeListener('end', close);
 
 		if (watcher) await watcher.close();
 		if (configWatcher) configWatcher.close();
 
-		if (code) {
-			// eslint-disable-next-line unicorn/no-process-exit
-			process.exit(code);
-		}
+		process.exit(code || 0);
 	}
+
+	// return a promise that never resolves to keep the process running
+	return new Promise(() => {});
+}
+
+function closeWithError(error: Error): void {
+	error.name = `Uncaught ${error.name}`;
+	handleError(error);
 }

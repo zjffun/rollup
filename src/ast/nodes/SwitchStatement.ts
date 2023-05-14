@@ -1,16 +1,17 @@
 import type MagicString from 'magic-string';
 import { type RenderOptions, renderStatementList } from '../../utils/renderHelpers';
 import {
-	BROKEN_FLOW_BREAK_CONTINUE,
 	createHasEffectsContext,
 	type HasEffectsContext,
 	type InclusionContext
 } from '../ExecutionContext';
 import BlockScope from '../scopes/BlockScope';
+import type ChildScope from '../scopes/ChildScope';
 import type Scope from '../scopes/Scope';
 import type * as NodeType from './NodeType';
 import type SwitchCase from './SwitchCase';
-import { type ExpressionNode, type IncludeChildren, StatementBase } from './shared/Node';
+import type { ExpressionNode, GenericEsTreeNode, IncludeChildren } from './shared/Node';
+import { StatementBase } from './shared/Node';
 
 export default class SwitchStatement extends StatementBase {
 	declare cases: readonly SwitchCase[];
@@ -18,35 +19,41 @@ export default class SwitchStatement extends StatementBase {
 	declare type: NodeType.tSwitchStatement;
 
 	private declare defaultCase: number | null;
+	private declare parentScope: ChildScope;
 
 	createScope(parentScope: Scope): void {
+		this.parentScope = parentScope as ChildScope;
 		this.scope = new BlockScope(parentScope);
 	}
 
 	hasEffects(context: HasEffectsContext): boolean {
 		if (this.discriminant.hasEffects(context)) return true;
-		const { brokenFlow, ignore } = context;
+		const { brokenFlow, hasBreak, ignore } = context;
 		const { breaks } = ignore;
-		let minBrokenFlow = Infinity;
 		ignore.breaks = true;
+		context.hasBreak = false;
+		let onlyHasBrokenFlow = true;
 		for (const switchCase of this.cases) {
 			if (switchCase.hasEffects(context)) return true;
 			// eslint-disable-next-line unicorn/consistent-destructuring
-			minBrokenFlow = context.brokenFlow < minBrokenFlow ? context.brokenFlow : minBrokenFlow;
+			onlyHasBrokenFlow &&= context.brokenFlow && !context.hasBreak;
+			context.hasBreak = false;
 			context.brokenFlow = brokenFlow;
 		}
-		if (this.defaultCase !== null && !(minBrokenFlow === BROKEN_FLOW_BREAK_CONTINUE)) {
-			context.brokenFlow = minBrokenFlow;
+		if (this.defaultCase !== null) {
+			context.brokenFlow = onlyHasBrokenFlow;
 		}
 		ignore.breaks = breaks;
+		context.hasBreak = hasBreak;
 		return false;
 	}
 
 	include(context: InclusionContext, includeChildrenRecursively: IncludeChildren): void {
 		this.included = true;
 		this.discriminant.include(context, includeChildrenRecursively);
-		const { brokenFlow } = context;
-		let minBrokenFlow = Infinity;
+		const { brokenFlow, hasBreak } = context;
+		context.hasBreak = false;
+		let onlyHasBrokenFlow = true;
 		let isCaseIncluded =
 			includeChildrenRecursively ||
 			(this.defaultCase !== null && this.defaultCase < this.cases.length - 1);
@@ -63,19 +70,17 @@ export default class SwitchStatement extends StatementBase {
 			if (isCaseIncluded) {
 				switchCase.include(context, includeChildrenRecursively);
 				// eslint-disable-next-line unicorn/consistent-destructuring
-				minBrokenFlow = minBrokenFlow < context.brokenFlow ? minBrokenFlow : context.brokenFlow;
+				onlyHasBrokenFlow &&= context.brokenFlow && !context.hasBreak;
+				context.hasBreak = false;
 				context.brokenFlow = brokenFlow;
 			} else {
-				minBrokenFlow = brokenFlow;
+				onlyHasBrokenFlow = brokenFlow;
 			}
 		}
-		if (
-			isCaseIncluded &&
-			this.defaultCase !== null &&
-			!(minBrokenFlow === BROKEN_FLOW_BREAK_CONTINUE)
-		) {
-			context.brokenFlow = minBrokenFlow;
+		if (isCaseIncluded && this.defaultCase !== null) {
+			context.brokenFlow = onlyHasBrokenFlow;
 		}
+		context.hasBreak = hasBreak;
 	}
 
 	initialise(): void {
@@ -86,6 +91,15 @@ export default class SwitchStatement extends StatementBase {
 			}
 		}
 		this.defaultCase = null;
+	}
+
+	parseNode(esTreeNode: GenericEsTreeNode) {
+		this.discriminant = new (this.context.getNodeConstructor(esTreeNode.discriminant.type))(
+			esTreeNode.discriminant,
+			this,
+			this.parentScope
+		);
+		super.parseNode(esTreeNode);
 	}
 
 	render(code: MagicString, options: RenderOptions): void {
