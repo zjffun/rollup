@@ -4,7 +4,7 @@ import { locate } from 'locate-character';
 import MagicString from 'magic-string';
 import ExternalModule from './ExternalModule';
 import type Graph from './Graph';
-import { createHasEffectsContext, createInclusionContext } from './ast/ExecutionContext';
+import { createInclusionContext } from './ast/ExecutionContext';
 import { nodeConstructors } from './ast/nodes';
 import ExportAllDeclaration from './ast/nodes/ExportAllDeclaration';
 import ExportDefaultDeclaration from './ast/nodes/ExportDefaultDeclaration';
@@ -166,10 +166,10 @@ function getVariableForExportNameRecursive(
 }
 
 function getAndExtendSideEffectModules(variable: Variable, module: Module): Set<Module> {
-	const sideEffectModules = getOrCreate<Variable, Set<Module>>(
+	const sideEffectModules = getOrCreate(
 		module.sideEffectDependenciesByVariable,
 		variable,
-		getNewSet
+		getNewSet<Module>
 	);
 	let currentVariable: Variable | null = variable;
 	const referencedVariables = new Set([currentVariable]);
@@ -598,6 +598,13 @@ export default class Module {
 			}
 			if (importerForSideEffects) {
 				setAlternativeExporterIfCyclic(variable, importerForSideEffects, this);
+				if (this.info.moduleSideEffects) {
+					getOrCreate(
+						importerForSideEffects.sideEffectDependenciesByVariable,
+						variable,
+						getNewSet<Module>
+					).add(this);
+				}
 			}
 			return [variable];
 		}
@@ -613,12 +620,12 @@ export default class Module {
 				searchedNamesAndModules
 			})!;
 			if (importerForSideEffects) {
+				setAlternativeExporterIfCyclic(variable, importerForSideEffects, this);
 				getOrCreate(
 					importerForSideEffects.sideEffectDependenciesByVariable,
 					variable,
-					getNewSet
+					getNewSet<Module>
 				).add(this);
-				setAlternativeExporterIfCyclic(variable, importerForSideEffects, this);
 			}
 			return [variable];
 		}
@@ -662,10 +669,7 @@ export default class Module {
 	}
 
 	hasEffects(): boolean {
-		return (
-			this.info.moduleSideEffects === 'no-treeshake' ||
-			(this.ast!.included && this.ast!.hasEffects(createHasEffectsContext()))
-		);
+		return this.info.moduleSideEffects === 'no-treeshake' || this.ast!.hasCachedEffects();
 	}
 
 	include(): void {

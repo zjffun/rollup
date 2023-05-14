@@ -7,11 +7,7 @@ import { PureFunctionKey } from '../../utils/pureFunctions';
 import type { NodeRenderOptions, RenderOptions } from '../../utils/renderHelpers';
 import type { DeoptimizableEntity } from '../DeoptimizableEntity';
 import type { HasEffectsContext, InclusionContext } from '../ExecutionContext';
-import type {
-	NodeInteraction,
-	NodeInteractionCalled,
-	NodeInteractionWithThisArgument
-} from '../NodeInteractions';
+import type { NodeInteraction, NodeInteractionCalled } from '../NodeInteractions';
 import {
 	INTERACTION_ACCESSED,
 	INTERACTION_ASSIGNED,
@@ -102,6 +98,14 @@ export default class Identifier extends NodeBase implements PatternNode {
 		return [(this.variable = variable)];
 	}
 
+	deoptimizeArgumentsOnInteractionAtPath(
+		interaction: NodeInteraction,
+		path: ObjectPath,
+		recursionTracker: PathTracker
+	): void {
+		this.variable!.deoptimizeArgumentsOnInteractionAtPath(interaction, path, recursionTracker);
+	}
+
 	deoptimizePath(path: ObjectPath): void {
 		if (path.length === 0 && !this.scope.contains(this.name)) {
 			this.disallowImportReassignment();
@@ -109,14 +113,6 @@ export default class Identifier extends NodeBase implements PatternNode {
 		// We keep conditional chaining because an unknown Node could have an
 		// Identifier as property that might be deoptimized by default
 		this.variable?.deoptimizePath(path);
-	}
-
-	deoptimizeThisOnInteractionAtPath(
-		interaction: NodeInteractionWithThisArgument,
-		path: ObjectPath,
-		recursionTracker: PathTracker
-	): void {
-		this.variable!.deoptimizeThisOnInteractionAtPath(interaction, path, recursionTracker);
 	}
 
 	getLiteralValueAtPath(
@@ -209,9 +205,14 @@ export default class Identifier extends NodeBase implements PatternNode {
 		if (this.isTDZAccess !== null) return this.isTDZAccess;
 
 		if (
-			!(this.variable instanceof LocalVariable) ||
-			!this.variable.kind ||
-			!(this.variable.kind in tdzVariableKinds)
+			!(
+				this.variable instanceof LocalVariable &&
+				this.variable.kind &&
+				this.variable.kind in tdzVariableKinds &&
+				// we ignore possible TDZs due to circular module dependencies as
+				// otherwise we get many false positives
+				this.variable.module === this.context.module
+			)
 		) {
 			return (this.isTDZAccess = false);
 		}
@@ -244,11 +245,11 @@ export default class Identifier extends NodeBase implements PatternNode {
 
 	render(
 		code: MagicString,
-		{ snippets: { getPropertyAccess } }: RenderOptions,
+		{ snippets: { getPropertyAccess }, useOriginalName }: RenderOptions,
 		{ renderedParentType, isCalleeOfRenderedParent, isShorthandProperty }: NodeRenderOptions = BLANK
 	): void {
 		if (this.variable) {
-			const name = this.variable.getName(getPropertyAccess);
+			const name = this.variable.getName(getPropertyAccess, useOriginalName);
 
 			if (name !== this.name) {
 				code.overwrite(this.start, this.end, name, {

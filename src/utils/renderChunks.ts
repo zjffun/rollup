@@ -1,6 +1,5 @@
 import type { Bundle as MagicStringBundle, SourceMap } from 'magic-string';
-import type { ChunkRenderResult } from '../Chunk';
-import type Chunk from '../Chunk';
+import type { default as Chunk, ChunkRenderResult } from '../Chunk';
 import type Module from '../Module';
 import type {
 	DecodedSourceMapOrMissing,
@@ -137,7 +136,8 @@ async function transformChunk(
 		sourcemap,
 		sourcemapExcludeSources,
 		sourcemapFile,
-		sourcemapPathTransform
+		sourcemapPathTransform,
+		sourcemapIgnoreList
 	} = options;
 	if (!compact && code[code.length - 1] !== '\n') code += '\n';
 
@@ -158,21 +158,29 @@ async function transformChunk(
 			sourcemapExcludeSources,
 			onwarn
 		);
-		map.sources = map.sources
-			.map(sourcePath => {
-				if (sourcemapPathTransform) {
-					const newSourcePath = sourcemapPathTransform(sourcePath, `${resultingFile}.map`);
-
-					if (typeof newSourcePath !== 'string') {
-						error(errorFailedValidation(`sourcemapPathTransform function must return a string.`));
-					}
-
-					return newSourcePath;
+		for (let sourcesIndex = 0; sourcesIndex < map.sources.length; ++sourcesIndex) {
+			let sourcePath = map.sources[sourcesIndex];
+			const sourcemapPath = `${resultingFile}.map`;
+			const ignoreList = sourcemapIgnoreList(sourcePath, sourcemapPath);
+			if (typeof ignoreList !== 'boolean') {
+				error(errorFailedValidation('sourcemapIgnoreList function must return a boolean.'));
+			}
+			if (ignoreList) {
+				if (map.x_google_ignoreList === undefined) {
+					map.x_google_ignoreList = [];
 				}
-
-				return sourcePath;
-			})
-			.map(normalize);
+				if (!map.x_google_ignoreList.includes(sourcesIndex)) {
+					map.x_google_ignoreList.push(sourcesIndex);
+				}
+			}
+			if (sourcemapPathTransform) {
+				sourcePath = sourcemapPathTransform(sourcePath, sourcemapPath);
+				if (typeof sourcePath !== 'string') {
+					error(errorFailedValidation(`sourcemapPathTransform function must return a string.`));
+				}
+			}
+			map.sources[sourcesIndex] = normalize(sourcePath);
+		}
 
 		timeEnd('sourcemaps', 3);
 	}
@@ -221,12 +229,11 @@ async function transformChunksAndGenerateContentHashes(
 				};
 				const { code } = transformedChunk;
 				if (hashPlaceholder) {
-					const hash = createHash();
 					// To create a reproducible content-only hash, all placeholders are
 					// replaced with the same value before hashing
 					const { containedPlaceholders, transformedCode } =
 						replacePlaceholdersWithDefaultAndGetContainedPlaceholders(code, placeholders);
-					hash.update(transformedCode);
+					const hash = createHash().update(transformedCode);
 					const hashAugmentation = pluginDriver.hookReduceValueSync(
 						'augmentChunkHash',
 						'',
@@ -282,8 +289,7 @@ function generateFinalHashes(
 		do {
 			// In case of a hash collision, create a hash of the hash
 			if (finalHash) {
-				hash = createHash();
-				hash.update(finalHash);
+				hash = createHash().update(finalHash);
 			}
 			finalHash = hash.digest('hex').slice(0, placeholder.length);
 			finalFileName = replaceSinglePlaceholder(fileName, placeholder, finalHash);

@@ -1,5 +1,238 @@
 # rollup changelog
 
+## 3.20.2
+
+_2023-03-24_
+
+### Bug Fixes
+
+- Fix a crash when using a manual chunk entry that is not already included in the module graph (#4921)
+- Fix a crash when reporting a warning with incorrect sourcemap information (#4922)
+
+### Pull Requests
+
+- [#4921](https://github.com/rollup/rollup/pull/4921): Handle manual chunks where the entry is not part of the module graph (@lukastaegert)
+- [#4922](https://github.com/rollup/rollup/pull/4922): Do not fail if the location of a warning is outside the original source (@lukastaegert)
+
+## 3.20.1
+
+_2023-03-23_
+
+### Bug Fixes
+
+- Fix returned file name from this.getFileName when assets are deduplicated (#4919)
+
+### Pull Requests
+
+- [#4919](https://github.com/rollup/rollup/pull/4919): Only set asset names when finalizing (@lukastaegert)
+
+## 3.20.0
+
+_2023-03-20_
+
+### Features
+
+- Allow dynamically imported files to have synthetic named exports when preserving modules (#4913)
+
+### Bug Fixes
+
+- Use deterministic file name when emitting several files with same source (#4912)
+- Fix a crash when dynamically importing a file with synthetic named exports when preserving modules (#4913)
+
+### Pull Requests
+
+- [#4912](https://github.com/rollup/rollup/pull/4912): fix: make file name deterministic in parallel emits (fix #4909) (@sun0day)
+- [#4913](https://github.com/rollup/rollup/pull/4913): Provide synthetic namespace for dynamic imports when perserving modules (@lukastaegert)
+
+## 3.19.1
+
+_2023-03-10_
+
+### Bug Fixes
+
+- Produce valid code when the first statement in aclass static block is tree-shaken (#4898)
+
+### Pull Requests
+
+- [#4898](https://github.com/rollup/rollup/pull/4898): fix: set a correct node location for static blocks (@TrickyPi)
+- [#4900](https://github.com/rollup/rollup/pull/4900): docs: fix table at `output.sanitizeFileName` section (@0x009922)
+
+## 3.19.0
+
+_2023-03-09_
+
+### Features
+
+- Make reassignment tracking of call parameters more specific to no lose information when an object is passed to a function (#4892)
+
+### Pull Requests
+
+- [#4890](https://github.com/rollup/rollup/pull/4890): Fix `npm run dev` (@lukastaegert)
+- [#4892](https://github.com/rollup/rollup/pull/4892): Only selectively deoptimize call parameters (@lukastaegert)
+- [#4897](https://github.com/rollup/rollup/pull/4897): Pre-render mermaid graphs on website (@lukastaegert)
+
+## 3.18.0
+
+_2023-03-01_
+
+### Features
+
+- Add `experimentalLogSideEffects` to log the first detected side effect in every module (#4871)
+- Ignore-list sourcemaps of files inside node_modules by default (#4877)
+
+### Pull Requests
+
+- [#4871](https://github.com/rollup/rollup/pull/4871): Add experimental logging for side effects (@lukastaegert)
+- [#4877](https://github.com/rollup/rollup/pull/4877): feat: mark files in a `node_modules` as ignore-listed by default (@bmeurer)
+- [#4880](https://github.com/rollup/rollup/pull/4880): build: use @rollup/plugin-replace to replace chokidar fsevents (@dnalborczyk)
+- [#4887](https://github.com/rollup/rollup/pull/4887): Refactor (@dnalborczyk)
+
+## 3.17.3
+
+_2023-02-25_
+
+### Bug Fixes
+
+- Handle non-URL-safe characters when poly-filling import.meta.url (#4875)
+
+### Pull Requests
+
+- [#4870](https://github.com/rollup/rollup/pull/4870): fix: style optimization in dark mode (@huodoushigemi)
+- [#4875](https://github.com/rollup/rollup/pull/4875): Fix transformation of `import.meta.url` in CommonJS (@fasttime)
+- [#4876](https://github.com/rollup/rollup/pull/4876): fix: wrong params of the transform hook (@ZzqiZQute)
+- [#4878](https://github.com/rollup/rollup/pull/4878): Improve test stability (@lukastaegert)
+
+## 3.17.2
+
+_2023-02-20_
+
+### Bug Fixes
+
+- Do not omit code if a file that only re-exports a used variable has `moduleSideEffects` set to `true` (#4867)
+- Add missing `needsCodeReference` property in TypeScript for asset tree-shaking (#4868)
+- Add correct side effect configuration for additional Object and Promise methods (#4323)
+
+### Pull Requests
+
+- [#4323](https://github.com/rollup/rollup/pull/4323): feat: add known globals (@dnalborczyk)
+- [#4867](https://github.com/rollup/rollup/pull/4867): Include side effects of re-exporters unless they have moduleSideEffects: false (@lukastaegert)
+- [#4868](https://github.com/rollup/rollup/pull/4868): Add `needsCodeReference` property to `EmittedAsset` (@sapphi-red)
+
+## 3.17.1
+
+_2023-02-18_
+
+### Bug Fixes
+
+- Add TypeScript types for `loadConfigFile` (#4853)
+- Fix an issue that could include unused classes in the bundle if their super class was in a file with `moduleSideEffects: false` (#4866)
+
+### Pull Requests
+
+- [#4853](https://github.com/rollup/rollup/pull/4853): feat: export loadConfigFile type (@TrickyPi)
+- [#4866](https://github.com/rollup/rollup/pull/4866): Do not mark variable access in files without side effects as TDZ (@lukastaegert)
+
+## 3.17.0
+
+_2023-02-18_
+
+### Features
+
+- Deprecate `experimentalDeepDynamicChunkOptimization` and always run the full chunk generation algorithm (#4862)
+
+### Bug Fixes
+
+- Fix an issue that caused very slow builds for projects with over 1000 dynamic imports when `experimentalDeepDynamicChunkOptimization` was enabled (#4862)
+
+### Pull Requests
+
+- [#4862](https://github.com/rollup/rollup/pull/4862): Improve chunking performance (@lukastaegert)
+
+## 3.16.0
+
+_2023-02-17_
+
+### Features
+
+- Support `output.sourcemapIgnoreList` option to mark file sources as ignored in the `x_google_ignoreList` attribute of the resulting sourcemap (#4848)
+- Support sourcemaps where `sourcesContent` contains `null` entries (#4846)
+- Allow explicitly passing `true` for the `cache` option to override Vite's default (#4859)
+
+### Bug Fixes
+
+- Fix an issue where unrelated side effects spilled into other chunks when using the `experimentalMinChunkSize` option (#4851)
+
+### Pull Requests
+
+- [#4846](https://github.com/rollup/rollup/pull/4846): Update magic-string and adjust types. (@bmeurer)
+- [#4848](https://github.com/rollup/rollup/pull/4848): Introduce `sourcemapIgnoreList` predicate. (@bmeurer)
+- [#4851](https://github.com/rollup/rollup/pull/4851): Fix chunk graph update when merging chunks for minChunkSize (@lukastaegert)
+- [#4852](https://github.com/rollup/rollup/pull/4852): docs: make api params more readable (@cunzaizhuyi)
+- [#4856](https://github.com/rollup/rollup/pull/4856): simplify code in includeStatements (@TrickyPi)
+- [#4859](https://github.com/rollup/rollup/pull/4859): Allow to pass "true" to InputOptions.cache (@danielrentz)
+
+## 3.15.0
+
+_2023-02-10_
+
+### Features
+
+- Do not consider instantiating a constructor a side effect if it adds properties to "this" and is instantiated elsewhere (#4842)
+
+### Bug Fixes
+
+- Improve side effect detection in constructors (#4842)
+
+### Pull Requests
+
+- [#4842](https://github.com/rollup/rollup/pull/4842): fix: add this option to context.ignore (@TrickyPi)
+- [#4843](https://github.com/rollup/rollup/pull/4843): fixed the logo link (@oMatheuss)
+- [#4844](https://github.com/rollup/rollup/pull/4844): Update index.md (@cunzaizhuyi)
+- [#4845](https://github.com/rollup/rollup/pull/4845): docs: fix style (@TrickyPi)
+
+## 3.14.0
+
+_2023-02-05_
+
+### Features
+
+- Add `experimentalDeepDynamicChunkOptimization` option to produce fewer chunks from dynamic imports (#4837)
+
+### Pull Requests
+
+- [#4837](https://github.com/rollup/rollup/pull/4837): Add flag to re-enable deep dynamic chunk optimization (@lukastaegert)
+- [#4839](https://github.com/rollup/rollup/pull/4839): fix: correct incorrect assertions (@TrickyPi)
+
+## 3.13.0
+
+_2023-02-03_
+
+### Features
+
+- Prevent chunk cycles when using `experimentalMinChunkSize` (#4723)
+
+### Pull Requests
+
+- [#4723](https://github.com/rollup/rollup/pull/4723): Improve minChunkSize algorithm (@lukastaegert)
+- [#4833](https://github.com/rollup/rollup/pull/4833): docs: Fix typo (@mturoci)
+- [#4835](https://github.com/rollup/rollup/pull/4835): Tables in docs (@lukastaegert)
+
+## 3.12.1
+
+_2023-02-01_
+
+### Bug Fixes
+
+- Handle self-references in class static blocks and construtors when the class is renamed (#4827)
+- Improve warnings when creating circular chunks taht reexport variables (#4829)
+
+### Pull Requests
+
+- [#4827](https://github.com/rollup/rollup/pull/4827): fix: use the original class name in the class body (@TrickyPi)
+- [#4829](https://github.com/rollup/rollup/pull/4829): Improve and fix cross-chunk-reexport warning (@lukastaegert)
+- [#4830](https://github.com/rollup/rollup/pull/4830): Add Algolia doc search (@lukastaegert)
+- [#4831](https://github.com/rollup/rollup/pull/4831): Add warning not to add assets directly to the bundle (@lukastaegert)
+
 ## 3.12.0
 
 _2023-01-28_

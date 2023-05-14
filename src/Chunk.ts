@@ -216,7 +216,7 @@ export default class Chunk {
 
 		for (const module of orderedModules) {
 			chunkByModule.set(module, this);
-			if (module.namespace.included) {
+			if (module.namespace.included && !outputOptions.preserveModules) {
 				includedNamespaces.add(module);
 			}
 			if (this.isEmpty && module.isIncluded()) {
@@ -229,7 +229,7 @@ export default class Chunk {
 				if (!chunkModules.has(importer)) {
 					this.dynamicEntryModules.push(module);
 					// Modules with synthetic exports need an artificial namespace for dynamic imports
-					if (module.info.syntheticNamedExports && !outputOptions.preserveModules) {
+					if (module.info.syntheticNamedExports) {
 						includedNamespaces.add(module);
 						this.exports.add(module.namespace);
 					}
@@ -407,14 +407,11 @@ export default class Chunk {
 			}
 			if (!this.facadeModule) {
 				const needsStrictFacade =
-					module.preserveSignature === 'strict' ||
-					(module.preserveSignature === 'exports-only' &&
-						module.getExportNamesByVariable().size > 0);
-				if (
-					!needsStrictFacade ||
-					this.outputOptions.preserveModules ||
-					this.canModuleBeFacade(module, exposedVariables)
-				) {
+					!this.outputOptions.preserveModules &&
+					(module.preserveSignature === 'strict' ||
+						(module.preserveSignature === 'exports-only' &&
+							module.getExportNamesByVariable().size > 0));
+				if (!needsStrictFacade || this.canModuleBeFacade(module, exposedVariables)) {
 					this.facadeModule = module;
 					this.facadeChunkByModule.set(module, this);
 					if (module.preserveSignature) {
@@ -710,13 +707,15 @@ export default class Chunk {
 				alternativeReexportModule = importingModule.alternativeReexportModules.get(variable);
 				if (alternativeReexportModule) {
 					const exportingChunk = this.chunkByModule.get(alternativeReexportModule);
-					if (exportingChunk && exportingChunk !== exportChunk) {
+					if (exportingChunk !== exportChunk) {
 						this.inputOptions.onwarn(
 							errorCyclicCrossChunkReexport(
-								variableModule.getExportNamesByVariable().get(variable)![0],
+								// Namespaces do not have an export name
+								variableModule.getExportNamesByVariable().get(variable)?.[0] || '*',
 								variableModule.id,
 								alternativeReexportModule.id,
-								importingModule.id
+								importingModule.id,
+								this.outputOptions.preserveModules
 							)
 						);
 					}
@@ -732,8 +731,10 @@ export default class Chunk {
 		for (const exportedVariable of map.keys()) {
 			const isSynthetic = exportedVariable instanceof SyntheticNamedExportVariable;
 			const importedVariable = isSynthetic ? exportedVariable.getBaseVariable() : exportedVariable;
+			this.checkCircularDependencyImport(importedVariable, module);
+			// When preserving modules, we do not create namespace objects but directly
+			// use the actual namespaces, which would be broken by this logic.
 			if (!(importedVariable instanceof NamespaceVariable && this.outputOptions.preserveModules)) {
-				this.checkCircularDependencyImport(importedVariable, module);
 				const exportingModule = importedVariable.module;
 				if (exportingModule instanceof Module) {
 					const chunk = this.chunkByModule.get(exportingModule);
@@ -1136,14 +1137,7 @@ export default class Chunk {
 			renderedModules,
 			snippets
 		} = this;
-		const {
-			compact,
-			dynamicImportFunction,
-			format,
-			freeze,
-			namespaceToStringTag,
-			preserveModules
-		} = outputOptions;
+		const { compact, dynamicImportFunction, format, freeze, namespaceToStringTag } = outputOptions;
 		const { _, cnst, n } = snippets;
 		this.setDynamicImportResolutions(fileName);
 		this.setImportMetaResolutions(fileName);
@@ -1164,7 +1158,8 @@ export default class Chunk {
 			indent,
 			namespaceToStringTag,
 			pluginDriver,
-			snippets
+			snippets,
+			useOriginalName: null
 		};
 
 		let usesTopLevelAwait = false;
@@ -1183,7 +1178,7 @@ export default class Chunk {
 					usedModules.push(module);
 				}
 				const namespace = module.namespace;
-				if (includedNamespaces.has(module) && !preserveModules) {
+				if (includedNamespaces.has(module)) {
 					const rendered = namespace.renderBlock(renderOptions);
 					if (namespace.renderFirst()) hoistedSource += n + rendered;
 					else magicString.addSource(new MagicString(rendered));
@@ -1341,13 +1336,13 @@ export default class Chunk {
 			accessedGlobalsByScope,
 			includedNamespaces,
 			orderedModules,
-			outputOptions: { format, preserveModules }
+			outputOptions: { format }
 		} = this;
 		for (const module of orderedModules) {
 			for (const importMeta of module.importMetas) {
 				importMeta.setResolution(format, accessedGlobalsByScope, fileName);
 			}
-			if (includedNamespaces.has(module) && !preserveModules) {
+			if (includedNamespaces.has(module)) {
 				module.namespace.prepare(accessedGlobalsByScope);
 			}
 		}
@@ -1373,12 +1368,13 @@ export default class Chunk {
 			const chunk = this.chunkByModule.get(variable.module as Module);
 			if (chunk !== this) {
 				this.imports.add(variable);
-				if (
-					!(variable instanceof NamespaceVariable && this.outputOptions.preserveModules) &&
-					variable.module instanceof Module
-				) {
-					chunk!.exports.add(variable);
+				if (variable.module instanceof Module) {
 					this.checkCircularDependencyImport(variable, module);
+					// When preserving modules, we do not create namespace objects but directly
+					// use the actual namespaces, which would be broken by this logic.
+					if (!(variable instanceof NamespaceVariable && this.outputOptions.preserveModules)) {
+						chunk!.exports.add(variable);
+					}
 				}
 			}
 		}

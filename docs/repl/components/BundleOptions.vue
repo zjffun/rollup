@@ -25,6 +25,15 @@
 					:placeholder="option.placeholder"
 					@input="optionsStore.set(option.name, $event.target.value)"
 				/>
+				<input
+					v-else-if="option.type === 'number'"
+					:value="option.value"
+					:placeholder="option.placeholder"
+					type="number"
+					min="0"
+					step="1"
+					@input="optionsStore.set(option.name, Number($event.target.value))"
+				/>
 				<div
 					v-else-if="option.type === 'string-mapping'"
 					v-for="imported in option.keys"
@@ -42,7 +51,6 @@
 			</section>
 		</div>
 		<div v-if="optionsStore.additionalAvailableOptions.length > 0" class="add-option">
-			<span class="icon-plus"></span>
 			<select
 				@input="
 					optionsStore.addOption($event.target.value);
@@ -58,6 +66,7 @@
 					{{ option }}
 				</option>
 			</select>
+			<span class="icon-plus"></span>
 		</div>
 	</div>
 </template>
@@ -81,7 +90,7 @@ const getLinkForOption = (option: string) =>
 	--bg-inactive: var(--vp-c-gray-light-3);
 	--bg-active: var(--vp-c-bg);
 	--bg-default: var(--vp-c-gray-light-5);
-	border: 1px solid var(--vp-c-divider-light);
+	border: 1px solid var(--vp-c-divider);
 	line-height: 2rem;
 	background-color: var(--bg-default);
 	border-radius: 8px;
@@ -90,7 +99,6 @@ const getLinkForOption = (option: string) =>
 .dark .options {
 	--bg-inactive: var(--vp-c-gray-dark-3);
 	--bg-default: var(--vp-c-bg);
-	background-color: var(--bg-default);
 }
 
 h3 {
@@ -157,7 +165,7 @@ select {
 	position: relative;
 	cursor: pointer;
 	appearance: none;
-	background: transparent;
+	background: var(--vp-c-bg);
 	padding-right: 20px;
 	width: 100px;
 }
